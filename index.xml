@@ -13,37 +13,11 @@
     
     
     <item>
-      <title>数据仓库之人物篇</title>
-      <link>http://www.itspedia.com/post/architeture-dw-hall-of-fame.zh-cn/</link>
-      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>http://www.itspedia.com/post/architeture-dw-hall-of-fame.zh-cn/</guid>
-      
-        <description>&lt;p&gt;数据仓库领域，在业界有几位公认大牛，&lt;/p&gt;
-&lt;h2 id=&#34;第一位-william-h-bill-inmon&#34;&gt;第一位 William H. (Bill) Inmon，&lt;/h2&gt;
-&lt;p&gt;数据仓库之父，开山鼻祖，著书立说，培训演讲，出版了许多书，详见&lt;a href=&#34;https://en.wikipedia.org/wiki/Bill_Inmon#Publications&#34;&gt;wiki&lt;/a&gt;
-我在这里推荐Building the Data Warehouse这本书，第&lt;strong&gt;四&lt;/strong&gt;版出版于2005。他推崇使用Corporate Information Factory（CIF）的数据建模方法（使用范式模型构建企业数据仓库+各维度模型构建的业务主题数据集市），最近在新的数据仓库架构和实施方面和后起之秀Dan Linstedt合作推动新的搭建数据仓库的方法论 Data Vault&lt;/p&gt;
-&lt;h2 id=&#34;第二位-ralph-kimball&#34;&gt;第二位 Ralph Kimball&lt;/h2&gt;
-&lt;p&gt;使用维度模型构建数据仓库的开创者（Dimensional Data Warehouse）。他起初在一段不短的时间内就这个构建数据仓库方法论和Inmon的CIF展开激烈论战，最终他的方法论获得业界广泛认可，成为业界构建数据仓库的事实标准。他的书专注于实际实现考虑，以toolkit主题的有三本，&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The Data Warehouse Toolkit&lt;/li&gt;
-&lt;li&gt;The Data Warehouse ETL Toolkit&lt;/li&gt;
-&lt;li&gt;The Data Warehouse Lifecycle Toolkit&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这三本书涵盖架构设计，模型设计，项目管理等多个主题，成为业界从业人员之必读。
-这里不得不提&lt;a href=&#34;http://chrisadamson.com&#34;&gt;Chris Adamson&lt;/a&gt;，业界资深顾问，一个Ralph Kimball方法论的追随者，著有Star Schema The Complete Reference等。&lt;/p&gt;
-&lt;h2 id=&#34;第三位-dan-linstedt&#34;&gt;第三位 Dan Linstedt&lt;/h2&gt;
-&lt;p&gt;创新性地提出使用Data Vault建模方法来设计数据仓库模型，后续推出Data Vault 2.0构建数据仓库方法论，涵盖建模、项目管理、架构和实现等方面，通过成立商业联盟和认证培训等商业手段积极推广。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
       <title>数据仓库之架构篇</title>
-      <link>http://www.itspedia.com/post/architeture-dw-category/</link>
-      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
+      <link>http://www.itspedia.com/post/architeture-dw-architecture.zh-cn/</link>
+      <pubDate>Thu, 14 Feb 2019 16:01:23 +0800</pubDate>
       
-      <guid>http://www.itspedia.com/post/architeture-dw-category/</guid>
+      <guid>http://www.itspedia.com/post/architeture-dw-architecture.zh-cn/</guid>
       
         <description>&lt;h3 id=&#34;数据仓库架构主要有三种类型如下表所示&#34;&gt;数据仓库架构主要有三种类型，如下表所示，&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/16246443-cc6cfdef6023a087.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;三种数据仓库架构&#34;&gt;&lt;/p&gt;
@@ -522,6 +496,32 @@ f(x) \sim x^2 \quad (x\to\infty)
 f(x) = \sqrt{1+x}, \quad x \ge -1
 f(x) \sim x^2, \quad x\to\infty
 \]&lt;/span&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>数据仓库之人物篇</title>
+      <link>http://www.itspedia.com/post/architeture-dw-hall-of-fame.zh-cn/</link>
+      <pubDate>Wed, 13 Feb 2019 16:01:23 +0800</pubDate>
+      
+      <guid>http://www.itspedia.com/post/architeture-dw-hall-of-fame.zh-cn/</guid>
+      
+        <description>&lt;p&gt;数据仓库领域，在业界有几位公认大牛，&lt;/p&gt;
+&lt;h2 id=&#34;第一位-william-h-bill-inmon&#34;&gt;第一位 William H. (Bill) Inmon，&lt;/h2&gt;
+&lt;p&gt;数据仓库之父，开山鼻祖，著书立说，培训演讲，出版了许多书，详见&lt;a href=&#34;https://en.wikipedia.org/wiki/Bill_Inmon#Publications&#34;&gt;wiki&lt;/a&gt;
+我在这里推荐Building the Data Warehouse这本书，第&lt;strong&gt;四&lt;/strong&gt;版出版于2005。他推崇使用Corporate Information Factory（CIF）的数据建模方法（使用范式模型构建企业数据仓库+各维度模型构建的业务主题数据集市），最近在新的数据仓库架构和实施方面和后起之秀Dan Linstedt合作推动新的搭建数据仓库的方法论 Data Vault&lt;/p&gt;
+&lt;h2 id=&#34;第二位-ralph-kimball&#34;&gt;第二位 Ralph Kimball&lt;/h2&gt;
+&lt;p&gt;使用维度模型构建数据仓库的开创者（Dimensional Data Warehouse）。他起初在一段不短的时间内就这个构建数据仓库方法论和Inmon的CIF展开激烈论战，最终他的方法论获得业界广泛认可，成为业界构建数据仓库的事实标准。他的书专注于实际实现考虑，以toolkit主题的有三本，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Data Warehouse Toolkit&lt;/li&gt;
+&lt;li&gt;The Data Warehouse ETL Toolkit&lt;/li&gt;
+&lt;li&gt;The Data Warehouse Lifecycle Toolkit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这三本书涵盖架构设计，模型设计，项目管理等多个主题，成为业界从业人员之必读。
+这里不得不提&lt;a href=&#34;http://chrisadamson.com&#34;&gt;Chris Adamson&lt;/a&gt;，业界资深顾问，一个Ralph Kimball方法论的追随者，著有Star Schema The Complete Reference等。&lt;/p&gt;
+&lt;h2 id=&#34;第三位-dan-linstedt&#34;&gt;第三位 Dan Linstedt&lt;/h2&gt;
+&lt;p&gt;创新性地提出使用Data Vault建模方法来设计数据仓库模型，后续推出Data Vault 2.0构建数据仓库方法论，涵盖建模、项目管理、架构和实现等方面，通过成立商业联盟和认证培训等商业手段积极推广。&lt;/p&gt;
+</description>
       
     </item>
     

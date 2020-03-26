@@ -13,20 +13,11 @@
     
     
     <item>
-      <title>数据仓库之人物篇</title>
-      <link>http://www.itspedia.com/post/architeture-dw-hall-of-fame.zh-cn/</link>
-      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>http://www.itspedia.com/post/architeture-dw-hall-of-fame.zh-cn/</guid>
-      <description>数据仓库领域，在业界有几位公认大牛， 第一位 William H. (Bill) Inmon， 数据仓库之父，开山鼻祖，著书立说，培训演讲，出版了许多书，详见wiki 我在这里推</description>
-    </item>
-    
-    <item>
       <title>数据仓库之架构篇</title>
-      <link>http://www.itspedia.com/post/architeture-dw-category/</link>
-      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
+      <link>http://www.itspedia.com/post/architeture-dw-architecture.zh-cn/</link>
+      <pubDate>Thu, 14 Feb 2019 16:01:23 +0800</pubDate>
       
-      <guid>http://www.itspedia.com/post/architeture-dw-category/</guid>
+      <guid>http://www.itspedia.com/post/architeture-dw-architecture.zh-cn/</guid>
       <description>数据仓库架构主要有三种类型，如下表所示， 各数据仓库架构的主要特点 W.H. Inmon架构 W.H. Inmon’s architecture: Corporate Information Factory Ralph Kimball架构 Ralph Kimball</description>
     </item>
     
@@ -47,6 +38,15 @@
       
       <guid>http://www.itspedia.com/post/math-preview/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.intmath.com/cg5/katex-mathjax-comparison.php&#34;&gt;KaTeX and MathJax Comparison Demo, currently processed as KaTex&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>数据仓库之人物篇</title>
+      <link>http://www.itspedia.com/post/architeture-dw-hall-of-fame.zh-cn/</link>
+      <pubDate>Wed, 13 Feb 2019 16:01:23 +0800</pubDate>
+      
+      <guid>http://www.itspedia.com/post/architeture-dw-hall-of-fame.zh-cn/</guid>
+      <description>数据仓库领域，在业界有几位公认大牛， 第一位 William H. (Bill) Inmon， 数据仓库之父，开山鼻祖，著书立说，培训演讲，出版了许多书，详见wiki 我在这里推</description>
     </item>
     
     <item>
