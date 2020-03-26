@@ -100,14 +100,28 @@
   </url>
   
   <url>
-    <loc>http://www.itspedia.com/tags/shortcodes/</loc>
+    <loc>http://www.itspedia.com/categories/shortcodes/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://www.itspedia.com/categories/shortcodes/</loc>
+    <loc>http://www.itspedia.com/tags/%E4%BA%BA%E7%89%A9/</loc>
+    <lastmod>2018-03-07T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.itspedia.com/tags/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/</loc>
+    <lastmod>2018-03-07T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.itspedia.com/tags/shortcodes/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -177,14 +191,14 @@
   </url>
   
   <url>
-    <loc>http://www.itspedia.com/categories/english/</loc>
+    <loc>http://www.itspedia.com/tags/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://www.itspedia.com/tags/english/</loc>
+    <loc>http://www.itspedia.com/categories/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -310,14 +324,14 @@
   </url>
   
   <url>
-    <loc>http://www.itspedia.com/tags/syntax-highlighting/</loc>
+    <loc>http://www.itspedia.com/categories/syntax-highlighting/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://www.itspedia.com/categories/syntax-highlighting/</loc>
+    <loc>http://www.itspedia.com/tags/syntax-highlighting/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
