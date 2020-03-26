@@ -14,10 +14,10 @@
     
     <item>
       <title>数据仓库之人物篇</title>
-      <link>http://www.itspedia.com/post/jane-theme-preview.zh-cn/</link>
+      <link>http://www.itspedia.com/post/architeture-dw-hall-of-fame.zh-cn/</link>
       <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://www.itspedia.com/post/jane-theme-preview.zh-cn/</guid>
+      <guid>http://www.itspedia.com/post/architeture-dw-hall-of-fame.zh-cn/</guid>
       
         <description>&lt;p&gt;数据仓库领域，在业界有几位公认大牛，&lt;/p&gt;
 &lt;h2 id=&#34;第一位-william-h-bill-inmon&#34;&gt;第一位 William H. (Bill) Inmon，&lt;/h2&gt;
@@ -34,6 +34,31 @@
 这里不得不提&lt;a href=&#34;http://chrisadamson.com&#34;&gt;Chris Adamson&lt;/a&gt;，业界资深顾问，一个Ralph Kimball方法论的追随者，著有Star Schema The Complete Reference等。&lt;/p&gt;
 &lt;h2 id=&#34;第三位-dan-linstedt&#34;&gt;第三位 Dan Linstedt&lt;/h2&gt;
 &lt;p&gt;创新性地提出使用Data Vault建模方法来设计数据仓库模型，后续推出Data Vault 2.0构建数据仓库方法论，涵盖建模、项目管理、架构和实现等方面，通过成立商业联盟和认证培训等商业手段积极推广。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>数据仓库之架构篇</title>
+      <link>http://www.itspedia.com/post/architeture-dw-category/</link>
+      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>http://www.itspedia.com/post/architeture-dw-category/</guid>
+      
+        <description>&lt;h3 id=&#34;数据仓库架构主要有三种类型如下表所示&#34;&gt;数据仓库架构主要有三种类型，如下表所示，&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/16246443-cc6cfdef6023a087.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;三种数据仓库架构&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;各数据仓库架构的主要特点&#34;&gt;各数据仓库架构的主要特点&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/16246443-338ba4d6c6e25e8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;架构特点&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;wh-inmon架构&#34;&gt;W.H. Inmon架构&lt;/h3&gt;
+&lt;h6 id=&#34;wh-inmons-architecture-corporate-information-factory&#34;&gt;W.H. Inmon’s architecture: Corporate Information Factory&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/16246443-a23b4f538acce599.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;Corporate Information Factory&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ralph-kimball架构&#34;&gt;Ralph Kimball架构&lt;/h3&gt;
+&lt;h6 id=&#34;ralph-kimballs-architecture-dimensional-data-warehouse&#34;&gt;Ralph Kimball’s architecture: Dimensional Data Warehouse&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/16246443-6d232bfff397b75d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;Dimensional Data Warehouse&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;独立数据集市架构&#34;&gt;独立数据集市架构&lt;/h3&gt;
+&lt;h6 id=&#34;stand-alone-data-marts&#34;&gt;Stand-Alone Data Marts&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/16246443-77649895ebae3029.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;A stand-alone data mart&#34;&gt;
+&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/16246443-1514a14a0a5c5f00.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;Multiple stand-alone data marts&#34;&gt;&lt;/p&gt;
 </description>
       
     </item>
