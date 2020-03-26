@@ -261,24 +261,18 @@ And then define the link:
       
       <guid>http://www.itspedia.com/about/</guid>
       
-        <description>&lt;h1 id=&#34;hugo-is-a-static-site-engine-written-in-go&#34;&gt;Hugo is a static site engine written in Go.&lt;/h1&gt;
-&lt;p&gt;pedia指维基百科，itspedia为it&#39;&amp;lsquo;s pedia的简写，寓意这就是维基百科&lt;/p&gt;
-&lt;p&gt;以上为这个域名的寓意，当年在考虑用这个域名作为自己的个人网站域名的时候，在申请的时候发现已经为位于澳洲的一个华裔注册，同时发现这个域名并没有相应的网站在运营。两三年后，自己再次试着注册这个域名时，发现以前的注册者没有续，遂这个域名开始陪伴我至今。直到2020年了，这个域名才开始有该网站，可见自己也是一个严重拖延症患者。
-以上为网站域名的故事，关于这个网站，初步打算作为个人博客使用，主要用于整理自己的专业知识，包括但不限于：&lt;/p&gt;
+        <description>&lt;p&gt;pedia指维基百科，itspedia为it&#39;&amp;lsquo;s pedia的简写，寓意这就是维基百科&lt;/p&gt;
+&lt;p&gt;以上为这个域名的寓意，当年在考虑用这个域名作为自己的个人网站域名的时候，在申请的时候发现已经为位于澳洲的一个华裔注册，同时发现这个域名并没有相应的网站在运营。两三年后，自己再次试着注册这个域名时，发现以前的注册者没有续，遂这个域名开始陪伴我至今。直到2020年了，这个域名才开始有该网站，可见自己也是一个严重拖延症患者。&lt;/p&gt;
+&lt;p&gt;以上为网站域名的故事，关于这个网站，初步打算作为个人博客使用，主要用于整理自己的专业知识，包括但不限于：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;架构：包括数据架构，应用架构，架构师的基本技能&lt;/li&gt;
 &lt;li&gt;数据集成：数据仓库搭建方法论，数据仓库模型设计，数据处理方式&lt;/li&gt;
 &lt;li&gt;数据可视化：狭义的BI，介绍数据可视化的设计规范和最佳实践&lt;/li&gt;
-&lt;li&gt;数据分析：&lt;/li&gt;
-&lt;li&gt;软件工具：&lt;/li&gt;
-&lt;li&gt;开发语言：&lt;/li&gt;
+&lt;li&gt;数据分析：方法论，常用工具，如SPSS, Python&lt;/li&gt;
+&lt;li&gt;数据库：关系型数据库，如Oracle, DB2, MS SQL Server, MySQL, PostgreSQL, 文档数据库（MongoDB）&lt;/li&gt;
+&lt;li&gt;软件工具：Linux, Markup, Excel&lt;/li&gt;
+&lt;li&gt;开发语言：Java, Python, Golang等&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;#It makes use of a variety of open source projects including:&lt;/p&gt;
-&lt;p&gt;#* &lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;
-#* &lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;
-#* &lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;
-#* &lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
       
     </item>
