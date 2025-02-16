@@ -38,14 +38,16 @@ defaultContentLanguage = "en"           # Default language to use
   identifier = "archives"
   pageref = "/post/"
 [[menu.main]]
-  name = "Tags"
+  name = "Knowledge"
   weight = 30
+  identifier = "knowledge"
+  pageref = "/knowledge/"
+[[menu.main]]
+  name = "Tags"
+  weight = 40
   identifier = "tags"
   pageref = "/tags/"
-[[menu.main]]
-  name = "external-link"
-  weight = 50
-  pageref = "https://gohugo.io"
+
 
 
 [params]

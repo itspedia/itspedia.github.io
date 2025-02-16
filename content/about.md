@@ -12,5 +12,5 @@ mathjax: false
 
 That I exist is a perpetual surprise which is life.
 
-pedia指百科，itspedia为it's pedia的简写，寓意这就是百科。意在致力于知识管理、科学普及等领域。
+itspedia is 'it's pedia', dedicated to knowledge distribution.
 

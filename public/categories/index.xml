@@ -19,23 +19,9 @@
       <description></description>
     </item>
     <item>
-      <title>Docs</title>
-      <link>http://localhost:1313/categories/docs/</link>
-      <pubDate>Fri, 20 Sep 2024 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/docs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Shortcodes</title>
-      <link>http://localhost:1313/categories/shortcodes/</link>
-      <pubDate>Fri, 20 Sep 2024 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/shortcodes/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Development</title>
       <link>http://localhost:1313/categories/development/</link>
-      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate><author>itspedia@itspedia.com (itspedia)</author>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate><author>itspedia@itspedia.com (itspedia)</author>
       <guid>http://localhost:1313/categories/development/</guid>
       <description></description>
     </item>
@@ -47,13 +33,6 @@
       <description></description>
     </item>
     <item>
-      <title>Demo</title>
-      <link>http://localhost:1313/categories/demo/</link>
-      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/demo/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Math</title>
       <link>http://localhost:1313/categories/math/</link>
       <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
@@ -61,17 +40,17 @@
       <description></description>
     </item>
     <item>
-      <title>English</title>
-      <link>http://localhost:1313/categories/english/</link>
-      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/english/</guid>
+      <title>Tutorials</title>
+      <link>http://localhost:1313/categories/tutorials/</link>
+      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
+      <guid>http://localhost:1313/categories/tutorials/</guid>
       <description></description>
     </item>
     <item>
-      <title>Test</title>
-      <link>http://localhost:1313/categories/test/</link>
-      <pubDate>Wed, 30 Aug 2017 15:43:48 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/test/</guid>
+      <title>Shortcodes</title>
+      <link>http://localhost:1313/categories/shortcodes/</link>
+      <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
+      <guid>http://localhost:1313/categories/shortcodes/</guid>
       <description></description>
     </item>
     <item>
