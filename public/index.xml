@@ -304,6 +304,157 @@
     </item>
     
     <item>
+      <title>Radar Trends to Watch: February 2025</title>
+      <link>http://localhost:1313/reader-digest/radar-trends-to-watch-february-2025/</link>
+      <pubDate>Mon, 03 Feb 2025 16:01:23 +0800</pubDate>
+      <author>itspedia@itspedia.com (itspedia)</author>
+      <guid>http://localhost:1313/reader-digest/radar-trends-to-watch-february-2025/</guid>
+      
+        <description>&lt;h5 id=&#34;developments-in-web-virtual-reality-robotics-and-more&#34;&gt;Developments in Web, Virtual Reality, Robotics, and More&lt;/h5&gt;
+&lt;p&gt;Last month, DeepSeek released its R1 reasoning model (now apparently named DeepThink), with capabilities similar to OpenAI o1. What’s important about DeepSeek isn’t its benchmark results; there are a number of models on the same level as o1. What’s important is that it appears to have been trained with one-tenth the resources of comparable models. Throwing more hardware at a problem is rarely the best way to get good results.&lt;/p&gt;
+&lt;h2 id=&#34;artificial-intelligence&#34;&gt;Artificial Intelligence&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Anthropic has added a &lt;a href=&#34;https://www.anthropic.com/news/introducing-citations-api&#34;&gt;Citations API&lt;/a&gt; to Claude. Citations builds RAG directly into the model. It allows users to add documents to the context. When generating an answer, Claude includes citations that show exactly which parts of the documents were used in developing the response.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;OpenAI has released a research preview of &lt;a href=&#34;https://openai.com/index/introducing-operator/&#34;&gt;Operator&lt;/a&gt;, its competitor to Anthropic’s Computer Use. Like Computer Use, Operator is a general-purpose agent: It can use a browser to navigate the web, bring back information, and generate new actions to accomplish the user’s request.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Berkeley has &lt;a href=&#34;https://novasky-ai.github.io/posts/sky-t1/&#34;&gt;released&lt;/a&gt; Sky-T1-32B-Preview, a small reasoning model that cost under $450 to train. It’s based on Alibaba’s Qwen2.5-32B-Instruct. Sky’s performance is similar to OpenAI o1-preview, and it’s fully open: Training data, weights, code, and infrastructure are all open source.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DeepSeek has released its &lt;a href=&#34;https://github.com/deepseek-ai/DeepSeek-R1&#34;&gt;R1&lt;/a&gt; reasoning model, on which its V3 model was based. R1 has performance equivalent or superior to OpenAI o1 and is significantly less expensive. DeepSeek has also released several &lt;a href=&#34;https://simonwillison.net/2025/Jan/20/deepseek-r1/&#34;&gt;other models derived from R1&lt;/a&gt;, including a number of smaller models based on Llama and Alibaba’s Qwen. All of these models have open code and weights.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.latent.space/p/o1-skill-issue&#34;&gt;key to using OpenAI o1&lt;/a&gt; effectively is context, not clever prompting. “Don’t write prompts, write briefs”; give it all the information it needs to solve a problem.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;OpenAI has announced a new technique for training its new reasoning models to be safe. &lt;a href=&#34;https://openai.com/index/deliberative-alignment/&#34;&gt;Deliberative alignment&lt;/a&gt; trains the models to reason on the safety policies themselves rather than requiring humans to grade model responses.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Meta has introduced &lt;a href=&#34;https://about.fb.com/news/2023/08/seamlessm4t-ai-translation-model/&#34;&gt;SeamlessM4T&lt;/a&gt;, a multimodal (speech and text) model designed for translation. It can translate speech-to-speech and text-to-speech for nearly 100 input languages and 35 output languages.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Anthropic has received &lt;a href=&#34;https://www.anthropic.com/news/anthropic-achieves-iso-42001-certification-for-responsible-ai&#34;&gt;ISO 42001 certification&lt;/a&gt;. This certification covers responsible AI and addresses AI design and deployment processes, transparency, testing and monitoring, and oversight.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Google has released a paper on a new LLM architecture called &lt;a href=&#34;https://arxiv.org/abs/2501.00663v1&#34;&gt;Titans&lt;/a&gt; (a.k.a. Transformers 2.0). The primary advantage of Titans is its ability to scale to very large context windows. In effect, it adds persistent long-term memory to the Transformers model.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ChatGPT can now &lt;a href=&#34;https://techcrunch.com/2025/01/14/chatgpt-now-lets-you-schedule-reminders-and-recurring-tasks/&#34;&gt;schedule recurring tasks&lt;/a&gt;, making it more like a personal assistant. Tasks can include generating reminders, scheduling, summarizing news, and other chores.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AI systems may “think” using &lt;a href=&#34;https://techxplore.com/news/2025-01-key-ai-power-inbuilt-special.html&#34;&gt;a variant of Occam’s razor&lt;/a&gt;, which prioritizes simpler solutions to problems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mistral has released &lt;a href=&#34;https://mistral.ai/news/codestral-2501/&#34;&gt;Codestral 25.01&lt;/a&gt;, a language model that’s optimized for code generation. It claims proficiency in over 80 programming languages. This new release is faster, supports a larger context window, and gives better benchmark results than similarly sized models.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Harvard’s &lt;a href=&#34;https://institutionaldatainitiative.org/&#34;&gt;Institutional Data Initiative&lt;/a&gt; has assembled a large dataset of digitized copyright-free works for training language models. The collection currently has roughly 1 million books; it’s significantly larger than the Books3 dataset that was used to train earlier models.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Microsoft’s Phi-4 model is now &lt;a href=&#34;https://huggingface.co/microsoft/phi-4&#34;&gt;available on Hugging Face&lt;/a&gt; and &lt;a href=&#34;https://ollama.com/library/phi4&#34;&gt;Ollama&lt;/a&gt;. It’s yet another impressive model that can run on a reasonably well-equipped laptop.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://techxplore.com/news/2025-01-source-framework-language-multimodal-ai.html&#34;&gt;4M&lt;/a&gt; is an open source framework for training multimodal AI models.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;NVIDIA has&lt;/p&gt;
+&lt;p&gt;announced&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nvidia.com/en-us/project-digits/&#34;&gt;Project DIGITS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;, a personal supercomputer for running AI models up to 200B parameters locally. The system comes with 128GB of RAM. They will be available in May; the starting price is $3,000.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O2 (the company, not the skilled GPT version number) has announced &lt;a href=&#34;https://news.virginmediao2.co.uk/o2-unveils-daisy-the-ai-granny-wasting-scammers-time/&#34;&gt;Daisy&lt;/a&gt;, a language model of its own. It answers fraudulent phone calls in real time, wasting the scammer’s time by impersonating a vulnerable elderly person.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/ServiceNow/Fast-LLM&#34;&gt;Fast-LLM&lt;/a&gt; is an open source library for training large language models. It can scale to run on anything from a single GPU to large clusters and can train models up to (and exceeding) 70B parameters.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;more-from-the-learning-platform&#34;&gt;More from the Learning Platform&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learning.oreilly.com/course/practical-retrieval-augmented/9780135414378/&#34;&gt;&lt;em&gt;Practical Retrieval Augmented Generation (RAG)&lt;/em&gt;&lt;/a&gt; (video)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learning.oreilly.com/library/view/building-applications-with/9781098176495/&#34;&gt;&lt;em&gt;Building Applications with AI Agents&lt;/em&gt;&lt;/a&gt; (book)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;programming&#34;&gt;Programming&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Puppet joins the group of former open source projects that have an open source fork: &lt;a href=&#34;https://github.com/openvoxproject&#34;&gt;OpenVox&lt;/a&gt;. OpenVox promises to be fully Puppet-compatible. The project is looking for sponsors.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.wireshark.org/Stratoshark&#34;&gt;Stratoshark&lt;/a&gt; is a new tool for &lt;a href=&#34;https://stratoshark.org/&#34;&gt;analyzing system calls on Linux&lt;/a&gt;. It’s a companion to Wireshark, with a similar user interface that’s designed to help users capture system calls and analyze what they’re doing.&lt;/li&gt;
+&lt;li&gt;Need to write applications for the Cray X-MP in your basement? You’ll need a &lt;a href=&#34;https://github.com/kej715/ack&#34;&gt;compiler&lt;/a&gt;. Here’s one that runs on Linux and macOS.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sigstore.dev/&#34;&gt;Sigstore&lt;/a&gt; is a project that simplifies digitally signing and managing open source software components. It reduces the burden of establishing provenance for software you’ve developed, along with checking the provenance of software dependencies you use.&lt;/li&gt;
+&lt;li&gt;If you generate more code, there will be more code to debug and review. &lt;a href=&#34;https://thenewstack.io/more-ai-more-problems-for-software-developers-in-2025/&#34;&gt;Two-thirds&lt;/a&gt; of developers in groups that use AI are spending more time debugging and resolving security vulnerabilities.&lt;/li&gt;
+&lt;li&gt;Do you really need a new terminal emulator? &lt;a href=&#34;https://ghostty.org/&#34;&gt;Ghostty&lt;/a&gt; is getting &lt;a href=&#34;https://thenewstack.io/ghostty-will-get-you-excited-about-using-a-terminal-again/&#34;&gt;rave reviews&lt;/a&gt;. It’s worth trying. &lt;a href=&#34;https://forgejo.org/&#34;&gt;Forgejo&lt;/a&gt; is an open source software forge. It’s a decentralized platform for collaborative software development that includes a self-hosted alternative to GitHub.&lt;/li&gt;
+&lt;li&gt;A startup is building &lt;a href=&#34;https://thenextweb.com/news/scenexus-building-digital-twins-of-cities&#34;&gt;digital twins of cities&lt;/a&gt;. These will be very useful to city planners—and possibly also for emergency response.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://leptos.dev/&#34;&gt;Leptos&lt;/a&gt; is a new &lt;a href=&#34;https://thenewstack.io/want-a-web-framework-for-rust-not-javascript-try-leptos/&#34;&gt;web framework for Rust&lt;/a&gt;. Like Sycamore, another Rust web framework, Leptos compiles Rust to WebAssembly.&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://www.ioccc.org/&#34;&gt;International Obfuscated C Code Contest&lt;/a&gt; is back! (Did you miss it?) For more information, follow @ioccc on Mastodon (fosstodon.org).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nicholas.carlini.com/writing/2025/regex-chess.html&#34;&gt;A chess engine in 84,688 regular expressions&lt;/a&gt;: It’s a regex masterpiece. As the author says, more people should do entirely pointless things.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;more-from-the-learning-platform-1&#34;&gt;More from the Learning Platform&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learning.oreilly.com/library/view/how-linux-works/9781098128913/&#34;&gt;&lt;em&gt;How Linux Works&lt;/em&gt;, 3rd Edition&lt;/a&gt; (book)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learning.oreilly.com/library/view/the-digital-twin/53863MIT63126/&#34;&gt;&lt;em&gt;The Digital Twin Opportunity&lt;/em&gt;&lt;/a&gt; (article)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;security&#34;&gt;Security&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Cybercriminals are distributing malware through &lt;a href=&#34;https://thenewstack.io/cybercriminals-are-not-playing-games-malware-hiding-in-roblox-mods/&#34;&gt;&lt;em&gt;Roblox&lt;/em&gt; mods&lt;/a&gt;. Discord, Reddit, GitHub, and other communications channels are used to attract users to malware-containing packages.&lt;/li&gt;
+&lt;li&gt;Cloudflare has successfully mitigated the &lt;a href=&#34;https://www.bleepingcomputer.com/news/security/cloudflare-mitigated-a-record-breaking-56-tbps-ddos-attack/&#34;&gt;largest DDOS attack ever seen&lt;/a&gt;: 5.6 terabits/second from the Mirai botnet. An important new twist: Attacks are very short-lived, making human response impossible.&lt;/li&gt;
+&lt;li&gt;Phishing doesn’t always start with an email. Cybercriminals are placing &lt;a href=&#34;https://www.bleepingcomputer.com/news/security/hackers-use-google-search-ads-to-steal-google-ads-accounts/&#34;&gt;Google search advertisements&lt;/a&gt; that direct victims to phishing sites that steal their credentials.&lt;/li&gt;
+&lt;li&gt;The FBI has &lt;a href=&#34;https://arstechnica.com/tech-policy/2025/01/fbi-forces-chinese-malware-to-delete-itself-from-thousands-of-us-computers/&#34;&gt;forced the PlugX malware to delete itself&lt;/a&gt; from over 4,200 computers. Since roughly 2014, PlugX has been used by the Chinese government to steal data from victims. One suspects that the next version of PlugX won’t have a “self-delete” command.&lt;/li&gt;
+&lt;li&gt;A new ransomware attack called &lt;a href=&#34;https://www.bleepingcomputer.com/news/security/ransomware-abuses-amazon-aws-feature-to-encrypt-s3-buckets/&#34;&gt;Codefinger&lt;/a&gt; encrypts AWS S3 buckets. The attack uses AWS’s server-side encryption (SSE) to generate cryptographic keys that Amazon doesn’t store; they are only known to the attacker.&lt;/li&gt;
+&lt;li&gt;Microsoft has &lt;a href=&#34;https://arstechnica.com/security/2025/01/microsoft-sues-service-for-creating-illicit-content-with-its-ai-platform/&#34;&gt;sued&lt;/a&gt; a group of unnamed (and unknown) developers for compromising legitimate user accounts and using those accounts to generate harmful content.&lt;/li&gt;
+&lt;li&gt;An &lt;a href=&#34;https://www.bleepingcomputer.com/news/security/docker-desktop-blocked-on-macs-due-to-false-malware-alert/&#34;&gt;incorrect certificate&lt;/a&gt; is causing macOS to treat Docker Desktop as malware, preventing it from starting. The problem can be fixed by upgrading to Docker 4.37.2.&lt;/li&gt;
+&lt;li&gt;An &lt;a href=&#34;https://www.bleepingcomputer.com/news/security/new-web3-attack-exploits-transaction-simulations-to-steal-crypto/&#34;&gt;attack against the cryptocurrency transaction simulation mechanism&lt;/a&gt; tricks victims into approving transactions that strip their wallet of cryptocurrency.&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://www.nextgov.com/cybersecurity/2025/01/white-house-unveils-cyber-trust-mark-program-consumer-devices/401991/&#34;&gt;Cyber Trust Mark&lt;/a&gt; is a certification intended to ensure consumers that devices incorporating AI meet certain standards set by the US National Institute of Standards and Technology (NIST) and the Federal Communications Commission (FCC).&lt;/li&gt;
+&lt;li&gt;Apple is discovering that errors aren’t the only problem with consumer-facing AI; the company is also having problems with email and chat summaries that &lt;a href=&#34;https://www.crikey.com.au/2025/01/08/apple-new-artificial-intelligence-rewords-scam-messages-look-legitimate/&#34;&gt;make spam and fraud messages look legitimate&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://techxplore.com/news/2025-01-cybersecurity-products-consumers.html&#34;&gt;Security products based on fear&lt;/a&gt;, along with security sales and marketing practices, are counterproductive.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;web&#34;&gt;Web&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Regardless of the future of TikTok, &lt;a href=&#34;https://pixelfed.org/&#34;&gt;Pixelfed&lt;/a&gt;—a decentralized application for sharing photos and videos—looks like a good alternative. Like Mastodon, Pixelfed is part of the &lt;a href=&#34;https://fediverse.info/&#34;&gt;fediverse&lt;/a&gt; and is built on the federated ActivityPub protocol.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mrgris.com/projects/merc-extreme/&#34;&gt;Mercator: Extreme&lt;/a&gt; allows you to put the North Pole anywhere you want, and draws the corresponding Mercator map. Aside from being a web masterpiece, it shows just how distorted the Mercator projection is. Sadly, almost all of our maps are still based on it.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.marimo.io/guides/publishing/playground/&#34;&gt;Marimo playgrounds&lt;/a&gt; are notebooks (like Jupyter) that run entirely in the browser using WebAssembly. They can easily be created and shared on GitHub or on &lt;a href=&#34;https://marimo.app/&#34;&gt;marimo.app&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Most online organizations have some kind of web-based API access. Now that AI is in the picture, &lt;a href=&#34;https://thenewstack.io/its-time-to-start-preparing-apis-for-the-ai-agent-era/&#34;&gt;APIs must be usable by AI agents&lt;/a&gt;. They need to be properly documented in a machine-readable fashion (e.g., with &lt;a href=&#34;https://www.speakeasy.com/openapi#openapi-overview&#34;&gt;OpenAPI&lt;/a&gt;) and as uniform as possible.&lt;/li&gt;
+&lt;li&gt;A new &lt;a href=&#34;https://thenewstack.io/flutter-fork-designed-to-give-developers-release-valve/&#34;&gt;fork of the Flutter project&lt;/a&gt;, called &lt;a href=&#34;https://getflocked.dev/&#34;&gt;Flock&lt;/a&gt;, intends to provide features and bug fixes that users have wanted but that have never made it into the release.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://streets.gl/&#34;&gt;Streets&lt;/a&gt; is a 3D version of OpenStreetMap. It takes a long time to load and many of the labels aren’t up-to-date, but it’s impressive.&lt;/li&gt;
+&lt;li&gt;What’s the future of the web? If the web is to be a data source for AI, it will need to get much &lt;a href=&#34;https://tomtunguz.com/back-to-text/&#34;&gt;simpler&lt;/a&gt;, shedding megabytes of JavaScript and CSS in favor of text.&lt;/li&gt;
+&lt;li&gt;Something new in &lt;a href=&#34;https://arstechnica.com/gaming/2025/01/someone-made-a-captcha-where-you-play-doom-on-nightmare-difficulty/&#34;&gt;CAPTCHAs: Play &lt;em&gt;Doom&lt;/em&gt;&lt;/a&gt; and kill at least three monsters. It was built with prompt-driven AI using Vercel’s v0 and runs in the browser with Wasm. Unfortunately, I doubt it will keep bots out for long.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;more-from-the-learning-platform-2&#34;&gt;More from the Learning Platform&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learning.oreilly.com/library/view/principles-of-web/9780137355754/&#34;&gt;&lt;em&gt;Principles of Web API Design: Delivering Value with APIs and Microservices&lt;/em&gt;&lt;/a&gt; (book)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learning.oreilly.com/library/view/mastering-api-architecture/9781492090625/&#34;&gt;&lt;em&gt;Mastering API Architecture&lt;/em&gt;&lt;/a&gt; (book)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;virtual-reality&#34;&gt;Virtual Reality&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Swave is a startup that is building &lt;a href=&#34;https://thenextweb.com/news/swave-startup-holographic-smart-glasses-funding&#34;&gt;holographic smart glasses&lt;/a&gt; that project true holograms, not just hologram-like effects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;more-from-the-learning-platform-3&#34;&gt;More from the Learning Platform&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learning.oreilly.com/library/view/creating-augmented-and/9781492044185/&#34;&gt;&lt;em&gt;Creating Augmented and Virtual Realities&lt;/em&gt;&lt;/a&gt; (book)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;quantum-computing&#34;&gt;Quantum Computing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A new quantum computing technology &lt;a href=&#34;https://thenextweb.com/news/zuriq-quantum-computing-startup-funding&#34;&gt;enables trapped ions to move&lt;/a&gt; around on a quantum computing chip. This allows the developers to build chips that support more qubits efficiently.&lt;/li&gt;
+&lt;li&gt;A new kind of quantum refrigerator makes it possible to &lt;a href=&#34;https://phys.org/news/2025-01-cold-quantum-refrigerator-paves-reliable.html&#34;&gt;cool qubits&lt;/a&gt; to 22 millikelvin. At lower temperatures, they will be less vulnerable to errors from noise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;more-from-the-learning-platform-4&#34;&gt;More from the Learning Platform&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learning.oreilly.com/course/quantum-computing-fundamentals/9780137872558/&#34;&gt;&lt;em&gt;Quantum Computing Fundamentals&lt;/em&gt;&lt;/a&gt; (video)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;robotics&#34;&gt;Robotics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;a href=&#34;https://arstechnica.com/science/2025/01/robotic-hand-helps-pianists-overcome-ceiling-effect/&#34;&gt;robotic hand&lt;/a&gt; has been developed that can train pianists to perform very difficult movements more effectively.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;biology&#34;&gt;Biology&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AI can be used to &lt;a href=&#34;https://phys.org/news/2025-01-ai-technique-generates-images-thick.html&#34;&gt;sharpen biological images&lt;/a&gt; that have been distorted by light passing through layers of tissue. In the past, this problem has been solved with expensive adaptive optics.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>tutorials: toc</title>
       <link>http://localhost:1313/knowledge/2-toc/</link>
       <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>

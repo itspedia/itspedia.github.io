@@ -19,6 +19,13 @@
       <description></description>
     </item>
     <item>
+      <title>Digest</title>
+      <link>http://localhost:1313/categories/digest/</link>
+      <pubDate>Mon, 03 Feb 2025 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
+      <guid>http://localhost:1313/categories/digest/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Development</title>
       <link>http://localhost:1313/categories/development/</link>
       <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate><author>itspedia@itspedia.com (itspedia)</author>

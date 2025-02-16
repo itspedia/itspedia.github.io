@@ -33,18 +33,13 @@ defaultContentLanguage = "en"           # Default language to use
   identifier = "home"
   pageref = "/"
 [[menu.main]]
-  name = "Archives"
+  name = "Posts"
   weight = 20
-  identifier = "archives"
+  identifier = "posts"
   pageref = "/post/"
 [[menu.main]]
-  name = "Knowledge"
-  weight = 30
-  identifier = "knowledge"
-  pageref = "/knowledge/"
-[[menu.main]]
   name = "Tags"
-  weight = 40
+  weight = 30
   identifier = "tags"
   pageref = "/tags/"
 

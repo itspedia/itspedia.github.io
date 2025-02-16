@@ -33,6 +33,13 @@
       <description>&lt;h1 id=&#34;数据仓库之人物篇&#34;&gt;数据仓库之人物篇&lt;/h1&gt;&#xA;&lt;p&gt;数据仓库领域，在业界有几位公认大牛，&lt;/p&gt;&#xA;&lt;h2 id=&#34;第一位-william-h-bill-inmon&#34;&gt;第一位 William H. (Bill) Inmon，&lt;/h2&gt;&#xA;&lt;p&gt;数据仓库之父，开山鼻祖，著书立说，培训演讲，出版了许多书，详见&lt;a href=&#34;https://en.wikipedia.org/wiki/Bill_Inmon#Publications&#34;&gt;wiki&lt;/a&gt; 我在这里推荐Building the Data Warehouse这本书，第&lt;strong&gt;四&lt;/strong&gt;版出版于2005。他推崇使用Corporate Information Factory（CIF）的数据建模方法（使用范式模型构建企业数据仓库+各维度模型构建的业务主题数据集市），最近在新的数据仓库架构和实施方面和后起之秀Dan Linstedt合作推动新的搭建数据仓库的方法论 Data Vault&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Radar Trends to Watch: February 2025</title>
+      <link>http://localhost:1313/reader-digest/radar-trends-to-watch-february-2025/</link>
+      <pubDate>Mon, 03 Feb 2025 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
+      <guid>http://localhost:1313/reader-digest/radar-trends-to-watch-february-2025/</guid>
+      <description>&lt;h1 id=&#34;radar-trends-to-watch-february-2025&#34;&gt;Radar Trends to Watch: February 2025&lt;/h1&gt;&#xA;&lt;p&gt;Developments in Web, Virtual Reality, Robotics, and More&lt;/p&gt;&#xA;&lt;p&gt;By &lt;a href=&#34;mailto:mikel@oreilly.com&#34;&gt;Mike Loukides&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;February 4, 2025&lt;/p&gt;&#xA;&lt;p&gt;Last month, DeepSeek released its R1 reasoning model (now apparently named DeepThink), with capabilities similar to OpenAI o1. What’s important about DeepSeek isn’t its benchmark results; there are a number of models on the same level as o1. What’s important is that it appears to have been trained with one-tenth the resources of comparable models. Throwing more hardware at a problem is rarely the best way to get good results.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>tutorials: toc</title>
       <link>http://localhost:1313/knowledge/2-toc/</link>
       <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate><author>itspedia@itspedia.com (itspedia)</author>
