@@ -421,10 +421,4 @@
     <priority>0.5</priority>
   </url>
   
-  <url>
-    <loc>http://localhost:1313/post/on-writing-well/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
 </urlset>
