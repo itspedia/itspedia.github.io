@@ -68,6 +68,13 @@
       <description>&lt;h5 id=&#34;developments-in-web-virtual-reality-robotics-and-more&#34;&gt;Developments in Web, Virtual Reality, Robotics, and More&lt;/h5&gt;&#xA;&lt;p&gt;Last month, DeepSeek released its R1 reasoning model (now apparently named DeepThink), with capabilities similar to OpenAI o1. What’s important about DeepSeek isn’t its benchmark results; there are a number of models on the same level as o1. What’s important is that it appears to have been trained with one-tenth the resources of comparable models. Throwing more hardware at a problem is rarely the best way to get good results.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Radar Trends to Watch: January 2025</title>
+      <link>http://localhost:1313/reader-digest/radar-trends-to-watch-january-2025/</link>
+      <pubDate>Sun, 05 Jan 2025 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
+      <guid>http://localhost:1313/reader-digest/radar-trends-to-watch-january-2025/</guid>
+      <description>&lt;p&gt;Despite its 31 days, December is a short month. It’s hard for announcements and happenings other than office parties to get attention. Fighting this trend, OpenAI made a series of announcements: their “12 Days of OpenAI.” Not to be upstaged, Google responded with a flurry of announcements, including their Gemini 2.0 Flash Thinking model. Models appeared that could use streaming audio and video for both input and output. But perhaps the most important announcement was DeepSeek-V3, a very large mixture-of-experts model (671B parameters) that has performance on a par with the other top models—but cost roughly 1/10th as much to train.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>tutorials: toc</title>
       <link>http://localhost:1313/knowledge/2-toc/</link>
       <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate><author>itspedia@itspedia.com (itspedia)</author>
