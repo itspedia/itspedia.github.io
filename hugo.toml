@@ -12,7 +12,7 @@ hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否�
 rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
 disqusShortname = ""      # disqus_shortname
 googleAnalytics = ""      # UA-XXXXXXXX-X
-copyright = "itspedia | 沪ICP备14049619号-3"            # default: params.author.name ↓ # 默认为下面配置的params.author.name ↓
+copyright = "©2025 itspedia.com <a href='https://beian.miit.gov.cn' title='ICP/IP地址/域名信息备案管理系统'>沪ICP备14049619号-3</a>"            # default: params.author.name ↓ # 默认为下面配置的params.author.name ↓
 
 [pagination]
   pagerSize = 5           # Number of articles displayed on the homepage  # 首页每页显示的文章数
