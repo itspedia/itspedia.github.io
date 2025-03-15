@@ -9,7 +9,7 @@
     <managingEditor>itspedia@itspedia.com (itspedia)</managingEditor>
     <webMaster>itspedia@itspedia.com (itspedia)</webMaster>
     <copyright>itspedia.com &lt;a href=&#39;https://beian.miit.gov.cn&#39; title=&#39;ICP/IP地址/域名信息备案管理系统&#39;&gt;沪ICP备14049619号-3&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 05 Mar 2025 16:01:23 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 13 Mar 2025 21:20:23 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
@@ -36,6 +36,125 @@
       
         <description>&lt;p&gt;生命对我来说是一个永久的神奇. -泰戈尔&lt;/p&gt;
 &lt;p&gt;pedia指百科，itspedia为it&amp;rsquo;s pedia的简写，寓意这就是百科。意在致力于知识传播等相关领域。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>What is an ELN? A guide for biopharmaceutical developers</title>
+      <link>http://localhost:1313/post/what-is-an-eln-a-guide-for-biopharmaceutical-developers/</link>
+      <pubDate>Thu, 13 Mar 2025 21:20:23 +0800</pubDate>
+      <author>itspedia@itspedia.com (itspedia)</author>
+      <guid>http://localhost:1313/post/what-is-an-eln-a-guide-for-biopharmaceutical-developers/</guid>
+      
+        <description>&lt;h1 id=&#34;what-is-an-eln-a-guide-for-biopharmaceutical-developers&#34;&gt;What is an ELN? A guide for biopharmaceutical developers&lt;/h1&gt;
+&lt;h2 id=&#34;definition-and-overview-of-elns&#34;&gt;Definition and overview of ELNs&lt;/h2&gt;
+&lt;p&gt;Electronic lab notebooks or ELNs enable scientists, engineers and technicians to document research, experimental data and procedures performed in a laboratory. They are a digital replacement to traditional paper laboratory notebooks.&lt;/p&gt;
+&lt;p&gt;Efficiently recording experiment details, ELNs capture unstructured scientific data, serving as a fundamental component in various software platforms. While some advanced versions standardize workflows, the core functionality lies in providing a digital repository for experiment-related information.&lt;/p&gt;
+&lt;p&gt;In this guide, we will answer the question, what is an ELN for labs?, covering the following topics:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Types of ELN&lt;/li&gt;
+&lt;li&gt;Key benefits&lt;/li&gt;
+&lt;li&gt;Key limitations&lt;/li&gt;
+&lt;li&gt;Differences between ELNs and LIMS&lt;/li&gt;
+&lt;li&gt;Alternatives to ELNs&lt;/li&gt;
+&lt;li&gt;Why choose IDBS?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;1-types-of-elns&#34;&gt;1. Types of ELNs&lt;/h2&gt;
+&lt;p&gt;Hybrid: A laboratory execution system (LES) is a specialized variant of an ELN system that enforces procedural execution of standard operating procedures (SOPs) or work instructions. Other hybrid systems combine features of ELNs with LIMS (laboratory information management system), but there can be some trade-offs associated with these including implementation complexity and cost, user training and ongoing maintenance.&lt;/p&gt;
+&lt;p&gt;Cloud-based: 70% of the ELN market is cloud-based[&lt;a href=&#34;https://www.idbs.com/what-is-an-eln/#_edn1&#34;&gt;i]&lt;/a&gt;, hosted on remote servers. Compared with on-premise implementations, a &lt;a href=&#34;https://www.idbs.com/2024/06/move-on-prem-cloud-lab-system/&#34;&gt;cloud-based ELN&lt;/a&gt; offers: advanced security and data protection; scalability with reduced IT burden; enhanced collaboration across teams and geographies; and reduced maintenance costs.&lt;/p&gt;
+&lt;p&gt;On-premise: on-premise ELNs require servers and other infrastructure, making them resource-intensive to set-up and run. Security is the responsibility of the organization and updates are not automatic, as is the case via the cloud. Sharing across departments may also be more difficult. However, some organizations choose this route as they feel it gives them more control and ability to customize.&lt;/p&gt;
+&lt;p&gt;To fully answer the question what is an ELN?, we need to explore their benefits and limitations.&lt;/p&gt;
+&lt;h2 id=&#34;2-key-benefits-of-an-electronic-laboratory-notebook&#34;&gt;2. Key benefits of an electronic laboratory notebook&lt;/h2&gt;
+&lt;p&gt;Pharmaceutical and life sciences research and development (R&amp;amp;D) labs are where novel medicines, vaccines and precision medicine begin. Historically, R&amp;amp;D relied entirely on scientists recording their experimental research data and observations in handwritten lab notebooks, providing a blank slate that well suited the process of discovery. However, with the introduction of personal computers and tablets into the R&amp;amp;D lab, an opportunity to bring structure to unstructured paper data was created.&lt;/p&gt;
+&lt;p&gt;ELNs’ effective searching and reporting mechanisms completely remove the need for experiments to be refactored into slides, documents and reports – meetings can be based around looking at the &lt;a href=&#34;https://www.idbs.com/2013/12/science-needs-elns-how-to-know-what-you-have-and-how-to-use-it-part-two/&#34;&gt;ELN&lt;/a&gt; records in real time.&lt;/p&gt;
+&lt;p&gt;Electronic laboratory notebooks offer:&lt;/p&gt;
+&lt;h3 id=&#34;flexibility&#34;&gt;&lt;strong&gt;Flexibility&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The flexibility of an unstructured ‘blank page’ format that enables scientists to capture and describe a wide variety of experiment types, with data ranging from the protocols and narrative of the experimental process to the write-ups and results&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-management-and-integrity&#34;&gt;&lt;strong&gt;Data management and integrity&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Protection and storage of intellectual property (IP) in electronic format. This, in turn, can enhance data integrity and availability and can be vital in protecting intellectual property claims&lt;/li&gt;
+&lt;li&gt;Elimination of manual transcription from paper lab notebook to data files like Word or Excel, removing challenges with deciphering handwriting or misreading information&lt;/li&gt;
+&lt;li&gt;Seamless integration with lab instruments enhances data accuracy and eases the collection process&lt;/li&gt;
+&lt;li&gt;Provision of integration with other laboratory software, as well as searchability, workflow management and data analytics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;collaboration&#34;&gt;&lt;strong&gt;Collaboration&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Easier data sharing with other lab members and collaborators, facilitating experimental data reproducibility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;traceability--audit-trail&#34;&gt;&lt;strong&gt;Traceability / audit trail&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Version control and robust data security safeguards ensure data integrity and compliance with industry standards&lt;/li&gt;
+&lt;li&gt;Traceability and easy access to experimental results reduces the time to prepare registration documentation or respond to questions from regulators&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-key-limitations-of-an-electronic-lab-notebook&#34;&gt;3. Key limitations of an electronic lab notebook&lt;/h2&gt;
+&lt;p&gt;While ELNs overcome many of the problems of paper-based record keeping, their limitations for modern biopharmaceutical development labs have led many organizations to adopt alternative solutions that offer more capabilities and better laboratory integration. Key limitations of ELNs include:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Unstructured data within the electronic lab notebook is not easy to search or analyze. This limits the production of standardized reporting and meaningful data analytics.&lt;/li&gt;
+&lt;li&gt;In basic ELNs, workflows cannot be managed and integration with other common laboratory software is limited.&lt;/li&gt;
+&lt;li&gt;Isolation from other laboratory technologies can leave data in a silo.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;4-what-are-the-differences-between-elns-and-lims&#34;&gt;4. What are the differences between ELNs and LIMS?&lt;/h2&gt;
+&lt;p&gt;Since the primary purpose of an electronic lab notebook is to capture the details of a test or experiment, they are naturally test- or experiment-centric, whereas a LIMS is sample-centric.&lt;/p&gt;
+&lt;p&gt;Many R&amp;amp;D organizations decide to adopt both solutions, but unfortunately, this results in data storage silos that prevent the context and scientific intelligence of an experiment from being easily consolidated with related sample information and test results. Consequently, insights that could improve the overall process and ultimately accelerate a product’s time to regulatory submission or commercial launch may be hard to uncover.&lt;/p&gt;
+&lt;p&gt;R&amp;amp;D organizations looking to improve their lab data processes often think they need an ELN or a LIMS when, in fact, they need neither as a whole, and they need both in part.&lt;/p&gt;
+&lt;p&gt;Due to the limitations of basic LIMS and electronic laboratory notebook solutions, the convergence of both into hybrid solutions that combine the capabilities of a LIMS and an ELN has been happening for over a decade. While some hybrid systems may blend capabilities effectively, there are potential trade-offs to consider.&lt;/p&gt;
+&lt;p&gt;Innovative companies are embracing solutions that include digital workflows designed to create a persistent, dynamic data backbone throughout the BioPharma lifecycle. This provides a solid foundation for analytics, accelerated time-to-insight and future digital twin and &lt;em&gt;in silico&lt;/em&gt; modeling.&lt;/p&gt;
+&lt;p&gt;To find out more about LIMS, read our article on &lt;a href=&#34;https://www.idbs.com/what-is-a-lims&#34;&gt;What is a LIMS?&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;5-what-are-the-alternatives-to-an-electronic-lab-notebook&#34;&gt;5. What are the alternatives to an electronic lab notebook?&lt;/h2&gt;
+&lt;p&gt;To fully answer the question what is an ELN?, it’s also useful to consider what alternatives are available.&lt;/p&gt;
+&lt;h3 id=&#34;alternatives-to-elns-in-research&#34;&gt;Alternatives to ELNs in research&lt;/h3&gt;
+&lt;p&gt;The flexibility of a basic ELN works well for some types of scientific research but the increasing need for scientists to work collaboratively and share results means that many teams are looking for something more.&lt;/p&gt;
+&lt;p&gt;Three questions to ask when considering alternatives to an ELN in research:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Does the solution capture the context and scientific intelligence of an experiment alongside the sample information and test results?&lt;/li&gt;
+&lt;li&gt;Is data captured in a structured and contextualized way?&lt;/li&gt;
+&lt;li&gt;Is there interoperability with other industry standard systems already used in the laboratory?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Combining the best functionalities of lab-based informatics systems, IDBS &lt;a href=&#34;https://www.idbs.com/products/e-workbook/&#34;&gt;E-WorkBook&lt;/a&gt; goes beyond traditional lab management software, providing cutting-edge data capture and analysis tools, job requesting and management and inventory management.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/shutterstock_1924512446_400w-x-600h-px-1-350x600.jpg&#34; alt=&#34;eln in research&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/shutterstock_75461182-scaled.jpg&#34; alt=&#34;technology transfer - man using laptop in lab to transfer data&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;alternatives-to-elns-in-preclinical-development&#34;&gt;Alternatives to ELNs in preclinical development&lt;/h3&gt;
+&lt;p&gt;Preclinical development is more structured than early research and discovery and LES variants are often used instead of basic ELNs. Quality, compliance and reproducibility are key considerations and the need for advanced sample management, instrument data management and analytics, such as curve fitting, often involves the use of other complementary systems such as LIMS.&lt;/p&gt;
+&lt;p&gt;Four questions to ask when considering alternatives to an electronic lab notebook in preclinical development:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Is end-to-end workflow design and management a key capability within the system?&lt;/li&gt;
+&lt;li&gt;Does the solution offer the flexibility and efficiency of both pre-configured and customizable workflows?&lt;/li&gt;
+&lt;li&gt;Is there interoperability with other industry standard systems already used in the laboratory?&lt;/li&gt;
+&lt;li&gt;Does it meet your security and GxP compliance requirements and support your validation needs?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To discover what IDBS offers for Preclinical Development, explore &lt;a href=&#34;https://www.idbs.com/polar/bioanalysis/&#34;&gt;IDBS Polar for BioAnalysis&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;alternatives-to-elns-in-biopharma-process-development&#34;&gt;Alternatives to ELNs in BioPharma process development&lt;/h3&gt;
+&lt;p&gt;While flexibility is still important, particularly in early development, process development involves complex workflows as well as inventory/recipe management, sample management and instrument data management. BioPharma process development scientists often still use an electronic lab notebook to record the experimental narrative: objective, method, results and conclusions. But the increasing need to standardize data capture and ensure data quality requires a more structured approach than a basic ELN. In particular, the ability to share and collaborate across teams and support a continuum of work from development through manufacturing is essential to enable a positive feedback loop for continuous improvement.&lt;/p&gt;
+&lt;p&gt;Seven questions to ask when considering alternatives to an ELN in BioPharma process development:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Does the solution capture the context and scientific intelligence of an experiment alongside the inventory, equipment, sample information and results?&lt;/li&gt;
+&lt;li&gt;Is data captured in a structured and contextualized way in a single backbone?&lt;/li&gt;
+&lt;li&gt;Is end-to-end workflow design and management a key capability within the system?&lt;/li&gt;
+&lt;li&gt;Does the solution offer the flexibility and efficiency of both pre-configured and customizable workflows?&lt;/li&gt;
+&lt;li&gt;Is there interoperability with other industry standard systems already used in the laboratory?&lt;/li&gt;
+&lt;li&gt;Are there sufficient equipment and instrument integrations, with access to more as the need grows?&lt;/li&gt;
+&lt;li&gt;Does it meet your security and GxP compliance requirements and support your validation needs?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To discover what IDBS offers for BioPharma process development, explore &lt;a href=&#34;https://www.idbs.com/polar/bioprocess/&#34;&gt;IDBS Polar for BioProcess&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/shutterstock_1073659406_400w-x-600h-px-1-350x550.png&#34; alt=&#34;eln system&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;alternatives-to-elns-in-manufacturing&#34;&gt;Alternatives to ELNs in manufacturing&lt;/h3&gt;
+&lt;p&gt;Electronic lab notebooks are not generally used in manufacturing but in some cases, they may be used to record a simple electronic batch record and/or record the narrative around QC testing. While this approach ensures data is captured electronically, it doesn’t enable the analysis of batch-to-batch variability or continued process verification (CPV).&lt;/p&gt;
+&lt;p&gt;To discover what IDBS offers for Manufacturing, explore &lt;a href=&#34;https://www.idbs.com/pims/&#34;&gt;IDBS PIMS&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;6-why-choose-idbs&#34;&gt;6. Why choose IDBS?&lt;/h2&gt;
+&lt;p&gt;In this guide, we hope to have answered the question what is an ELN?, but, in most cases, an ELN alone is unlikely to meet the wide-ranging needs of BioPharma labs. The good news is that the next generation of laboratory informatics tools is here.&lt;/p&gt;
+&lt;p&gt;For example, the E-WorkBook is not a set of ELN features, or a defined, rigid LIMS. Rather, it is a comprehensive data management and workflow solution designed for scientists and researchers in R&amp;amp;D settings.&lt;/p&gt;
+&lt;p&gt;What’s more, IDBS Polar provides the data infrastructure required to develop digital twins and advanced data models and supports integration with the next generation of data analytic tools, such as AI and ML.&lt;/p&gt;
+&lt;p&gt;These are two examples of how, for more than 30 years, IDBS has worked with world-leading research and development organizations to deliver industry-leading solutions.&lt;/p&gt;
+&lt;h3 id=&#34;four-key-benefits-you-will-gain-from-our-solutions&#34;&gt;Four key benefits you will gain from our solutions:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Integrated workflows and processes across the business improve efficiency and foster collaboration based on &lt;a href=&#34;https://www.idbs.com/the-fair-principles-a-quick-introduction/&#34;&gt;FAIR&lt;/a&gt;data principles.&lt;/li&gt;
+&lt;li&gt;Seamless integration with your data ecosystem breaks down data silos, ensures data integrity and promotes knowledge transfer.&lt;/li&gt;
+&lt;li&gt;High-quality, contextualized data speed up decision-making and provide insights and analytics that enable you to optimize processes and remove operational inefficiencies.&lt;/li&gt;
+&lt;li&gt;Industry-leading security and compliance: validatable and 21 CFR 11 / GxP compliant – ISO27001 certified – SOC 2 and SOC 3 reports available, ICH Q1-141.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
       
     </item>
