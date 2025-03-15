@@ -12,7 +12,7 @@ hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否�
 rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
 disqusShortname = ""      # disqus_shortname
 googleAnalytics = ""      # UA-XXXXXXXX-X
-copyright = "©2025 itspedia.com <a href='https://beian.miit.gov.cn' title='ICP/IP地址/域名信息备案管理系统'>沪ICP备14049619号-3</a>"            # default: params.author.name ↓ # 默认为下面配置的params.author.name ↓
+copyright = "itspedia.com <a href='https://beian.miit.gov.cn' title='ICP/IP地址/域名信息备案管理系统'>沪ICP备14049619号-3</a>"            # default: params.author.name ↓ # 默认为下面配置的params.author.name ↓
 
 [pagination]
   pagerSize = 5           # Number of articles displayed on the homepage  # 首页每页显示的文章数
@@ -46,7 +46,7 @@ defaultContentLanguage = "en"           # Default language to use
 
 
 [params]
-  since = "2017"            # Site creation time          # 站点建立时间
+  since = "2023"            # Site creation time          # 站点建立时间
   homeFullContent = false   # if false, show post summaries on home page. Otherwise show full content.
   rssFullContent = true     # if false, Rss feed instead of the summary
 
