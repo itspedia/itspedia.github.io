@@ -114,7 +114,7 @@ Three questions to ask when considering alternatives to an ELN in research:
 
 Combining the best functionalities of lab-based informatics systems, IDBS [E-WorkBook](https://www.idbs.com/products/e-workbook/) goes beyond traditional lab management software, providing cutting-edge data capture and analysis tools, job requesting and management and inventory management.
 
-![eln in research](/images/shutterstock_1924512446_400w-x-600h-px-1-350x600.jpg)
+![eln in research](/images/shutterstock_1924512446_400w-x-600h-px-1-350x600.webp)
 
 ![technology transfer - man using laptop in lab to transfer data](/images/shutterstock_75461182-scaled.jpg)
 
@@ -147,7 +147,7 @@ Seven questions to ask when considering alternatives to an ELN in BioPharma proc
 
 To discover what IDBS offers for BioPharma process development, explore [IDBS Polar for BioProcess](https://www.idbs.com/polar/bioprocess/).
 
-![eln system](/images/shutterstock_1073659406_400w-x-600h-px-1-350x550.png)
+![eln system](/images/shutterstock_1073659406_400w-x-600h-px-1-350x550.webp)
 
 ### Alternatives to ELNs in manufacturing
 
