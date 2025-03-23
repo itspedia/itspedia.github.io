@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud Pub/Sub on It&#39;s pedia - A knowledge base for Everyone</title>
+    <link>http://localhost:1313/tags/cloud-pub/sub/</link>
+    <description>Recent content in Cloud Pub/Sub on It&#39;s pedia - A knowledge base for Everyone</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>itspedia@itspedia.com (itspedia)</managingEditor>
+    <webMaster>itspedia@itspedia.com (itspedia)</webMaster>
+    <copyright>itspedia.com &lt;a href=&#39;https://beian.miit.gov.cn&#39; title=&#39;ICP/IP地址/域名信息备案管理系统&#39;&gt;沪ICP备14049619号-3&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 22 Mar 2025 21:29:20 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cloud-pub/sub/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub</title>
+      <link>http://localhost:1313/post/gsp650-build-a-resilient-asynchronous-system-with-cloud-run-and-pubsub/</link>
+      <pubDate>Sat, 22 Mar 2025 21:20:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
+      <guid>http://localhost:1313/post/gsp650-build-a-resilient-asynchronous-system-with-cloud-run-and-pubsub/</guid>
+      <description>&lt;h1 id=&#34;gsp650-build-a-resilient-asynchronous-system-with-cloud-run-and-pubsub&#34;&gt;GSP650-Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub&lt;/h1&gt;&#xA;&lt;h2 id=&#34;gsp650&#34;&gt;GSP650&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.qwiklabs.com/GMOHykaqmlTHiqEeQXTySaMXYPHeIvaqa2qHEzw6Occ%3D&#34; alt=&#34;Google Cloud self-paced labs logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.qwiklabs.com/o9xaY3ombOkGaC1vyR%2FKpl5TOGCpl1oBSHXLG3SkFbU%3D&#34; alt=&#34;Pet Theory logo&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;For the labs in the &lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/741&#34;&gt;Serverless Cloud Run Development&lt;/a&gt; course, you will read through a fictitious business scenario and assist the characters with their serverless migration plan.&lt;/p&gt;&#xA;&lt;p&gt;Twelve years ago, Lily started the Pet Theory chain of veterinary clinics. Over the years, the number of clinics has grown, and so has the need for automation. The way Pet Theory handles the results of medical tests when they come back from the lab is too slow and error-prone, and Lily wants to improve this.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

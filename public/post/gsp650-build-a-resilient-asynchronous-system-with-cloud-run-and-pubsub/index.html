@@ -1,0 +1,1829 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage" data-theme="light">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>
+    
+    Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub - It&#39;s pedia - A knowledge base for Everyone
+    </title>
+  
+
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+
+
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+
+
+<meta name="applicable-device" content="pc,mobile">
+<meta name="color-scheme" content="light dark" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+
+<meta name="generator" content="Hugo 0.143.1" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/gsp650-build-a-resilient-asynchronous-system-with-cloud-run-and-pubsub/" />
+
+
+
+
+<meta name="author" content="hongxing" />
+<meta name="description" content="GSP650-Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub GSP650 Overview For the labs in the Serverless Cloud Run Development course, you will read through a fictitious business scenario and assist the characters with their serverless migration plan.
+Twelve years ago, Lily started the Pet Theory chain of veterinary clinics. Over the years, the number of clinics has grown, and so has the need for automation. The way Pet Theory handles the results of medical tests when they come back from the lab is too slow and error-prone, and Lily wants to improve this.
+" />
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta name="keywords" content="GCP, Cloud Run, Cloud Pub/Sub" />
+
+
+<meta property="og:url" content="http://localhost:1313/post/gsp650-build-a-resilient-asynchronous-system-with-cloud-run-and-pubsub/">
+  <meta property="og:site_name" content="It&#39;s pedia - A knowledge base for Everyone">
+  <meta property="og:title" content="Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub">
+  <meta property="og:description" content="GSP650-Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub GSP650 Overview For the labs in the Serverless Cloud Run Development course, you will read through a fictitious business scenario and assist the characters with their serverless migration plan.
+Twelve years ago, Lily started the Pet Theory chain of veterinary clinics. Over the years, the number of clinics has grown, and so has the need for automation. The way Pet Theory handles the results of medical tests when they come back from the lab is too slow and error-prone, and Lily wants to improve this.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2025-03-22T21:20:23+08:00">
+    <meta property="article:modified_time" content="2025-03-22T21:29:20+00:00">
+    <meta property="article:tag" content="GCP">
+    <meta property="article:tag" content="Cloud Run">
+    <meta property="article:tag" content="Cloud Pub/Sub">
+
+  <meta itemprop="name" content="Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub">
+  <meta itemprop="description" content="GSP650-Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub GSP650 Overview For the labs in the Serverless Cloud Run Development course, you will read through a fictitious business scenario and assist the characters with their serverless migration plan.
+Twelve years ago, Lily started the Pet Theory chain of veterinary clinics. Over the years, the number of clinics has grown, and so has the need for automation. The way Pet Theory handles the results of medical tests when they come back from the lab is too slow and error-prone, and Lily wants to improve this.">
+  <meta itemprop="datePublished" content="2025-03-22T21:20:23+08:00">
+  <meta itemprop="dateModified" content="2025-03-22T21:29:20+00:00">
+  <meta itemprop="wordCount" content="4520">
+  <meta itemprop="keywords" content="GCP,Cloud Run,Cloud Pub/Sub">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub">
+  <meta name="twitter:description" content="GSP650-Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub GSP650 Overview For the labs in the Serverless Cloud Run Development course, you will read through a fictitious business scenario and assist the characters with their serverless migration plan.
+Twelve years ago, Lily started the Pet Theory chain of veterinary clinics. Over the years, the number of clinics has grown, and so has the need for automation. The way Pet Theory handles the results of medical tests when they come back from the lab is too slow and error-prone, and Lily wants to improve this.">
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/style.min.ada4d2474f9a01e35272c7e1840ba05e4c511e6bfecb46f7eb197563aa307246.css" integrity="sha256-raTSR0&#43;aAeNScsfhhAugXkxRHmv&#43;y0b36xl1Y6owckY=" media="screen"
+  crossorigin="anonymous">
+
+
+
+
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+
+<script>
+  (function () {
+    var savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  })();
+</script>
+
+
+</head>
+
+<body>
+  <div id="back-to-top"></div>
+
+  <header class="site-header">
+    
+<div class="desktop-header">
+  <div class="desktop-header-logo">
+    <a href="/" class="logo">
+      
+      It's Pedia
+      
+    </a>
+  </div>
+
+  <nav class="desktop-navbar">
+    <ul id="menu" class="menu">
+      
+      
+      <li class="menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="http://localhost:1313/">It&#39;s Pedia</a>
+        
+
+        
+
+      </li>
+      
+      <li class="menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="http://localhost:1313/post/">Posts</a>
+        
+
+        
+
+      </li>
+      
+      <li class="menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="http://localhost:1313/tags/">Tags</a>
+        
+
+        
+
+      </li>
+      
+      <li class="menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="http://localhost:1313/about/">About</a>
+        
+
+        
+
+      </li>
+      
+      <li class="menu-item">
+        
+        
+        <a class="menu-item-link menu-parent" href="http://localhost:1313/">
+          Knowledge
+          
+<svg aria-hidden="true" class="lucide lucide-chevron-down hi-svg-inline icon--chevron-down" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"/></svg>
+        </a>
+        <ul class="submenu">
+          
+          <li class="submenu-item">
+            <a href="http://localhost:1313/reader-digest/radar-trends-to-watch-february-2025/">Radar Trends to Watch: February 2025</a>
+          </li>
+          
+          <li class="submenu-item">
+            <a href="http://localhost:1313/reader-digest/radar-trends-to-watch-january-2025/">Radar Trends to Watch: January 2025</a>
+          </li>
+          
+          <li class="submenu-item">
+            <a href="http://localhost:1313/reader-digest/radar-trends-to-watch-march-2025/">Radar Trends to Watch: March 2025</a>
+          </li>
+          
+          <li class="submenu-item">
+            <a href="http://localhost:1313/reader-digest/technology-trends-for-2025/">Technology Trends for 2025</a>
+          </li>
+          
+        </ul>
+
+        
+
+      </li>
+      
+      <li class="menu-item">
+        
+        
+        <a class="menu-item-link menu-parent" href="http://localhost:1313/">
+          Tutorials
+          
+<svg aria-hidden="true" class="lucide lucide-chevron-down hi-svg-inline icon--chevron-down" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"/></svg>
+        </a>
+        <ul class="submenu">
+          
+          <li class="submenu-item">
+            <a href="http://localhost:1313/knowledge/1-image/">tutorials: Image</a>
+          </li>
+          
+          <li class="submenu-item">
+            <a href="http://localhost:1313/knowledge/2-toc/">tutorials: toc</a>
+          </li>
+          
+          <li class="submenu-item">
+            <a href="http://localhost:1313/knowledge/3-syntax-highlighting/">Tutorials: Syntax Highlighting</a>
+          </li>
+          
+          <li class="submenu-item">
+            <a href="http://localhost:1313/knowledge/4-footnote/">Tutorials: Footnote</a>
+          </li>
+          
+          <li class="submenu-item">
+            <a href="http://localhost:1313/knowledge/5-math/">Tutorials: Math</a>
+          </li>
+          
+          <li class="submenu-item">
+            <a href="http://localhost:1313/knowledge/6-shortcode-notice/">tutorials: Shortcodes Notice</a>
+          </li>
+          
+          <li class="submenu-item">
+            <a href="http://localhost:1313/knowledge/7-shortcodes-preview/">Tutorials: more Shortcodes</a>
+          </li>
+          
+        </ul>
+
+        
+
+      </li>
+      
+
+      
+      
+
+      
+
+      <li class="menu-item">
+        <a class="theme-toggle menu-item-link" href="javascript:void(0);">
+
+          
+<svg aria-hidden="true" class="lucide lucide-sun hi-svg-inline theme-icon-light" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+
+          
+<svg aria-hidden="true" class="lucide lucide-moon hi-svg-inline theme-icon-dark" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+
+        </a>
+      </li>
+
+      <li class="menu-item">
+        <a class="menu-item-link" href="http://localhost:1313/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
+          title="rss" target="_blank">
+          
+<svg aria-hidden="true" class="lucide lucide-rss hi-svg-inline icon--rss" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+        </a>
+        
+      </li>
+    </ul>
+  </nav>
+</div>
+
+    
+
+<div class="mobile-header">
+  <div id="mobile-navbar" class="mobile-navbar">
+    <div id="mobile-navbar-icon" class="mobile-navbar-icon">
+      
+<svg aria-hidden="true" class="lucide lucide-menu hi-svg-inline icon--menu" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </div>
+    <div class="mobile-navbar-logo">
+      <a href="/" class="logo">It's Pedia</a>
+    </div>
+  </div>
+
+  <div id="mobile-menu-close-modal" class="mobile-menu-close-modal"></div>
+  <nav id="mobile-menu" class="mobile-menu">
+    <ul class="mobile-menu-list">
+      <li class="mobile-menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="http://localhost:1313/">It&#39;s Pedia</a>
+        
+        
+      </li><li class="mobile-menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="http://localhost:1313/post/">Posts</a>
+        
+        
+      </li><li class="mobile-menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="http://localhost:1313/tags/">Tags</a>
+        
+        
+      </li><li class="mobile-menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="http://localhost:1313/about/">About</a>
+        
+        
+      </li><li class="mobile-menu-item">
+        
+        
+        <div class="mobile-menu-parent">
+          <span class="mobile-submenu-open"></span>
+          <a href="http://localhost:1313/">
+            Knowledge
+          </a>
+        </div>
+        <ul class="mobile-submenu-list">
+          
+          <li>
+            <a href="http://localhost:1313/reader-digest/radar-trends-to-watch-february-2025/">Radar Trends to Watch: February 2025</a>
+          </li>
+          
+          <li>
+            <a href="http://localhost:1313/reader-digest/radar-trends-to-watch-january-2025/">Radar Trends to Watch: January 2025</a>
+          </li>
+          
+          <li>
+            <a href="http://localhost:1313/reader-digest/radar-trends-to-watch-march-2025/">Radar Trends to Watch: March 2025</a>
+          </li>
+          
+          <li>
+            <a href="http://localhost:1313/reader-digest/technology-trends-for-2025/">Technology Trends for 2025</a>
+          </li>
+          
+        </ul>
+        
+      </li><li class="mobile-menu-item">
+        
+        
+        <div class="mobile-menu-parent">
+          <span class="mobile-submenu-open"></span>
+          <a href="http://localhost:1313/">
+            Tutorials
+          </a>
+        </div>
+        <ul class="mobile-submenu-list">
+          
+          <li>
+            <a href="http://localhost:1313/knowledge/1-image/">tutorials: Image</a>
+          </li>
+          
+          <li>
+            <a href="http://localhost:1313/knowledge/2-toc/">tutorials: toc</a>
+          </li>
+          
+          <li>
+            <a href="http://localhost:1313/knowledge/3-syntax-highlighting/">Tutorials: Syntax Highlighting</a>
+          </li>
+          
+          <li>
+            <a href="http://localhost:1313/knowledge/4-footnote/">Tutorials: Footnote</a>
+          </li>
+          
+          <li>
+            <a href="http://localhost:1313/knowledge/5-math/">Tutorials: Math</a>
+          </li>
+          
+          <li>
+            <a href="http://localhost:1313/knowledge/6-shortcode-notice/">tutorials: Shortcodes Notice</a>
+          </li>
+          
+          <li>
+            <a href="http://localhost:1313/knowledge/7-shortcodes-preview/">Tutorials: more Shortcodes</a>
+          </li>
+          
+        </ul>
+        
+      </li>
+      
+
+      
+
+      <li class="mobile-menu-item">
+        <a class="theme-toggle menu-item-link" href="javascript:void(0);">
+
+          
+<svg aria-hidden="true" class="lucide lucide-sun hi-svg-inline theme-icon-light" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+
+          
+<svg aria-hidden="true" class="lucide lucide-moon hi-svg-inline theme-icon-dark" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+
+        </a>
+      </li>
+
+      <li class="mobile-menu-item">
+        <a class="menu-item-link" href="http://localhost:1313/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
+          title="rss" target="_blank">
+          
+<svg aria-hidden="true" class="lucide lucide-rss hi-svg-inline icon--rss" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+        </a>
+        
+      </li>
+    </ul>
+  </nav>
+</div>
+
+  </header>
+
+  
+
+  
+
+
+
+  <main id="main" class="main pico container">
+    <div class="content-wrapper">
+    <aside class="left-sidebar">
+      
+
+
+
+    </aside>
+
+    <div id="content" class="content">
+      <article class="post">
+        
+        <header class="post-header">
+          <h1 class="post-title">Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub</h1>
+          
+
+
+
+          <div class="post-meta-list">
+  <div class="post-meta-item post-meta-author">
+    
+<svg aria-hidden="true" class="lucide lucide-user-round-pen hi-svg-inline" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M2 21a8 8 0 0 1 10.821-7.487"/><path d="M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"/><circle cx="10" cy="8" r="5"/></svg>
+    <a href="/about">
+      <span class="post-meta-author-name">
+        hongxing
+      </span>
+    </a>
+    
+  </div>
+
+  <div class="post-meta-item post-meta-time">
+    
+<svg aria-hidden="true" class="lucide lucide-calendar-days hi-svg-inline" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/><path d="M16 18h.01"/></svg>
+    <time datetime=" 2025-03-22">
+      2025-03-22
+    </time>
+
+
+    
+
+  </div>
+
+
+  <div class="post-meta__right">
+    
+
+    <div class="post-meta-item post-meta-category">
+      
+        
+          
+            
+            
+              
+            
+          
+        <a href="http://localhost:1313/categories/index/">Custom Category</a>
+        
+          
+        <a href="http://localhost:1313/categories/gcp/">gcp</a>
+    </div>
+
+
+    
+    
+
+
+    
+    
+  </div>
+</div>
+
+        </header>
+
+        
+        <div class="post-content">
+          <h1 id="gsp650-build-a-resilient-asynchronous-system-with-cloud-run-and-pubsub">GSP650-Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub</h1>
+<h2 id="gsp650">GSP650</h2>
+<p><img src="https://cdn.qwiklabs.com/GMOHykaqmlTHiqEeQXTySaMXYPHeIvaqa2qHEzw6Occ%3D" alt="Google Cloud self-paced labs logo"></p>
+<p><img src="https://cdn.qwiklabs.com/o9xaY3ombOkGaC1vyR%2FKpl5TOGCpl1oBSHXLG3SkFbU%3D" alt="Pet Theory logo"></p>
+<h2 id="overview">Overview</h2>
+<p>For the labs in the <a href="https://www.cloudskillsboost.google/course_templates/741">Serverless Cloud Run Development</a> course, you will read through a fictitious business scenario and assist the characters with their serverless migration plan.</p>
+<p>Twelve years ago, Lily started the Pet Theory chain of veterinary clinics. Over the years, the number of clinics has grown, and so has the need for automation. The way Pet Theory handles the results of medical tests when they come back from the lab is too slow and error-prone, and Lily wants to improve this.</p>
+<p>Currently, Patrick, Pet Theory&rsquo;s IT administrator, handles test results manually. Whenever a test result comes back, he composes and sends an email to the client whose pet was tested, then he taps out a text message on his phone and sends the results as a text to the client.</p>
+<p>Patrick is working with Ruby, a software consultant, to design a more scalable system. They want to build a solution that doesn&rsquo;t require a lot of ongoing maintenance. Patrick and Ruby have decided to go with serverless technology.</p>
+<h2 id="objectives">Objectives</h2>
+<p>In this lab, you will learn how to:</p>
+<ul>
+<li>Create a Pub/Sub topic and subscription</li>
+<li>Create a Cloud Run service that receives HTTP requests and publishes messages to Cloud Pub/Sub</li>
+<li>Create a Cloud Run service that receives messages from Cloud Pub/Sub</li>
+<li>Create a Pub/Sub subscription that triggers a Cloud Run service</li>
+<li>Test the resiliency of a system</li>
+</ul>
+<h3 id="prerequisites">Prerequisites</h3>
+<p>This lab assumes familiarity with the Cloud Console and shell environments. This lab is part of a series. Taking the previous labs could be helpful, but is not necessary:</p>
+<ul>
+<li><a href="https://google.qwiklabs.com/catalog_lab/2163">Importing Data to a Firestore Database</a></li>
+<li><a href="https://google.qwiklabs.com/catalog_lab/2166">Build a Serverless Web App with Firebase</a></li>
+<li><a href="https://google.qwiklabs.com/catalog_lab/2161">Build a Serverless App with Cloud Run that Creates PDF Files</a></li>
+</ul>
+<h2 id="setup-and-requirements">Setup and requirements</h2>
+<p><strong>Note:</strong> For this lab, sign in into the Google Cloud Console as Username 1. Otherwise, you will encounter errors during the lab.</p>
+<h3 id="before-you-click-the-start-lab-button">Before you click the Start Lab button</h3>
+<p>Read these instructions. Labs are timed and you cannot pause them. The timer, which starts when you click <strong>Start Lab</strong>, shows how long Google Cloud resources are made available to you.</p>
+<p>This hands-on lab lets you do the lab activities in a real cloud environment, not in a simulation or demo environment. It does so by giving you new, temporary credentials you use to sign in and access Google Cloud for the duration of the lab.</p>
+<p>To complete this lab, you need:</p>
+<ul>
+<li>Access to a standard internet browser (Chrome browser recommended).</li>
+</ul>
+<p><strong>Note:</strong> Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.</p>
+<ul>
+<li>Time to complete the lab—remember, once you start, you cannot pause a lab.</li>
+</ul>
+<p><strong>Note:</strong> Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.</p>
+<h3 id="how-to-start-your-lab-and-sign-in-to-the-google-cloud-console">How to start your lab and sign in to the Google Cloud console</h3>
+<ol>
+<li>
+<p>Click the <strong>Start Lab</strong> button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:</p>
+<ul>
+<li>The Open Google Cloud console button</li>
+<li>Time remaining</li>
+<li>The temporary credentials that you must use for this lab</li>
+<li>Other information, if needed, to step through this lab</li>
+</ul>
+</li>
+<li>
+<p>Click <strong>Open Google Cloud console</strong> (or right-click and select <strong>Open Link in Incognito Window</strong> if you are running the Chrome browser).</p>
+<p>The lab spins up resources, and then opens another tab that shows the Sign in page.</p>
+<p>*<strong>Tip:*</strong> Arrange the tabs in separate windows, side-by-side.</p>
+<p><strong>Note:</strong> If you see the <strong>Choose an account</strong> dialog, click <strong>Use Another Account</strong>.</p>
+</li>
+<li>
+<p>If necessary, copy the <strong>Username</strong> below and paste it into the <strong>Sign in</strong> dialog.</p>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>student-03-8c7b2c03a5b3@qwiklabs.net</code></pre>
+</div>
+<p>You can also find the Username in the Lab Details pane.</p>
+</li>
+<li>
+<p>Click <strong>Next</strong>.</p>
+</li>
+<li>
+<p>Copy the <strong>Password</strong> below and paste it into the <strong>Welcome</strong> dialog.</p>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>Qgnf7gsvUwCY</code></pre>
+</div>
+<p>You can also find the Password in the Lab Details pane.</p>
+</li>
+<li>
+<p>Click <strong>Next</strong>.</p>
+<p><strong>Important:</strong> You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.</p>
+<p><strong>Note:</strong> Using your own Google Cloud account for this lab may incur extra charges.</p>
+</li>
+<li>
+<p>Click through the subsequent pages:</p>
+<ul>
+<li>Accept the terms and conditions.</li>
+<li>Do not add recovery options or two-factor authentication (because this is a temporary account).</li>
+<li>Do not sign up for free trials.</li>
+</ul>
+</li>
+</ol>
+<p>After a few moments, the Google Cloud console opens in this tab.</p>
+<p><strong>Note:</strong> To access Google Cloud products and services, click the <strong>Navigation menu</strong> or type the service or product name in the <strong>Search</strong> field. <img src="https://cdn.qwiklabs.com/9Fk8NYFp3quE9mF%2FilWF6%2FlXY9OUBi3UWtb2Ne4uXNU%3D" alt="Navigation menu icon and Search field"></p>
+<h3 id="activate-cloud-shell">Activate Cloud Shell</h3>
+<p>Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.</p>
+<ol>
+<li>Click <strong>Activate Cloud Shell</strong> <img src="https://cdn.qwiklabs.com/ep8HmqYGdD%2FkUncAAYpV47OYoHwC8%2Bg0WK%2F8sidHquE%3D" alt="Activate Cloud Shell icon"> at the top of the Google Cloud console.</li>
+<li>Click through the following windows:
+<ul>
+<li>Continue through the Cloud Shell information window.</li>
+<li>Authorize Cloud Shell to use your credentials to make Google Cloud API calls.</li>
+</ul>
+</li>
+</ol>
+<p>When you are connected, you are already authenticated, and the project is set to your <strong>Project_ID</strong>, <code>qwiklabs-gcp-03-11a04fa27be6</code>. The output contains a line that declares the <strong>Project_ID</strong> for this session:</p>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>Your Cloud Platform project in this session is set to qwiklabs-gcp-03-11a04fa27be6</code></pre>
+</div>
+<p><code>gcloud</code> is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.</p>
+<ol start="3">
+<li>(Optional) You can list the active account name with this command:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>gcloud auth list</code></pre>
+</div>
+<ol start="4">
+<li>Click <strong>Authorize</strong>.</li>
+</ol>
+<p><strong>Output:</strong></p>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>ACTIVE: *
+ACCOUNT: student-03-8c7b2c03a5b3@qwiklabs.net
+
+To set the active account, run:
+    $ gcloud config set account `ACCOUNT`</code></pre>
+</div>
+<ol start="5">
+<li>(Optional) You can list the project ID with this command:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>gcloud config list project</code></pre>
+</div>
+<p><strong>Output:</strong></p>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>[core]
+project = qwiklabs-gcp-03-11a04fa27be6</code></pre>
+</div>
+<p><strong>Note:</strong> For full documentation of <code>gcloud</code>, in Google Cloud, refer to <a href="https://cloud.google.com/sdk/gcloud">the gcloud CLI overview guide</a>.</p>
+<h3 id="set-your-region-and-zone">Set your region and zone</h3>
+<p>Certain Compute Engine resources live in regions and zones. A region is a specific geographical location where you can run your resources. Each region has one or more zones.</p>
+<p><strong>Note</strong>: Learn more about regions and zones and see a complete list in <a href="https://cloud.google.com/compute/docs/regions-zones/">Regions &amp; Zones documentation</a>.</p>
+<p>Run the following gcloud commands in Cloud Shell to set the default region and zone for your lab:</p>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>gcloud config set compute/zone &#34;us-east1-d&#34;
+export ZONE=$(gcloud config get compute/zone)
+
+gcloud config set compute/region &#34;us-east1&#34;
+export REGION=$(gcloud config get compute/region)</code></pre>
+</div>
+<h3 id="scenario">Scenario</h3>
+<p>Pet Theory would like to automate the process of sharing client test results. They have experienced a tough time keeping up with an increased volume of appointments, so Lily decides to ask Ruby for some assistance&hellip;</p>
+<table>
+  <thead>
+      <tr>
+          <th><img src="https://cdn.qwiklabs.com/SAe6MsJi2voh0ygak%2BAV2SzyXCCtjirn9cKOaQV2nU4%3D" alt="Lily"><em>Lily, Founder of Pet Theory</em></th>
+          <th>Hi Ruby,Thanks for sorting out the insurance portal.I was wondering if something could be done about the medical test results? We need a more efficient way of sending results to our clients.Lily</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><img src="https://cdn.qwiklabs.com/Gwp1lYw8XYLWIik3Af6zvmninmjnf%2B9%2BzTzDK92kuOc%3D" alt="Ruby"><em>Ruby, Software Consultant</em></td>
+          <td>Hey Lily,Sure - let me see what I can do. I have a few ideas that may improve the situation.Ruby</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="task-1-architecture">Task 1. Architecture</h2>
+<p>Pet Theory uses an external company for medical tests. Once the lab company completes a medical test, they send the results back to Pet Theory.</p>
+<p>The lab company uses a HTTP(s) POST to Pet Theory&rsquo;s web endpoint for medical lab results. The illustration below outlines the general architecture.</p>
+<p><img src="https://cdn.qwiklabs.com/6J7PDgV%2FpYo00ESDhV5JBl2G%2FvpEZ0LYsOre9WF9zfk%3D" alt="Pet Theory’s system architecture diagram"></p>
+<p>After looking at the general process followed, Ruby believes that a system can be designed in which Pet Theory is able to:</p>
+<ol>
+<li>Receive the HTTP POST request and confirm receipt to the medical lab.</li>
+<li>Email the test result to the client.</li>
+<li>Send a text message (SMS) and an email to the client with the test result.</li>
+</ol>
+<p>Ruby&rsquo;s design isolates each of the above activities and requires:</p>
+<ul>
+<li>A service to perform the request and response for the medical result(s)</li>
+<li>A service to email test results to the client</li>
+<li>A service to send a text message (SMS) to the client</li>
+<li>Pub/Sub to be used for inter-service communication</li>
+<li>Serverless infrastructure to be used for the application architecture</li>
+</ul>
+<p>Through the use of single use functions, Ruby is looking to develop code that is easier to write and contains fewer bugs.</p>
+<table>
+  <thead>
+      <tr>
+          <th><img src="https://cdn.qwiklabs.com/Gwp1lYw8XYLWIik3Af6zvmninmjnf%2B9%2BzTzDK92kuOc%3D" alt="Ruby"><em>Ruby, Software Consultant</em></th>
+          <th>Hi Patrick,Lily would like me to build a prototype to help with the processing of medical records.To get started, could you set up a Pub/Sub Topic called <code>new-lab-report</code>.Ruby</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><img src="https://cdn.qwiklabs.com/Nv72Ggsv1sii%2FIlvLOvmvD5Q0DapYPH1LIJJhECeNsE%3D" alt="Patrick"><em>Patrick, IT Administrator</em></td>
+          <td>Hey Ruby,That sounds like a cool project. I can get that finished for you this morning, both activities are really quick to set up on Google Cloud.Patrick</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="create-a-pubsub-topic"><strong>Create a Pub/Sub topic</strong></h3>
+<p>Help Patrick to create a Pub/Sub topic called <code>new-lab-report</code>.</p>
+<p><img src="https://cdn.qwiklabs.com/%2BsXFeTs902rTTPxNT%2BRV39seRaOvufAewh1VJpc%2B7Oc%3D" alt="Cloud Pub/Sub highlighted in architecture diagram"></p>
+<p>When a service publishes a Pub/Sub message, that message must be tagged with a topic. The Lab Report is consumed via the service to be created and publish a message for each report found.</p>
+<p>First you need to create a topic that can be used for this task.</p>
+<ol>
+<li>Run the following command to create a Pub/Sub topic:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>gcloud pubsub topics create new-lab-report</code></pre>
+</div>
+<p>Any service subscribed to the topic &ldquo;new-lab-report&rdquo; will be able to consume the message published by the Lab Report Service. In the above diagram you can see two such consumers, Email Service and SMS Service.</p>
+<ol start="2">
+<li>Then enable Cloud Run, which will run your code in the cloud:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>gcloud services enable run.googleapis.com</code></pre>
+</div>
+<p>Don&rsquo;t forget to update Ruby to let her know that the Pub/Sub topic is ready for her!</p>
+<table>
+  <thead>
+      <tr>
+          <th><img src="https://cdn.qwiklabs.com/Nv72Ggsv1sii%2FIlvLOvmvD5Q0DapYPH1LIJJhECeNsE%3D" alt="Patrick"><em>Patrick, IT Administrator</em></th>
+          <th>Hey Ruby,All done.If you have time, I would like to see how this prototype is put together. Could we work on this together?Patrick</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><img src="https://cdn.qwiklabs.com/Gwp1lYw8XYLWIik3Af6zvmninmjnf%2B9%2BzTzDK92kuOc%3D" alt="Ruby"><em>Ruby, Software Consultant</em></td>
+          <td>Hi Patrick,That&rsquo;s great, thanks for getting to this so quickly. I&rsquo;ll set up a time and we&rsquo;ll start building.Ruby</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="task-2-build-the-lab-report-service">Task 2. Build the Lab Report Service</h2>
+<p>Help Ruby to set up the new Lab Report Service.</p>
+<p><img src="https://cdn.qwiklabs.com/iK4%2FDyuKKIVfMd6L1I8uZ%2BtwNHVrhsUZDjoSSfD5wZ4%3D" alt="Lab Report Service highlighted in the architecture diagram"></p>
+<p>This service will serve the purpose of prototyping, so it will only do two things:</p>
+<ol>
+<li>Receive the lab report HTTPS POST containing the report data.</li>
+<li>Publish a message on Pub/Sub.</li>
+</ol>
+<h3 id="add-code-for-the-lab-report-service">Add code for the Lab Report Service</h3>
+<ol>
+<li>Back in Cloud Shell, clone the repository needed for this lab:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>git clone https://github.com/rosera/pet-theory.git</code></pre>
+</div>
+<ol start="2">
+<li>Move to the <code>lab-service</code> directory:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>cd pet-theory/lab05/lab-service</code></pre>
+</div>
+<ol start="3">
+<li>Install the following packages that will be needed to receive incoming HTTPS requests and publish to Pub/Sub:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>npm install express
+npm install body-parser
+npm install @google-cloud/pubsub</code></pre>
+</div>
+<p>These commands update the <code>package.json</code> file to indicate the dependencies required for this service.</p>
+<p>You will now edit the <code>package.json</code> file so that Cloud Run knows how to start your code.</p>
+<ol start="4">
+<li>
+<p>Open the <code>package.json</code> file.</p>
+</li>
+<li>
+<p>In the &ldquo;scripts&rdquo; section of the <code>package.json</code> file, add the code line <code>&quot;start&quot;: &quot;node index.js&quot;,</code> at line 7 (as shown below), and then save the file:</p>
+</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>  &#34;scripts&#34;: {
+    &#34;start&#34;: &#34;node index.js&#34;,
+    &#34;test&#34;: &#34;echo \&#34;Error: no test specified\&#34; &amp;&amp; exit 1&#34;
+  },</code></pre>
+</div>
+<p><strong>Note:</strong> Be sure to add the code exactly as provided, including the ending comma:</p>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>&#34;start&#34;: &#34;node index.js&#34;,</code></pre>
+</div>
+<p>Otherwise, you will encounter errors during deployment.</p>
+<ol start="6">
+<li>Create a new file named <code>index.js</code> and add this code to it:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>const {PubSub} = require(&#39;@google-cloud/pubsub&#39;);
+const pubsub = new PubSub();
+const express = require(&#39;express&#39;);
+const app = express();
+const bodyParser = require(&#39;body-parser&#39;);
+app.use(bodyParser.json());
+const port = process.env.PORT || 8080;
+
+app.listen(port, () =&gt; {
+  console.log(&#39;Listening on port&#39;, port);
+});
+
+app.post(&#39;/&#39;, async (req, res) =&gt; {
+  try {
+    const labReport = req.body;
+    await publishPubSubMessage(labReport);
+    res.status(204).send();
+  }
+  catch (ex) {
+    console.log(ex);
+    res.status(500).send(ex);
+  }
+})
+
+async function publishPubSubMessage(labReport) {
+  const buffer = Buffer.from(JSON.stringify(labReport));
+  await pubsub.topic(&#39;new-lab-report&#39;).publish(buffer);
+}</code></pre>
+</div>
+<p>These two lines do the main work of the service:</p>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>const labReport = req.body;</code></pre>
+</div>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>await publishPubSubMessage(labReport);</code></pre>
+</div>
+<p>Specifically, these lines:</p>
+<ul>
+<li>Extract the lab report from the POST request.</li>
+<li>Publish a PubSub message containing the newly posted lab report.</li>
+</ul>
+<ol start="7">
+<li>Now create a file named <code>Dockerfile</code> and add the code below into it:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>FROM node:18
+WORKDIR /usr/src/app
+COPY package.json package*.json ./
+RUN npm install --only=production
+COPY . .
+CMD [ &#34;npm&#34;, &#34;start&#34; ]</code></pre>
+</div>
+<p>This file defines how to package up the Cloud Run service into a container.</p>
+<h3 id="deploy-the-lab-report-service">Deploy the lab-report-service</h3>
+<ol>
+<li>Create a file named <code>deploy.sh</code> and paste these commands into it:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>gcloud builds submit \
+  --tag gcr.io/$GOOGLE_CLOUD_PROJECT/lab-report-service
+gcloud run deploy lab-report-service \
+  --image gcr.io/$GOOGLE_CLOUD_PROJECT/lab-report-service \
+  --platform managed \
+  --region us-east1 \
+  --allow-unauthenticated \
+  --max-instances=1</code></pre>
+</div>
+<ol start="2">
+<li>In Cloud Shell, run the following to make this file executable:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>chmod u+x deploy.sh</code></pre>
+</div>
+<ol start="3">
+<li>It&rsquo;s time to deploy the Lab Report Service! Run the deployment script:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>./deploy.sh</code></pre>
+</div>
+<p>Due to timing issues, you may get an error the first time you run this command. If you do, simply rerun <code>deploy.sh</code>.</p>
+<p>When the deployment has successfully completed, you will see a message similar to this:</p>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>Service [lab-report-service] revision [lab-report-service-00001] has been deployed and is serving traffic at https://lab-report-service-[hash].a.run.app</code></pre>
+</div>
+<p>Nice work, the Lab Report Service has been deployed and will consume medical lab results over HTTP. You can now test if the new service is up and running.</p>
+<h3 id="test-the-lab-report-service">Test the Lab Report Service</h3>
+<p>To validate the Lab Report Service, simulate three HTTPS POSTs made by the lab company, each containing one lab report. For the purpose of testing, the lab reports created will only contain an ID.</p>
+<ol>
+<li>First, put the URL to the report in an environment variable, to make it easier to work with.</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>export LAB_REPORT_SERVICE_URL=$(gcloud run services describe lab-report-service --platform managed --region us-east1 --format=&#34;value(status.address.url)&#34;)</code></pre>
+</div>
+<ol start="2">
+<li>Confirm the LAB_REPORT_SERVICE_URL has been captured:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>echo $LAB_REPORT_SERVICE_URL</code></pre>
+</div>
+<ol start="3">
+<li>Create a new file named <code>post-reports.sh</code> and add the code below into it:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>curl -X POST \
+  -H &#34;Content-Type: application/json&#34; \
+  -d &#34;{\&#34;id\&#34;: 12}&#34; \
+  $LAB_REPORT_SERVICE_URL &amp;
+curl -X POST \
+  -H &#34;Content-Type: application/json&#34; \
+  -d &#34;{\&#34;id\&#34;: 34}&#34; \
+  $LAB_REPORT_SERVICE_URL &amp;
+curl -X POST \
+  -H &#34;Content-Type: application/json&#34; \
+  -d &#34;{\&#34;id\&#34;: 56}&#34; \
+  $LAB_REPORT_SERVICE_URL &amp;</code></pre>
+</div>
+<p>The above script will use the <code>curl</code> command to post three distinct ID&rsquo;s to the Lab Service URL. Each command will be run individually in the background.</p>
+<ol start="4">
+<li>Make the <code>post-reports.sh</code> script executable:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>chmod u+x post-reports.sh</code></pre>
+</div>
+<ol start="5">
+<li>Now test the Lab Report Service endpoint by posting three lab reports to it using the script outlined above:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>./post-reports.sh</code></pre>
+</div>
+<p>This script posted three lab reports to your Lab Report Service. Check the logs to see the results!</p>
+<ol>
+<li>In the Cloud console, click <strong>Navigation menu (<img src="https://cdn.qwiklabs.com/tkgw1TDgj4Q%2BYKQUW4jUFd0O5OEKlUMBRYbhlCrF0WY%3D" alt="Navigation menu icon">) &gt; Cloud Run</strong>.</li>
+<li>You should now see your newly deployed <strong>lab-report-service</strong> in the <strong>Services</strong> list. Click it.</li>
+<li>The next page shows details about your lab-report-service. Click the <strong>Logs</strong> tab.</li>
+</ol>
+<p>On the Logs page are the results of the three test reports that you just posted with the script. Hopefully the returned HTTP codes are 204, meaning OK - not content, shown below. If you don’t see any entries, try scrolling up and down using the scrollbar to the right. This reloads the log.</p>
+<p>The next task is to write the SMS and Email services. These services will be triggered when the Lab Report Service publishes a Pub/Sub message on the &ldquo;new-lab-report&rdquo; topic.</p>
+<h2 id="task-3-the-email-service">Task 3. The Email Service</h2>
+<p>Help Ruby to set up the new Email Service.</p>
+<p><img src="https://cdn.qwiklabs.com/orzDpUvALUCJSunp36E31dAwKyUFOub526r%2FLbjgOco%3D" alt="Email Service highglighted in the architecture diagram"></p>
+<h3 id="add-code-for-the-email-service">Add code for the Email Service</h3>
+<ol>
+<li>Move to the Email Service directory:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>cd ~/pet-theory/lab05/email-service</code></pre>
+</div>
+<ol start="2">
+<li>Install these packages so that the code can handle incoming HTTPS requests:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>npm install express
+npm install body-parser</code></pre>
+</div>
+<p>The above command will update the <code>package.json</code> file, which describes the app and its dependencies. Cloud Run needs to know how to run the code, so add <code>start</code> instruction so that it knows what to do.</p>
+<ol start="3">
+<li>
+<p>Open the <code>package.json</code> file.</p>
+</li>
+<li>
+<p>In the &ldquo;scripts&rdquo; section, add the <code>&quot;start&quot;: &quot;node index.js&quot;,</code> line as shown below and save the file:</p>
+</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>  &#34;scripts&#34;: {
+    &#34;start&#34;: &#34;node index.js&#34;,
+    &#34;test&#34;: &#34;echo \&#34;Error: no test specified\&#34; &amp;&amp; exit 1&#34;
+  },</code></pre>
+</div>
+<p><strong>Note:</strong> Be sure to add the code exactly as provided, including the ending comma:</p>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>&#34;start&#34;: &#34;node index.js&#34;,</code></pre>
+</div>
+<p>Otherwise, you will encounter errors during deployment.</p>
+<ol start="5">
+<li>Create a new file called <code>index.js</code> and add the following to it:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>const express = require(&#39;express&#39;);
+const app = express();
+const bodyParser = require(&#39;body-parser&#39;);
+app.use(bodyParser.json());
+
+const port = process.env.PORT || 8080;
+app.listen(port, () =&gt; {
+  console.log(&#39;Listening on port&#39;, port);
+});
+
+app.post(&#39;/&#39;, async (req, res) =&gt; {
+  const labReport = decodeBase64Json(req.body.message.data);
+  try {
+    console.log(`Email Service: Report ${labReport.id} trying...`);
+    sendEmail();
+    console.log(`Email Service: Report ${labReport.id} success :-)`);
+    res.status(204).send();
+  }
+  catch (ex) {
+    console.log(`Email Service: Report ${labReport.id} failure: ${ex}`);
+    res.status(500).send();
+  }
+})
+
+function decodeBase64Json(data) {
+  return JSON.parse(Buffer.from(data, &#39;base64&#39;).toString());
+}
+
+function sendEmail() {
+  console.log(&#39;Sending email&#39;);
+}</code></pre>
+</div>
+<p>This code will run when Pub/Sub posts a message to the service. This is what it does:</p>
+<ul>
+<li>It decodes the Pub/Sub message and then tries to call the <code>sendEmail()</code> function.</li>
+<li>If that succeeds and no exception is thrown, it will return status code 204 so Pub/Sub knows that the message was processed.</li>
+<li>If there is an exception, the service will return status code 500 so that Pub/Sub knows the message was not processed and it should re-post it to the service later.</li>
+</ul>
+<p>Once the communication between services is working, Ruby will add code to the <code>sendEmail()</code> function to actually send the email.</p>
+<ol start="6">
+<li>Now create a file named <code>Dockerfile</code> and add the code below into it:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>FROM node:18
+WORKDIR /usr/src/app
+COPY package.json package*.json ./
+RUN npm install --only=production
+COPY . .
+CMD [ &#34;npm&#34;, &#34;start&#34; ]</code></pre>
+</div>
+<p>This file defines how to package up the Cloud Run service into a container.</p>
+<h3 id="deploy-the-email-service">Deploy the Email Service</h3>
+<ol>
+<li>Create a new file called <code>deploy.sh</code> and add the following to it:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>gcloud builds submit \
+  --tag gcr.io/$GOOGLE_CLOUD_PROJECT/email-service
+
+gcloud run deploy email-service \
+  --image gcr.io/$GOOGLE_CLOUD_PROJECT/email-service \
+  --platform managed \
+  --region us-east1 \
+  --no-allow-unauthenticated \
+  --max-instances=1</code></pre>
+</div>
+<ol start="2">
+<li>Make <code>deploy.sh</code> executable:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>chmod u+x deploy.sh</code></pre>
+</div>
+<ol start="3">
+<li>Deploy the Email Service:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>./deploy.sh</code></pre>
+</div>
+<p>When the deployment is complete, you will see a message similar to this:</p>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>Service [email-service] revision [email-service-00001] has been deployed and is serving traffic at https://email-service-[hash].a.run.app</code></pre>
+</div>
+<p>The service has been successfully deployed. You now need to ensure the Email Service is triggered when a Pub/Sub message is available.</p>
+<h3 id="configure-pubsub-to-trigger-the-email-service">Configure Pub/Sub to trigger the Email Service</h3>
+<p>Whenever a new Pub/Sub message is published using the &ldquo;new-lab-report&rdquo; topic, it should trigger the Email Service. To achieve this task, configure a service account to automatically handle the associated requests for this service.</p>
+<p><img src="https://cdn.qwiklabs.com/%2B8Zqu9LqE36YJc72Wu6ySfAuY9DiZ8pZE%2BnQPI80%2FFw%3D" alt="Architecture diagram highlights the flow from Cloud Pub/Sub to Email Service"></p>
+<ol>
+<li>Create a new service account that will be used to trigger the services responding to Pub/Sub messages:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>gcloud iam service-accounts create pubsub-cloud-run-invoker --display-name &#34;PubSub Cloud Run Invoker&#34;</code></pre>
+</div>
+<ol start="2">
+<li>Give the new service account permission to invoke the Email Service:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>gcloud run services add-iam-policy-binding email-service --member=serviceAccount:pubsub-cloud-run-invoker@$GOOGLE_CLOUD_PROJECT.iam.gserviceaccount.com --role=roles/run.invoker --region us-east1 --platform managed</code></pre>
+</div>
+<p>Next, tell Pub/Sub to invoke the SMS Service when a &ldquo;new-lab-report&rdquo; message is published.</p>
+<ol start="3">
+<li>Put the project number in an environment variable for easy access:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>PROJECT_NUMBER=$(gcloud projects list --filter=&#34;qwiklabs-gcp&#34; --format=&#39;value(PROJECT_NUMBER)&#39;)</code></pre>
+</div>
+<p>Next, enable the project to create Pub/Sub authentication tokens.</p>
+<ol start="4">
+<li>Run the code below:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>gcloud projects add-iam-policy-binding $GOOGLE_CLOUD_PROJECT --member=serviceAccount:service-$PROJECT_NUMBER@gcp-sa-pubsub.iam.gserviceaccount.com --role=roles/iam.serviceAccountTokenCreator</code></pre>
+</div>
+<ol start="5">
+<li>Put the URL of the Email Service in another environment variable:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>EMAIL_SERVICE_URL=$(gcloud run services describe email-service --platform managed --region us-east1 --format=&#34;value(status.address.url)&#34;)</code></pre>
+</div>
+<ol start="6">
+<li>Confirm the EMAIL_SERVICE_URL has been captured:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>echo $EMAIL_SERVICE_URL</code></pre>
+</div>
+<ol start="7">
+<li>Create a Pub/Sub subscription for the Email Service.</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>gcloud pubsub subscriptions create email-service-sub --topic new-lab-report --push-endpoint=$EMAIL_SERVICE_URL --push-auth-service-account=pubsub-cloud-run-invoker@$GOOGLE_CLOUD_PROJECT.iam.gserviceaccount.com</code></pre>
+</div>
+<p>Nice work! The service is now set up to respond to Cloud Pub/Sub messages. As a next step, validate the code to confirm it meets requirements.</p>
+<h3 id="test-the-lab-report-service-and-the-email-service-together">Test the Lab Report Service and the Email Service together</h3>
+<ol>
+<li>Using the script created earlier, post to the lab reports again:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>~/pet-theory/lab05/lab-service/post-reports.sh</code></pre>
+</div>
+<ol start="2">
+<li>
+<p>Then open the log (<strong>Navigation menu</strong> &gt; <strong>Cloud Run</strong>). You will see the two Cloud Run services, <strong>email-service</strong> and <strong>lab-report-service</strong>, in your account.</p>
+</li>
+<li>
+<p>Click <strong>email-service</strong> and then click <strong>Logs</strong>.
+You will see the result of this service being triggered by Pub/Sub. If you don’t see the messages you expect, you may need to scroll up and down with the scrollbar to get the log to refresh.</p>
+</li>
+</ol>
+<p>Great job! The Email service is now able to write information to the log whenever a message is processed from the Cloud Pub/Sub topic queue! The last task is to write the SMS Service.</p>
+<h2 id="task-4-the-sms-service">Task 4. The SMS Service</h2>
+<p>Help Ruby to set up the new SMS Service.</p>
+<p><img src="https://cdn.qwiklabs.com/Q2zCpYNvV%2FAyDZ6Cz35F4D9Rtdx2OycYXFD8E3O%2FCwI%3D" alt="SMS Service highlighted in the architecture diagram"></p>
+<h3 id="add-code-for-the-sms-service">Add code for the SMS Service</h3>
+<ol>
+<li>Create a directory for the SMS Service:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>cd ~/pet-theory/lab05/sms-service</code></pre>
+</div>
+<ol start="2">
+<li>Install the packages required to receive incoming HTTPS requests:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>npm install express
+npm install body-parser</code></pre>
+</div>
+<ol start="3">
+<li>
+<p>Open the <code>package.json</code> file.</p>
+</li>
+<li>
+<p>In the &ldquo;scripts&rdquo; section, add the <code>&quot;start&quot;: &quot;node index.js&quot;,</code> line as shown below and save the file:</p>
+</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>...
+
+&#34;scripts&#34;: {
+    &#34;start&#34;: &#34;node index.js&#34;,
+    &#34;test&#34;: &#34;echo \&#34;Error: no test specified\&#34; &amp;&amp; exit 1&#34;
+  },
+
+...</code></pre>
+</div>
+<p><strong>Note:</strong> Be sure to add the code exactly as provided, including the ending comma:</p>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>&#34;start&#34;: &#34;node index.js&#34;,</code></pre>
+</div>
+<p>Otherwise, you will encounter errors during deployment.</p>
+<ol start="5">
+<li>Create a new file called <code>index.js</code> and add the following to it:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>const express = require(&#39;express&#39;);
+const app = express();
+const bodyParser = require(&#39;body-parser&#39;);
+app.use(bodyParser.json());
+
+const port = process.env.PORT || 8080;
+app.listen(port, () =&gt; {
+  console.log(&#39;Listening on port&#39;, port);
+});
+
+app.post(&#39;/&#39;, async (req, res) =&gt; {
+  const labReport = decodeBase64Json(req.body.message.data);
+  try {
+    console.log(`SMS Service: Report ${labReport.id} trying...`);
+    sendSms();
+
+    console.log(`SMS Service: Report ${labReport.id} success :-)`);    
+    res.status(204).send();
+  }
+  catch (ex) {
+    console.log(`SMS Service: Report ${labReport.id} failure: ${ex}`);
+    res.status(500).send();
+  }
+})
+
+function decodeBase64Json(data) {
+  return JSON.parse(Buffer.from(data, &#39;base64&#39;).toString());
+}
+
+function sendSms() {
+  console.log(&#39;Sending SMS&#39;);
+}</code></pre>
+</div>
+<ol start="6">
+<li>Now create a file named <code>Dockerfile</code> and add the code below into it:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>FROM node:18
+WORKDIR /usr/src/app
+COPY package.json package*.json ./
+RUN npm install --only=production
+COPY . .
+CMD [ &#34;npm&#34;, &#34;start&#34; ]</code></pre>
+</div>
+<p>This file defines how to package up the Cloud Run service into a container. Now the code has been created, the next step is to deploy the service.</p>
+<h3 id="deploy-the-sms-service">Deploy the SMS Service</h3>
+<ol>
+<li>Create a file named <code>deploy.sh</code> and add this code into it:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>gcloud builds submit \
+  --tag gcr.io/$GOOGLE_CLOUD_PROJECT/sms-service
+
+gcloud run deploy sms-service \
+  --image gcr.io/$GOOGLE_CLOUD_PROJECT/sms-service \
+  --platform managed \
+  --region us-east1 \
+  --no-allow-unauthenticated \
+  --max-instances=1</code></pre>
+</div>
+<ol start="2">
+<li>Make <code>deploy.sh</code> executable:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>chmod u+x deploy.sh</code></pre>
+</div>
+<ol start="3">
+<li>Deploy the SMS Service:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>./deploy.sh</code></pre>
+</div>
+<p>When the deployment is complete, a message similar to this is displayed:</p>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>Service [sms-service] revision [sms-service-00001] has been deployed and is serving traffic at https://sms-service-[hash].a.run.app</code></pre>
+</div>
+<p>The SMS Service is successfully deployed, but it isn&rsquo;t linked to the Cloud Pub/Sub service. Correct that in the next section.</p>
+<h3 id="configure-cloud-pubsub-to-trigger-the-sms-service">Configure Cloud Pub/Sub to trigger the SMS Service</h3>
+<p>As with the Email Service, the link between Cloud Pub/Sub and the SMS service needs to be configured so that messages can be consumed.</p>
+<p><img src="https://cdn.qwiklabs.com/tARzXPlypfXhPCMY9kwYDNyKewY6nZ33xxEa2VOindg%3D" alt="The architecture diagram highlights the flow from Cloud Pub/Sub to SMS Service"></p>
+<ol>
+<li>Set the permissions to allow Pub/Sub to trigger the SMS Service:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>gcloud run services add-iam-policy-binding sms-service --member=serviceAccount:pubsub-cloud-run-invoker@$GOOGLE_CLOUD_PROJECT.iam.gserviceaccount.com --role=roles/run.invoker --region us-east1 --platform managed</code></pre>
+</div>
+<p>Next, tell Pub/Sub to invoke the SMS Service when a “new-lab-report” message is published.</p>
+<ol start="2">
+<li>The first step is to put the URL address of the SMS Service in an environment variable:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>SMS_SERVICE_URL=$(gcloud run services describe sms-service --platform managed --region us-east1 --format=&#34;value(status.address.url)&#34;)</code></pre>
+</div>
+<ol start="3">
+<li>Confirm the SMS_SERVICE_URL has been captured:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>echo $SMS_SERVICE_URL</code></pre>
+</div>
+<ol start="4">
+<li>Then create the Pub/Sub subscription:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>gcloud pubsub subscriptions create sms-service-sub --topic new-lab-report --push-endpoint=$SMS_SERVICE_URL --push-auth-service-account=pubsub-cloud-run-invoker@$GOOGLE_CLOUD_PROJECT.iam.gserviceaccount.com</code></pre>
+</div>
+<ol start="5">
+<li>Run the test script again to post three lab reports to the Lab Report Service:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>~/pet-theory/lab05/lab-service/post-reports.sh</code></pre>
+</div>
+<ol start="6">
+<li>
+<p>Then open the log (<strong>Navigation menu</strong> &gt; <strong>Cloud Run</strong>). You will see the three Cloud Run services, email-service, lab-report-service, and sms-service, in your account.</p>
+</li>
+<li>
+<p>Click <strong>sms-service</strong>, then click <strong>Logs</strong>. You will see the result of this service being triggered by Pub/Sub.</p>
+</li>
+</ol>
+<p>The prototype system has been created and successfully tested. However, Patrick is concerned that resilience, as part of the initial validation process, hasn&rsquo;t been tested.</p>
+<h2 id="task-5-test-the-resiliency-of-the-system">Task 5. Test the resiliency of the system</h2>
+<p>What happens if one of the services goes down? Patrick has run into this before, as it is a common situation.</p>
+<p>Help Ruby investigate how to ensure the system can handle this scenario. She wants to test what happens when a service fails by deploying a bad version of the Email Service.</p>
+<ol>
+<li>Go back to the <code>email-service</code> directory:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>cd ~/pet-theory/lab05/email-service</code></pre>
+</div>
+<p>Add some invalid text to the Email Service application to cause an error.</p>
+<ol start="2">
+<li>Edit <code>index.js</code> and add the <code>throw</code> line to the <code>sendEmail()</code> function, as shown below. This will throw an exception, as if the email server was down:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>...
+
+function sendEmail() {
+  throw &#39;Email server is down&#39;;
+  console.log(&#39;Sending email&#39;);
+}
+...</code></pre>
+</div>
+<p>The addition of this code will crash the service when it is invoked.</p>
+<ol start="3">
+<li>Deploy this bad version of the Email Service:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>./deploy.sh</code></pre>
+</div>
+<ol start="4">
+<li>When the Email Service deployment has successfully completed, post data to the lab reports again, then go and watch the <strong>email-service</strong> log status closely:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>~/pet-theory/lab05/lab-service/post-reports.sh</code></pre>
+</div>
+<ol start="5">
+<li>
+<p>Open the Email Service logs to view the logs for the bad Email Service: <strong>Navigation menu</strong> &gt; <strong>Cloud Run</strong>.</p>
+</li>
+<li>
+<p>When you see the three Cloud Run services in your account, click <strong>email-service</strong>.</p>
+</li>
+</ol>
+<p>The Email Service is being invoked, but it will keep crashing. If you scroll back a bit in the logs you will find the root cause: “Email server is down”. You can also see that the service returns status code 500, and that Pub/Sub keeps retrying calling the service.</p>
+<p>If you look at the logs from the SMS service, you will see that it operates successfully.</p>
+<p>Now fix the error in the Email Service to restore the application!</p>
+<ol start="7">
+<li>Open the <code>index.js</code> file and remove the throw line you previously entered, then save the file.</li>
+</ol>
+<p>Your <code>index.js</code> <code>sendEmail</code> function show now look similar to this:</p>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>function sendEmail() {
+  console.log(&#39;Sending email&#39;);
+}</code></pre>
+</div>
+<ol start="8">
+<li>Deploy the fixed version of the Email Service:</li>
+</ol>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code>./deploy.sh</code></pre>
+</div>
+<ol start="9">
+<li>When the deployment has finished, click the <strong>refresh</strong> icon in the top right corner.</li>
+</ol>
+<p>You will see how the emails for report 12, 34 and 56 were finally sent, the Email Service returned the status code 204, and Pub/Sub stopped invoking the service. No data was lost; Pub/Sub kept retrying until it was finally successful. This is the foundation of a robust system!</p>
+<h3 id="takeaways">Takeaways</h3>
+<ol>
+<li>If services communicate asynchronously with each other via Pub/Sub instead of calling each other directly, the system can be more resilient.</li>
+<li>The Lab Report Service trigger is independent of other services, thanks to the use of Pub/Sub. For example, if customers should also want to receive lab results via another messaging service, it can be added without needing to update the Lab Report Service.</li>
+<li>Cloud Pub/Sub handled the retries, the services didn&rsquo;t have to. Services are only required to return a status code: success or failure.</li>
+<li>If a service goes down, the system is capable of automatically &ldquo;healing&rdquo; itself when the service comes back online, thanks to Pub/Sub retries.</li>
+</ol>
+<h2 id="congratulations">Congratulations!</h2>
+<p>Ruby, with your help, has successfully built a resilient prototype system. The service is capable of automatically sending every client an email and SMS message. In the event of individual services being temporarily down, the system will implement a retry mechanism so that no data is lost. Ruby receives some well deserved accolades&hellip;</p>
+<table>
+  <thead>
+      <tr>
+          <th><img src="https://cdn.qwiklabs.com/SAe6MsJi2voh0ygak%2BAV2SzyXCCtjirn9cKOaQV2nU4%3D" alt="Lily"><em>Lily, Founder of Pet Theory</em></th>
+          <th>Hey Ruby,I can&rsquo;t express our gratitude for all your hard work and leadership.Over a very short period of time our essential systems have been totally revamped.We are having a small gathering on Friday to celebrate and it would be great if you would be our guest of honor!Lily</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><img src="https://cdn.qwiklabs.com/1bqOwZ3NVxZM4l8Ys9ZG%2FNoae3eNGdyVj9bHuBYMF%2Bo%3D" alt="Melody"><em>Melody, Managing Director</em></td>
+          <td>Ruby,I have received high praise for your work from Pet Theory. You are a tremendous credit to the team.Now that you&rsquo;re finished with this assignment, I would like to talk to you about a more senior role on a new project.MelodyManaging DirectorComputer Consulting Inc.</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="next-steps--learn-more">Next steps / Learn more</h3>
+<ul>
+<li>Medium article: <a href="https://medium.com/google-cloud/cloud-run-as-an-internal-async-worker-480a772686e">Cloud Run as an internal async worker</a></li>
+</ul>
+
+        </div>
+
+        
+        
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">hongxing</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+      2025-03-22
+      
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+
+
+        
+        
+
+
+        <footer class="post-footer">
+          <div class="post-tags">
+              <a href="http://localhost:1313/tags/gcp/">GCP</a>
+                <a href="http://localhost:1313/tags/cloud-run/">Cloud Run</a>
+                <a href="http://localhost:1313/tags/cloud-pub/sub/">Cloud Pub/Sub</a>
+                
+            </div>
+
+
+          
+          <nav class="post-nav">
+            
+            
+              <a class="next" href="/post/what-is-an-eln-a-guide-for-biopharmaceutical-developers/">
+                <span class="next-text nav-default">What is an ELN? A guide for biopharmaceutical developers</span>
+                <span class="prev-text nav-mobile">Next</span>
+                
+                <i class="iconfont">
+                  
+<svg aria-hidden="true" class="lucide lucide-chevron-right hi-svg-inline" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m9 18 6-6-6-6"/></svg>
+                </i>
+              </a>
+          </nav>
+        </footer>
+      </article>
+
+      
+      
+
+
+      
+      
+
+
+    </div>
+
+    <aside class="right-sidebar">
+      
+    </aside>
+  </div>
+  </main>
+
+  <footer id="footer" class="site-footer">
+    <div class="social-icon-links">
+  
+
+
+<a href="mailto:itspedia@itspedia.com" rel="me noopener" class="social-icon-link" title="email" >
+  
+<svg aria-hidden="true" class="icon hi-svg-inline" fill="currentColor" height="1em" version="1.1" viewBox="0 0 1451 1024" width="1em" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <path d="M664.781909 681.472759 0 97.881301C0 3.997201 71.046997 0 71.046997 0L474.477909 0 961.649408 0 1361.641813 0C1361.641813 0 1432.688811 3.997201 1432.688811 97.881301L771.345323 681.472759C771.345323 681.472759 764.482731 685.154773 753.594283 688.65053L753.594283 688.664858C741.602731 693.493018 729.424896 695.068979 718.077952 694.839748 706.731093 695.068979 694.553173 693.493018 682.561621 688.664858L682.561621 688.65053C671.644501 685.140446 664.781909 681.472759 664.781909 681.472759L664.781909 681.472759ZM718.063616 811.603883C693.779541 811.016482 658.879232 802.205449 619.10784 767.734955 542.989056 701.759633 0 212.052267 0 212.052267L0 942.809523C0 942.809523 0 1024 83.726336 1024L682.532949 1024 753.579947 1024 1348.948139 1024C1432.688811 1024 1432.688811 942.809523 1432.688811 942.809523L1432.688811 212.052267C1432.688811 212.052267 893.138176 701.759633 817.019477 767.734955 777.248 802.205449 742.347691 811.03081 718.063616 811.603883L718.063616 811.603883Z"></path>
+</svg>
+
+</a>
+<a href="https://github.com/itspedia" rel="me noopener" class="social-icon-link" title="github"  target="_blank" >
+  
+<svg aria-hidden="true" class="icon hi-svg-inline" fill="currentColor" height="1em" version="1.1" viewBox="0 0 1024 1024" width="1em" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <path d="M512 12.672c-282.88 0-512 229.248-512 512 0 226.261333 146.688 418.133333 350.08 485.76 25.6 4.821333 34.986667-11.008 34.986667-24.618667 0-12.16-0.426667-44.373333-0.64-87.04-142.421333 30.890667-172.458667-68.693333-172.458667-68.693333C188.672 770.986667 155.008 755.2 155.008 755.2c-46.378667-31.744 3.584-31.104 3.584-31.104 51.413333 3.584 78.421333 52.736 78.421333 52.736 45.653333 78.293333 119.850667 55.68 149.12 42.581333 4.608-33.109333 17.792-55.68 32.426667-68.48-113.706667-12.8-233.216-56.832-233.216-253.013333 0-55.893333 19.84-101.546667 52.693333-137.386667-5.76-12.928-23.04-64.981333 4.48-135.509333 0 0 42.88-13.738667 140.8 52.48 40.96-11.392 84.48-17.024 128-17.28 43.52 0.256 87.04 5.888 128 17.28 97.28-66.218667 140.16-52.48 140.16-52.48 27.52 70.528 10.24 122.581333 5.12 135.509333 32.64 35.84 52.48 81.493333 52.48 137.386667 0 196.693333-119.68 240-233.6 252.586667 17.92 15.36 34.56 46.762667 34.56 94.72 0 68.522667-0.64 123.562667-0.64 140.202666 0 13.44 8.96 29.44 35.2 24.32C877.44 942.592 1024 750.592 1024 524.672c0-282.752-229.248-512-512-512"></path>
+</svg>
+
+</a>
+
+
+<a href="http://localhost:1313/index.xml" rel="noopener alternate" type="application/rss&#43;xml" class="social-icon-link" title="rss"
+  target="_blank">
+  
+<svg aria-hidden="true" class="lucide lucide-rss hi-svg-inline" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+</a>
+
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    
+    2023 -
+    2025
+    <span class="heart">
+      
+      <i class="iconfont">
+        
+<svg aria-hidden="true" class="lucide lucide-heart hi-svg-inline" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+      </i>
+    </span><span class="author">
+      itspedia.com <a href='https://beian.miit.gov.cn' title='ICP/IP地址/域名信息备案管理系统'>沪ICP备14049619号-3</a>
+      
+    </span></span>
+
+  
+  
+
+  
+</div>
+
+  </footer>
+
+  
+
+
+
+
+<script type="text/javascript" src="/js/main.5d20f1bcf26e183b8e4b61f288df1fae329bd61eac8fa905573d3f06d683c107.js" integrity="sha256-XSDxvPJuGDuOS2HyiN8frjKb1h6sj6kFVz0/BtaDwQc=" crossorigin="anonymous"></script>
+
+
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+
+
+
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
