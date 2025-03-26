@@ -9,8 +9,29 @@
     <managingEditor>itspedia@itspedia.com (itspedia)</managingEditor>
     <webMaster>itspedia@itspedia.com (itspedia)</webMaster>
     <copyright>itspedia.com &lt;a href=&#39;https://beian.miit.gov.cn&#39; title=&#39;ICP/IP地址/域名信息备案管理系统&#39;&gt;沪ICP备14049619号-3&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 13 Mar 2025 21:29:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Mar 2025 21:29:20 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud Pub/Sub</title>
+      <link>http://localhost:1313/tags/cloud-pub/sub/</link>
+      <pubDate>Sat, 22 Mar 2025 21:20:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
+      <guid>http://localhost:1313/tags/cloud-pub/sub/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Run</title>
+      <link>http://localhost:1313/tags/cloud-run/</link>
+      <pubDate>Sat, 22 Mar 2025 21:20:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
+      <guid>http://localhost:1313/tags/cloud-run/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GCP</title>
+      <link>http://localhost:1313/tags/gcp/</link>
+      <pubDate>Sat, 22 Mar 2025 21:20:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
+      <guid>http://localhost:1313/tags/gcp/</guid>
+      <description></description>
+    </item>
     <item>
       <title>ELN</title>
       <link>http://localhost:1313/tags/eln/</link>
@@ -128,27 +149,6 @@
       <link>http://localhost:1313/tags/templates/</link>
       <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate><author>itspedia@itspedia.com (itspedia)</author>
       <guid>http://localhost:1313/tags/templates/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Themes</title>
-      <link>http://localhost:1313/tags/themes/</link>
-      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/tags/themes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Toc</title>
-      <link>http://localhost:1313/tags/toc/</link>
-      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/tags/toc/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Math</title>
-      <link>http://localhost:1313/tags/math/</link>
-      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/tags/math/</guid>
       <description></description>
     </item>
   </channel>
