@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on It&#39;s pedia - A knowledge base for Everyone</title>
-    <link>https://itspedia.com/tags/hugo/</link>
+    <link>https://itspedia.com/categories/hugo/</link>
     <description>Recent content in Hugo on It&#39;s pedia - A knowledge base for Everyone</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -10,20 +10,13 @@
     <webMaster>itspedia@itspedia.com (itspedia)</webMaster>
     <copyright>itspedia.com &lt;a href=&#39;https://beian.miit.gov.cn&#39; title=&#39;ICP/IP地址/域名信息备案管理系统&#39;&gt;沪ICP备14049619号-3&lt;/a&gt;</copyright>
     <lastBuildDate>Thu, 27 Mar 2025 21:29:20 +0000</lastBuildDate>
-    <atom:link href="https://itspedia.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itspedia.com/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Steps to Build and Deploy one Hugo Site</title>
       <link>https://itspedia.com/post/steps-to-build-and-deploy-one-hugo-site/</link>
       <pubDate>Thu, 27 Mar 2025 21:20:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
       <guid>https://itspedia.com/post/steps-to-build-and-deploy-one-hugo-site/</guid>
       <description>&lt;h1 id=&#34;steps-to-build-and-deploy-one-hugo-site&#34;&gt;Steps to Build and Deploy one Hugo Site&lt;/h1&gt;&#xA;&lt;h2 id=&#34;build-one-website-locally-by-using-hugo&#34;&gt;Build one website locally by using Hugo&lt;/h2&gt;&#xA;&lt;p&gt;This can be done by following the guide, &lt;a href=&#34;https://gohugo.io/getting-started/quick-start&#34;&gt;quick-start&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;deploy-the-website-on-github-repository&#34;&gt;Deploy the website on GitHub repository&lt;/h2&gt;&#xA;&lt;p&gt;You can use &lt;a href=&#34;https://docs.github.com/en/pages/quickstart&#34;&gt;GitHub Pages&lt;/a&gt; to &lt;a href=&#34;https://gohugo.io/host-and-deploy/host-on-github-pages&#34;&gt;host your hugo site&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;deploy-the-website-on-ecs&#34;&gt;Deploy the website on ECS&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Have one ECS instance&lt;/li&gt;&#xA;&lt;li&gt;Setup web server, like nginx, on this ECS instance&lt;/li&gt;&#xA;&lt;li&gt;Use &lt;a href=&#34;https://github.com/adnanh/webhook&#34;&gt;webhook&lt;/a&gt; and git to pull the static file from git repository&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Learn to create a Hugo site in minutes</title>
-      <link>https://itspedia.com/post/hugo-getting-started-quick-start/</link>
-      <pubDate>Sat, 15 Feb 2025 18:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>https://itspedia.com/post/hugo-getting-started-quick-start/</guid>
-      <description>&lt;h1 id=&#34;quick-start&#34;&gt;Quick start&lt;/h1&gt;&#xA;&lt;p&gt;Learn to create a Hugo site in minutes.&lt;/p&gt;&#xA;&lt;p&gt;In this tutorial you will:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create a site&lt;/li&gt;&#xA;&lt;li&gt;Add content&lt;/li&gt;&#xA;&lt;li&gt;Configure the site&lt;/li&gt;&#xA;&lt;li&gt;Publish the site&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;&#xA;&lt;p&gt;Before you begin this tutorial you must:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;Install Hugo&lt;/a&gt; (extended or extended/deploy edition, v0.128.0 or later)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2/Getting-Started-Installing-Git&#34;&gt;Install Git&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;You must also be comfortable working from the command line.&lt;/p&gt;&#xA;&lt;h2 id=&#34;create-a-site&#34;&gt;Create a site&lt;/h2&gt;&#xA;&lt;h3 id=&#34;commands&#34;&gt;Commands&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;If you are a Windows user:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Do not use the Command Prompt&lt;/li&gt;&#xA;&lt;li&gt;Do not use Windows PowerShell&lt;/li&gt;&#xA;&lt;li&gt;Run these commands from &lt;a href=&#34;https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows&#34;&gt;PowerShell&lt;/a&gt; or a Linux terminal such as WSL or Git Bash&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;PowerShell and Windows PowerShell &lt;a href=&#34;https://learn.microsoft.com/en-us/powershell/scripting/whats-new/differences-from-windows-powershell?view=powershell-7.3&#34;&gt;are different applications&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -16,14 +16,77 @@
   </url>
   
   <url>
-    <loc>https://itspedia.com/post/gsp650-build-a-resilient-asynchronous-system-with-cloud-run-and-pubsub/</loc>
-    <lastmod>2025-03-22T21:29:20+00:00</lastmod>
+    <loc>https://itspedia.com/categories/</loc>
+    <lastmod>2025-03-27T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/categories/</loc>
+    <loc>https://itspedia.com/tags/git/</loc>
+    <lastmod>2025-03-27T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://itspedia.com/</loc>
+    <lastmod>2025-03-27T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://itspedia.com/tags/hugo/</loc>
+    <lastmod>2025-03-27T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://itspedia.com/categories/hugo/</loc>
+    <lastmod>2025-03-27T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://itspedia.com/categories/index/</loc>
+    <lastmod>2025-03-27T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://itspedia.com/post/</loc>
+    <lastmod>2025-03-27T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://itspedia.com/post/steps-to-build-and-deploy-one-hugo-site/</loc>
+    <lastmod>2025-03-27T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://itspedia.com/tags/</loc>
+    <lastmod>2025-03-27T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://itspedia.com/tags/webhook/</loc>
+    <lastmod>2025-03-27T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://itspedia.com/post/gsp650-build-a-resilient-asynchronous-system-with-cloud-run-and-pubsub/</loc>
     <lastmod>2025-03-22T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -52,34 +115,6 @@
   
   <url>
     <loc>https://itspedia.com/categories/gcp/</loc>
-    <lastmod>2025-03-22T21:29:20+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://itspedia.com/</loc>
-    <lastmod>2025-03-22T21:29:20+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://itspedia.com/categories/index/</loc>
-    <lastmod>2025-03-22T21:29:20+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://itspedia.com/post/</loc>
-    <lastmod>2025-03-22T21:29:20+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://itspedia.com/tags/</loc>
     <lastmod>2025-03-22T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -249,13 +284,6 @@
   <url>
     <loc>https://itspedia.com/tags/%E6%9E%B6%E6%9E%84/</loc>
     <lastmod>2025-02-15T20:01:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://itspedia.com/tags/hugo/</loc>
-    <lastmod>2025-02-15T18:11:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
