@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Site on It&#39;s pedia - A knowledge base for Everyone</title>
-    <link>http://localhost:1313/tags/site/</link>
+    <link>https://itspedia.com/tags/site/</link>
     <description>Recent content in Site on It&#39;s pedia - A knowledge base for Everyone</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -10,12 +10,12 @@
     <webMaster>itspedia@itspedia.com (itspedia)</webMaster>
     <copyright>itspedia.com &lt;a href=&#39;https://beian.miit.gov.cn&#39; title=&#39;ICP/IP地址/域名信息备案管理系统&#39;&gt;沪ICP备14049619号-3&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 15 Feb 2025 18:11:23 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/site/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itspedia.com/tags/site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn to create a Hugo site in minutes</title>
-      <link>http://localhost:1313/post/hugo-getting-started-quick-start/</link>
+      <link>https://itspedia.com/post/hugo-getting-started-quick-start/</link>
       <pubDate>Sat, 15 Feb 2025 18:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/post/hugo-getting-started-quick-start/</guid>
+      <guid>https://itspedia.com/post/hugo-getting-started-quick-start/</guid>
       <description>&lt;h1 id=&#34;quick-start&#34;&gt;Quick start&lt;/h1&gt;&#xA;&lt;p&gt;Learn to create a Hugo site in minutes.&lt;/p&gt;&#xA;&lt;p&gt;In this tutorial you will:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create a site&lt;/li&gt;&#xA;&lt;li&gt;Add content&lt;/li&gt;&#xA;&lt;li&gt;Configure the site&lt;/li&gt;&#xA;&lt;li&gt;Publish the site&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;&#xA;&lt;p&gt;Before you begin this tutorial you must:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;Install Hugo&lt;/a&gt; (extended or extended/deploy edition, v0.128.0 or later)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2/Getting-Started-Installing-Git&#34;&gt;Install Git&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;You must also be comfortable working from the command line.&lt;/p&gt;&#xA;&lt;h2 id=&#34;create-a-site&#34;&gt;Create a site&lt;/h2&gt;&#xA;&lt;h3 id=&#34;commands&#34;&gt;Commands&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;If you are a Windows user:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Do not use the Command Prompt&lt;/li&gt;&#xA;&lt;li&gt;Do not use Windows PowerShell&lt;/li&gt;&#xA;&lt;li&gt;Run these commands from &lt;a href=&#34;https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows&#34;&gt;PowerShell&lt;/a&gt; or a Linux terminal such as WSL or Git Bash&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;PowerShell and Windows PowerShell &lt;a href=&#34;https://learn.microsoft.com/en-us/powershell/scripting/whats-new/differences-from-windows-powershell?view=powershell-7.3&#34;&gt;are different applications&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

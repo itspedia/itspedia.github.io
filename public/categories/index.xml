@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on It&#39;s pedia - A knowledge base for Everyone</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://itspedia.com/categories/</link>
     <description>Recent content in Categories on It&#39;s pedia - A knowledge base for Everyone</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -10,103 +10,103 @@
     <webMaster>itspedia@itspedia.com (itspedia)</webMaster>
     <copyright>itspedia.com &lt;a href=&#39;https://beian.miit.gov.cn&#39; title=&#39;ICP/IP地址/域名信息备案管理系统&#39;&gt;沪ICP备14049619号-3&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 22 Mar 2025 21:29:20 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itspedia.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GCP</title>
-      <link>http://localhost:1313/categories/gcp/</link>
+      <link>https://itspedia.com/categories/gcp/</link>
       <pubDate>Sat, 22 Mar 2025 21:20:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/gcp/</guid>
+      <guid>https://itspedia.com/categories/gcp/</guid>
       <description></description>
     </item>
     <item>
       <title>Index</title>
-      <link>http://localhost:1313/categories/index/</link>
+      <link>https://itspedia.com/categories/index/</link>
       <pubDate>Sat, 22 Mar 2025 21:20:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/index/</guid>
+      <guid>https://itspedia.com/categories/index/</guid>
       <description></description>
     </item>
     <item>
       <title>ELN</title>
-      <link>http://localhost:1313/categories/eln/</link>
+      <link>https://itspedia.com/categories/eln/</link>
       <pubDate>Thu, 13 Mar 2025 21:20:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/eln/</guid>
+      <guid>https://itspedia.com/categories/eln/</guid>
       <description></description>
     </item>
     <item>
       <title>Digest</title>
-      <link>http://localhost:1313/categories/digest/</link>
+      <link>https://itspedia.com/categories/digest/</link>
       <pubDate>Wed, 05 Mar 2025 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/digest/</guid>
+      <guid>https://itspedia.com/categories/digest/</guid>
       <description></description>
     </item>
     <item>
       <title>Writing</title>
-      <link>http://localhost:1313/categories/writing/</link>
+      <link>https://itspedia.com/categories/writing/</link>
       <pubDate>Mon, 03 Mar 2025 21:20:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/writing/</guid>
+      <guid>https://itspedia.com/categories/writing/</guid>
       <description></description>
     </item>
     <item>
       <title>Flutter</title>
-      <link>http://localhost:1313/categories/flutter/</link>
+      <link>https://itspedia.com/categories/flutter/</link>
       <pubDate>Sun, 02 Mar 2025 10:10:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/flutter/</guid>
+      <guid>https://itspedia.com/categories/flutter/</guid>
       <description></description>
     </item>
     <item>
       <title>Mobile Development</title>
-      <link>http://localhost:1313/categories/mobile-development/</link>
+      <link>https://itspedia.com/categories/mobile-development/</link>
       <pubDate>Sun, 02 Mar 2025 10:10:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/mobile-development/</guid>
+      <guid>https://itspedia.com/categories/mobile-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Publisher</title>
-      <link>http://localhost:1313/categories/publisher/</link>
+      <link>https://itspedia.com/categories/publisher/</link>
       <pubDate>Sun, 23 Feb 2025 10:10:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/publisher/</guid>
+      <guid>https://itspedia.com/categories/publisher/</guid>
       <description></description>
     </item>
     <item>
       <title>Development</title>
-      <link>http://localhost:1313/categories/development/</link>
+      <link>https://itspedia.com/categories/development/</link>
       <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/development/</guid>
+      <guid>https://itspedia.com/categories/development/</guid>
       <description></description>
     </item>
     <item>
       <title>Golang</title>
-      <link>http://localhost:1313/categories/golang/</link>
+      <link>https://itspedia.com/categories/golang/</link>
       <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/golang/</guid>
+      <guid>https://itspedia.com/categories/golang/</guid>
       <description></description>
     </item>
     <item>
       <title>Math</title>
-      <link>http://localhost:1313/categories/math/</link>
+      <link>https://itspedia.com/categories/math/</link>
       <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/math/</guid>
+      <guid>https://itspedia.com/categories/math/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorials</title>
-      <link>http://localhost:1313/categories/tutorials/</link>
+      <link>https://itspedia.com/categories/tutorials/</link>
       <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/tutorials/</guid>
+      <guid>https://itspedia.com/categories/tutorials/</guid>
       <description></description>
     </item>
     <item>
       <title>Shortcodes</title>
-      <link>http://localhost:1313/categories/shortcodes/</link>
+      <link>https://itspedia.com/categories/shortcodes/</link>
       <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/shortcodes/</guid>
+      <guid>https://itspedia.com/categories/shortcodes/</guid>
       <description></description>
     </item>
     <item>
       <title>Syntax Highlighting</title>
-      <link>http://localhost:1313/categories/syntax-highlighting/</link>
+      <link>https://itspedia.com/categories/syntax-highlighting/</link>
       <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/categories/syntax-highlighting/</guid>
+      <guid>https://itspedia.com/categories/syntax-highlighting/</guid>
       <description></description>
     </item>
   </channel>

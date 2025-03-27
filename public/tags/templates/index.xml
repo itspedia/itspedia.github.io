@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Templates on It&#39;s pedia - A knowledge base for Everyone</title>
-    <link>http://localhost:1313/tags/templates/</link>
+    <link>https://itspedia.com/tags/templates/</link>
     <description>Recent content in Templates on It&#39;s pedia - A knowledge base for Everyone</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -10,12 +10,12 @@
     <webMaster>itspedia@itspedia.com (itspedia)</webMaster>
     <copyright>itspedia.com &lt;a href=&#39;https://beian.miit.gov.cn&#39; title=&#39;ICP/IP地址/域名信息备案管理系统&#39;&gt;沪ICP备14049619号-3&lt;/a&gt;</copyright>
     <lastBuildDate>Tue, 22 Feb 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/templates/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itspedia.com/tags/templates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>tutorials: toc</title>
-      <link>http://localhost:1313/knowledge/2-toc/</link>
+      <link>https://itspedia.com/knowledge/2-toc/</link>
       <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/knowledge/2-toc/</guid>
+      <guid>https://itspedia.com/knowledge/2-toc/</guid>
       <description>&lt;h2 id=&#34;header&#34;&gt;Header&lt;/h2&gt;&#xA;&lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;&#xA;&lt;h2 id=&#34;header-1&#34;&gt;Header&lt;/h2&gt;&#xA;&lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;</description>
     </item>
   </channel>

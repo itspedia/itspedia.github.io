@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>数据 on It&#39;s pedia - A knowledge base for Everyone</title>
-    <link>http://localhost:1313/tags/%E6%95%B0%E6%8D%AE/</link>
+    <link>https://itspedia.com/tags/%E6%95%B0%E6%8D%AE/</link>
     <description>Recent content in 数据 on It&#39;s pedia - A knowledge base for Everyone</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -10,19 +10,19 @@
     <webMaster>itspedia@itspedia.com (itspedia)</webMaster>
     <copyright>itspedia.com &lt;a href=&#39;https://beian.miit.gov.cn&#39; title=&#39;ICP/IP地址/域名信息备案管理系统&#39;&gt;沪ICP备14049619号-3&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 15 Feb 2025 20:01:23 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%95%B0%E6%8D%AE/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itspedia.com/tags/%E6%95%B0%E6%8D%AE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>数据仓库之架构篇</title>
-      <link>http://localhost:1313/post/data-warehouse-architecture/</link>
+      <link>https://itspedia.com/post/data-warehouse-architecture/</link>
       <pubDate>Sat, 15 Feb 2025 20:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/post/data-warehouse-architecture/</guid>
-      <description>&lt;h1 id=&#34;数据仓库之架构篇&#34;&gt;数据仓库之架构篇&lt;/h1&gt;&#xA;&lt;h3 id=&#34;数据仓库架构主要有三种类型如下表所示&#34;&gt;数据仓库架构主要有三种类型，如下表所示，&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/dw-architecture-list.webp&#34; alt=&#34;三种数据仓库架构&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;各数据仓库架构的主要特点&#34;&gt;各数据仓库架构的主要特点&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/dw-architecture-characteristics.webp&#34; alt=&#34;架构特点&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;wh-inmon架构&#34;&gt;W.H. Inmon架构&lt;/h3&gt;&#xA;&lt;h4 id=&#34;wh-inmons-architecture-corporate-information-factory&#34;&gt;W.H. Inmon’s architecture: Corporate Information Factory&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/dw-architecture-inmon.webp&#34; alt=&#34;Corporate Information Factory&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;ralph-kimball架构&#34;&gt;Ralph Kimball架构&lt;/h3&gt;&#xA;&lt;h4 id=&#34;ralph-kimballs-architecture-dimensional-data-warehouse&#34;&gt;Ralph Kimball’s architecture: Dimensional Data Warehouse&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/dw-architecture-kimball.webp&#34; alt=&#34;Dimensional Data Warehouse&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;独立数据集市架构&#34;&gt;独立数据集市架构&lt;/h3&gt;&#xA;&lt;h4 id=&#34;stand-alone-data-marts&#34;&gt;Stand-Alone Data Marts&lt;/h4&gt;&#xA;&lt;p&gt;A stand-alone Data Mart&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/dw-architecture-a-standalone-data-mart.webp&#34; alt=&#34;A stand-alone data mart&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Multiple Stand-alone Data Marts&lt;/p&gt;</description>
+      <guid>https://itspedia.com/post/data-warehouse-architecture/</guid>
+      <description>&lt;h1 id=&#34;数据仓库之架构篇&#34;&gt;数据仓库之架构篇&lt;/h1&gt;&#xA;&lt;h3 id=&#34;数据仓库架构主要有三种类型如下表所示&#34;&gt;数据仓库架构主要有三种类型，如下表所示，&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://itspedia.com/images/dw-architecture-list.webp&#34; alt=&#34;三种数据仓库架构&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;各数据仓库架构的主要特点&#34;&gt;各数据仓库架构的主要特点&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://itspedia.com/images/dw-architecture-characteristics.webp&#34; alt=&#34;架构特点&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;wh-inmon架构&#34;&gt;W.H. Inmon架构&lt;/h3&gt;&#xA;&lt;h4 id=&#34;wh-inmons-architecture-corporate-information-factory&#34;&gt;W.H. Inmon’s architecture: Corporate Information Factory&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://itspedia.com/images/dw-architecture-inmon.webp&#34; alt=&#34;Corporate Information Factory&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;ralph-kimball架构&#34;&gt;Ralph Kimball架构&lt;/h3&gt;&#xA;&lt;h4 id=&#34;ralph-kimballs-architecture-dimensional-data-warehouse&#34;&gt;Ralph Kimball’s architecture: Dimensional Data Warehouse&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://itspedia.com/images/dw-architecture-kimball.webp&#34; alt=&#34;Dimensional Data Warehouse&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;独立数据集市架构&#34;&gt;独立数据集市架构&lt;/h3&gt;&#xA;&lt;h4 id=&#34;stand-alone-data-marts&#34;&gt;Stand-Alone Data Marts&lt;/h4&gt;&#xA;&lt;p&gt;A stand-alone Data Mart&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://itspedia.com/images/dw-architecture-a-standalone-data-mart.webp&#34; alt=&#34;A stand-alone data mart&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Multiple Stand-alone Data Marts&lt;/p&gt;</description>
     </item>
     <item>
       <title>数据仓库之人物篇</title>
-      <link>http://localhost:1313/post/data-warehouse-hall-of-fame/</link>
+      <link>https://itspedia.com/post/data-warehouse-hall-of-fame/</link>
       <pubDate>Sat, 15 Feb 2025 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/post/data-warehouse-hall-of-fame/</guid>
+      <guid>https://itspedia.com/post/data-warehouse-hall-of-fame/</guid>
       <description>&lt;h1 id=&#34;数据仓库之人物篇&#34;&gt;数据仓库之人物篇&lt;/h1&gt;&#xA;&lt;p&gt;数据仓库领域，在业界有几位公认大牛，&lt;/p&gt;&#xA;&lt;h2 id=&#34;第一位-william-h-bill-inmon&#34;&gt;第一位 William H. (Bill) Inmon，&lt;/h2&gt;&#xA;&lt;p&gt;数据仓库之父，开山鼻祖，著书立说，培训演讲，出版了许多书，详见&lt;a href=&#34;https://en.wikipedia.org/wiki/Bill_Inmon#Publications&#34;&gt;wiki&lt;/a&gt; 我在这里推荐Building the Data Warehouse这本书，第&lt;strong&gt;四&lt;/strong&gt;版出版于2005。他推崇使用Corporate Information Factory（CIF）的数据建模方法（使用范式模型构建企业数据仓库+各维度模型构建的业务主题数据集市），最近在新的数据仓库架构和实施方面和后起之秀Dan Linstedt合作推动新的搭建数据仓库的方法论 Data Vault&lt;/p&gt;</description>
     </item>
   </channel>
