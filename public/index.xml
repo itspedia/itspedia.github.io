@@ -56,7 +56,11 @@
 &lt;li&gt;Have one ECS instance&lt;/li&gt;
 &lt;li&gt;Setup web server, like nginx, on this ECS instance&lt;/li&gt;
 &lt;li&gt;Use &lt;a href=&#34;https://github.com/adnanh/webhook&#34;&gt;webhook&lt;/a&gt; and git to pull the static file from git repository
-the flag -secure is used to enable https access.&lt;/li&gt;
+&lt;ol&gt;
+&lt;li&gt;Flag -secure is used to enable https access.&lt;/li&gt;
+&lt;li&gt;Flags, -cert and -key, are to be used with the flag -secure&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       
