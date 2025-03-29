@@ -18,7 +18,6 @@ contentCopyright: '<a rel="license noopener" href="https://creativecommons.org/l
 reward: false
 mathjax: true
 ---
-# Steps to Build and Deploy one Hugo Site
 
 ## Build one website locally by using Hugo
 This can be done by following the guide, [quick-start](https://gohugo.io/getting-started/quick-start).
