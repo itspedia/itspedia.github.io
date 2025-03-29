@@ -33,3 +33,7 @@ mathjax: true
 - Components : A combination of one or more elements that function as a whole, such as a form.
 - Component groups: A group of components that form a larger component.
 
+## Style Guides, Component Libraries, and Design Systems
+- Style guide: Static documentation that defines how the brand is stylistically applied to interface elements. It contains high-level details about color, typography, iconography, and more.
+- Component library: A set of styles and components that can be used and shared among a team. A component library consists of common core elements that are used throughout an application. If supported by a design tool, they can automatically sync across design files when a change is made. Component libraries may or may not include living code.
+- Design system: A series of documented elements, components, and regions that include both design and front-end guidelines. The documentation contains live code examples, allowing cross-functional teams to easily reuse styles and components in several instances across an application. A design system also includes underlying design principles, rules, and guidelines that help a team build one or multiple products.
