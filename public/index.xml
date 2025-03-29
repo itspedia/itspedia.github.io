@@ -56,6 +56,12 @@
 &lt;li&gt;Content: Information regarding the voice and tone, as well as punctuation guidelines. Content can also include terminology if your product has a specific vocabulary.&lt;/li&gt;
 &lt;li&gt;Usability: Rules that define accessibility and internationalization.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h2 id=&#34;terms-used-for-referencing-different-aspects-within-design-systems&#34;&gt;Terms used for referencing different aspects within design systems:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Elements: The lowest-level object. Elements cannot be broken down further. This can include labels and icons.&lt;/li&gt;
+&lt;li&gt;Components : A combination of one or more elements that function as a whole, such as a form.&lt;/li&gt;
+&lt;li&gt;Component groups: A group of components that form a larger component.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       
     </item>

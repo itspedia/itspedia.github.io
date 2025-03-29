@@ -28,4 +28,8 @@ mathjax: true
 6. Usability: Rules that define accessibility and internationalization.
 
 
+## Terms used for referencing different aspects within design systems:
+- Elements: The lowest-level object. Elements cannot be broken down further. This can include labels and icons.
+- Components : A combination of one or more elements that function as a whole, such as a form.
+- Component groups: A group of components that form a larger component.
 
