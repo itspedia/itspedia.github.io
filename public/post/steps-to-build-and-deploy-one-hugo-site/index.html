@@ -39,7 +39,7 @@
 <meta name="author" content="hongxing" />
 <meta name="description" content="Build one website locally by using Hugo This can be done by following the guide, quick-start.
 Deploy the website on GitHub repository You can use GitHub Pages to host your hugo site.
-Deploy the website on ECS Have one ECS instance Setup web server, like nginx, on this ECS instance Use webhook and git to pull the static file from git repository Flag -secure is used to enable https access. Flags, -cert and -key, are to be used with the flag -secure " />
+Deploy the website on ECS Have one ECS instance Setup web server, like nginx, on this ECS instance Use webhook and git to pull the static file from git repository Notes to use webhook: -secure is used to enable https access. -cert and -key, are to be used with the flag -secure Hook Definition trigger-rule - specifies the rule that will be evaluated in order to determine should the hook be triggered. Check Hook rules page to see the list of valid rules and their usage " />
 
 
 
@@ -60,7 +60,7 @@ Deploy the website on ECS Have one ECS instance Setup web server, like nginx, on
   <meta property="og:title" content="Steps to Build and Deploy one Hugo Site">
   <meta property="og:description" content="Build one website locally by using Hugo This can be done by following the guide, quick-start.
 Deploy the website on GitHub repository You can use GitHub Pages to host your hugo site.
-Deploy the website on ECS Have one ECS instance Setup web server, like nginx, on this ECS instance Use webhook and git to pull the static file from git repository Flag -secure is used to enable https access. Flags, -cert and -key, are to be used with the flag -secure">
+Deploy the website on ECS Have one ECS instance Setup web server, like nginx, on this ECS instance Use webhook and git to pull the static file from git repository Notes to use webhook: -secure is used to enable https access. -cert and -key, are to be used with the flag -secure Hook Definition trigger-rule - specifies the rule that will be evaluated in order to determine should the hook be triggered. Check Hook rules page to see the list of valid rules and their usage">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="post">
@@ -73,16 +73,16 @@ Deploy the website on ECS Have one ECS instance Setup web server, like nginx, on
   <meta itemprop="name" content="Steps to Build and Deploy one Hugo Site">
   <meta itemprop="description" content="Build one website locally by using Hugo This can be done by following the guide, quick-start.
 Deploy the website on GitHub repository You can use GitHub Pages to host your hugo site.
-Deploy the website on ECS Have one ECS instance Setup web server, like nginx, on this ECS instance Use webhook and git to pull the static file from git repository Flag -secure is used to enable https access. Flags, -cert and -key, are to be used with the flag -secure">
+Deploy the website on ECS Have one ECS instance Setup web server, like nginx, on this ECS instance Use webhook and git to pull the static file from git repository Notes to use webhook: -secure is used to enable https access. -cert and -key, are to be used with the flag -secure Hook Definition trigger-rule - specifies the rule that will be evaluated in order to determine should the hook be triggered. Check Hook rules page to see the list of valid rules and their usage">
   <meta itemprop="datePublished" content="2025-03-27T21:20:23+08:00">
   <meta itemprop="dateModified" content="2025-03-27T21:29:20+00:00">
-  <meta itemprop="wordCount" content="82">
+  <meta itemprop="wordCount" content="118">
   <meta itemprop="keywords" content="Hugo,Webhook,Git">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Steps to Build and Deploy one Hugo Site">
   <meta name="twitter:description" content="Build one website locally by using Hugo This can be done by following the guide, quick-start.
 Deploy the website on GitHub repository You can use GitHub Pages to host your hugo site.
-Deploy the website on ECS Have one ECS instance Setup web server, like nginx, on this ECS instance Use webhook and git to pull the static file from git repository Flag -secure is used to enable https access. Flags, -cert and -key, are to be used with the flag -secure">
+Deploy the website on ECS Have one ECS instance Setup web server, like nginx, on this ECS instance Use webhook and git to pull the static file from git repository Notes to use webhook: -secure is used to enable https access. -cert and -key, are to be used with the flag -secure Hook Definition trigger-rule - specifies the rule that will be evaluated in order to determine should the hook be triggered. Check Hook rules page to see the list of valid rules and their usage">
 
 <link rel="icon" href="/favicon.ico" />
 
@@ -529,9 +529,12 @@ Deploy the website on ECS Have one ECS instance Setup web server, like nginx, on
 <li>Have one ECS instance</li>
 <li>Setup web server, like nginx, on this ECS instance</li>
 <li>Use <a href="https://github.com/adnanh/webhook">webhook</a> and git to pull the static file from git repository
+Notes to use webhook:
 <ol>
-<li>Flag -secure is used to enable https access.</li>
-<li>Flags, -cert and -key, are to be used with the flag -secure</li>
+<li>-secure is used to enable https access.</li>
+<li>-cert and -key, are to be used with the flag -secure</li>
+<li>Hook Definition
+trigger-rule - specifies the rule that will be evaluated in order to determine should the hook be triggered. Check Hook rules page to see the list of valid rules and their usage</li>
 </ol>
 </li>
 </ul>
@@ -577,6 +580,15 @@ Deploy the website on ECS Have one ECS instance Setup web server, like nginx, on
           
           <nav class="post-nav">
             
+              <a class="prev" href="/post/introduction-to-design-systems/">
+                
+                <i class="iconfont">
+                  
+<svg aria-hidden="true" class="lucide lucide-chevron-left hi-svg-inline" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m15 18-6-6 6-6"/></svg>
+                </i>
+                <span class="prev-text nav-default">Introduction to Design Sytems</span>
+                <span class="prev-text nav-mobile">Prev</span>
+              </a>
             
               <a class="next" href="/post/gsp650-build-a-resilient-asynchronous-system-with-cloud-run-and-pubsub/">
                 <span class="next-text nav-default">Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub</span>

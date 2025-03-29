@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UI on It&#39;s pedia - A knowledge base for Everyone</title>
+    <link>https://itspedia.com/tags/ui/</link>
+    <description>Recent content in UI on It&#39;s pedia - A knowledge base for Everyone</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>itspedia@itspedia.com (itspedia)</managingEditor>
+    <webMaster>itspedia@itspedia.com (itspedia)</webMaster>
+    <copyright>itspedia.com &lt;a href=&#39;https://beian.miit.gov.cn&#39; title=&#39;ICP/IP地址/域名信息备案管理系统&#39;&gt;沪ICP备14049619号-3&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 28 Mar 2025 21:29:20 +0000</lastBuildDate>
+    <atom:link href="https://itspedia.com/tags/ui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Design Sytems</title>
+      <link>https://itspedia.com/post/introduction-to-design-systems/</link>
+      <pubDate>Fri, 28 Mar 2025 21:20:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
+      <guid>https://itspedia.com/post/introduction-to-design-systems/</guid>
+      <description>&lt;h1 id=&#34;six-interlocking-areas-that-make-up-a-design-system&#34;&gt;Six interlocking areas that make up a design system&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Layout: Defined measures that make up your spacing and grid system.&lt;/li&gt;&#xA;&lt;li&gt;Styles: Core aspects of your visual language. These include colors, iconography, and typography.&lt;/li&gt;&#xA;&lt;li&gt;Components: Core elements of an interface. These include buttons and form fields.&lt;/li&gt;&#xA;&lt;li&gt;Regions: Overarching design paradigms, such as navigation or search.&lt;/li&gt;&#xA;&lt;li&gt;Content: Information regarding the voice and tone, as well as punctuation guidelines. Content can also include terminology if your product has a specific vocabulary.&lt;/li&gt;&#xA;&lt;li&gt;Usability: Rules that define accessibility and internationalization.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

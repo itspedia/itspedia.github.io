@@ -9,14 +9,21 @@
     <managingEditor>itspedia@itspedia.com (itspedia)</managingEditor>
     <webMaster>itspedia@itspedia.com (itspedia)</webMaster>
     <copyright>itspedia.com &lt;a href=&#39;https://beian.miit.gov.cn&#39; title=&#39;ICP/IP地址/域名信息备案管理系统&#39;&gt;沪ICP备14049619号-3&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 27 Mar 2025 21:29:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Mar 2025 21:29:20 +0000</lastBuildDate>
     <atom:link href="https://itspedia.com/categories/index/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Design Sytems</title>
+      <link>https://itspedia.com/post/introduction-to-design-systems/</link>
+      <pubDate>Fri, 28 Mar 2025 21:20:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
+      <guid>https://itspedia.com/post/introduction-to-design-systems/</guid>
+      <description>&lt;h1 id=&#34;six-interlocking-areas-that-make-up-a-design-system&#34;&gt;Six interlocking areas that make up a design system&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Layout: Defined measures that make up your spacing and grid system.&lt;/li&gt;&#xA;&lt;li&gt;Styles: Core aspects of your visual language. These include colors, iconography, and typography.&lt;/li&gt;&#xA;&lt;li&gt;Components: Core elements of an interface. These include buttons and form fields.&lt;/li&gt;&#xA;&lt;li&gt;Regions: Overarching design paradigms, such as navigation or search.&lt;/li&gt;&#xA;&lt;li&gt;Content: Information regarding the voice and tone, as well as punctuation guidelines. Content can also include terminology if your product has a specific vocabulary.&lt;/li&gt;&#xA;&lt;li&gt;Usability: Rules that define accessibility and internationalization.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
     <item>
       <title>Steps to Build and Deploy one Hugo Site</title>
       <link>https://itspedia.com/post/steps-to-build-and-deploy-one-hugo-site/</link>
       <pubDate>Thu, 27 Mar 2025 21:20:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
       <guid>https://itspedia.com/post/steps-to-build-and-deploy-one-hugo-site/</guid>
-      <description>&lt;h2 id=&#34;build-one-website-locally-by-using-hugo&#34;&gt;Build one website locally by using Hugo&lt;/h2&gt;&#xA;&lt;p&gt;This can be done by following the guide, &lt;a href=&#34;https://gohugo.io/getting-started/quick-start&#34;&gt;quick-start&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;deploy-the-website-on-github-repository&#34;&gt;Deploy the website on GitHub repository&lt;/h2&gt;&#xA;&lt;p&gt;You can use &lt;a href=&#34;https://docs.github.com/en/pages/quickstart&#34;&gt;GitHub Pages&lt;/a&gt; to &lt;a href=&#34;https://gohugo.io/host-and-deploy/host-on-github-pages&#34;&gt;host your hugo site&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;deploy-the-website-on-ecs&#34;&gt;Deploy the website on ECS&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Have one ECS instance&lt;/li&gt;&#xA;&lt;li&gt;Setup web server, like nginx, on this ECS instance&lt;/li&gt;&#xA;&lt;li&gt;Use &lt;a href=&#34;https://github.com/adnanh/webhook&#34;&gt;webhook&lt;/a&gt; and git to pull the static file from git repository&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Flag -secure is used to enable https access.&lt;/li&gt;&#xA;&lt;li&gt;Flags, -cert and -key, are to be used with the flag -secure&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h2 id=&#34;build-one-website-locally-by-using-hugo&#34;&gt;Build one website locally by using Hugo&lt;/h2&gt;&#xA;&lt;p&gt;This can be done by following the guide, &lt;a href=&#34;https://gohugo.io/getting-started/quick-start&#34;&gt;quick-start&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;deploy-the-website-on-github-repository&#34;&gt;Deploy the website on GitHub repository&lt;/h2&gt;&#xA;&lt;p&gt;You can use &lt;a href=&#34;https://docs.github.com/en/pages/quickstart&#34;&gt;GitHub Pages&lt;/a&gt; to &lt;a href=&#34;https://gohugo.io/host-and-deploy/host-on-github-pages&#34;&gt;host your hugo site&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;deploy-the-website-on-ecs&#34;&gt;Deploy the website on ECS&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Have one ECS instance&lt;/li&gt;&#xA;&lt;li&gt;Setup web server, like nginx, on this ECS instance&lt;/li&gt;&#xA;&lt;li&gt;Use &lt;a href=&#34;https://github.com/adnanh/webhook&#34;&gt;webhook&lt;/a&gt; and git to pull the static file from git repository&#xA;Notes to use webhook:&#xA;&lt;ol&gt;&#xA;&lt;li&gt;-secure is used to enable https access.&lt;/li&gt;&#xA;&lt;li&gt;-cert and -key, are to be used with the flag -secure&lt;/li&gt;&#xA;&lt;li&gt;Hook Definition&#xA;trigger-rule - specifies the rule that will be evaluated in order to determine should the hook be triggered. Check Hook rules page to see the list of valid rules and their usage&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub</title>
@@ -143,13 +150,6 @@
       <pubDate>Thu, 01 Mar 2018 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
       <guid>https://itspedia.com/knowledge/4-footnote/</guid>
       <description>&lt;p&gt;Hugo-theme-jane optimized for footnote. When you mouse hover the footnote&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; , footnote content will be displayed.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Tutorials: Syntax Highlighting</title>
-      <link>https://itspedia.com/knowledge/3-syntax-highlighting/</link>
-      <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>https://itspedia.com/knowledge/3-syntax-highlighting/</guid>
-      <description>&lt;p&gt;More detail: &lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting/&#34;&gt;Syntax Highlighting | Hugo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight-container&#34;&gt;&#xA;&#xA;  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;&#xA;&#xA;  &#xA;  &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;helloWorld&lt;/span&gt; () {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;alert&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>

@@ -9,7 +9,7 @@
     <managingEditor>itspedia@itspedia.com (itspedia)</managingEditor>
     <webMaster>itspedia@itspedia.com (itspedia)</webMaster>
     <copyright>itspedia.com &lt;a href=&#39;https://beian.miit.gov.cn&#39; title=&#39;ICP/IP地址/域名信息备案管理系统&#39;&gt;沪ICP备14049619号-3&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 27 Mar 2025 21:20:23 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Mar 2025 21:20:23 +0800</lastBuildDate>
     
         <atom:link href="https://itspedia.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -41,6 +41,26 @@
     </item>
     
     <item>
+      <title>Introduction to Design Sytems</title>
+      <link>https://itspedia.com/post/introduction-to-design-systems/</link>
+      <pubDate>Fri, 28 Mar 2025 21:20:23 +0800</pubDate>
+      <author>itspedia@itspedia.com (itspedia)</author>
+      <guid>https://itspedia.com/post/introduction-to-design-systems/</guid>
+      
+        <description>&lt;h1 id=&#34;six-interlocking-areas-that-make-up-a-design-system&#34;&gt;Six interlocking areas that make up a design system&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Layout: Defined measures that make up your spacing and grid system.&lt;/li&gt;
+&lt;li&gt;Styles: Core aspects of your visual language. These include colors, iconography, and typography.&lt;/li&gt;
+&lt;li&gt;Components: Core elements of an interface. These include buttons and form fields.&lt;/li&gt;
+&lt;li&gt;Regions: Overarching design paradigms, such as navigation or search.&lt;/li&gt;
+&lt;li&gt;Content: Information regarding the voice and tone, as well as punctuation guidelines. Content can also include terminology if your product has a specific vocabulary.&lt;/li&gt;
+&lt;li&gt;Usability: Rules that define accessibility and internationalization.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>Steps to Build and Deploy one Hugo Site</title>
       <link>https://itspedia.com/post/steps-to-build-and-deploy-one-hugo-site/</link>
       <pubDate>Thu, 27 Mar 2025 21:20:23 +0800</pubDate>
@@ -56,9 +76,12 @@
 &lt;li&gt;Have one ECS instance&lt;/li&gt;
 &lt;li&gt;Setup web server, like nginx, on this ECS instance&lt;/li&gt;
 &lt;li&gt;Use &lt;a href=&#34;https://github.com/adnanh/webhook&#34;&gt;webhook&lt;/a&gt; and git to pull the static file from git repository
+Notes to use webhook:
 &lt;ol&gt;
-&lt;li&gt;Flag -secure is used to enable https access.&lt;/li&gt;
-&lt;li&gt;Flags, -cert and -key, are to be used with the flag -secure&lt;/li&gt;
+&lt;li&gt;-secure is used to enable https access.&lt;/li&gt;
+&lt;li&gt;-cert and -key, are to be used with the flag -secure&lt;/li&gt;
+&lt;li&gt;Hook Definition
+trigger-rule - specifies the rule that will be evaluated in order to determine should the hook be triggered. Check Hook rules page to see the list of valid rules and their usage&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -3689,74 +3712,6 @@ Yes !.
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>tutorials: Shortcodes Notice</title>
-      <link>https://itspedia.com/knowledge/6-shortcode-notice/</link>
-      <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
-      <author>itspedia@itspedia.com (itspedia)</author>
-      <guid>https://itspedia.com/knowledge/6-shortcode-notice/</guid>
-      
-        <description>&lt;h2 id=&#34;normal-use&#34;&gt;normal use&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;Note&lt;/code&gt; example:&lt;/p&gt;
-&lt;div class=&#34;highlight-container&#34;&gt;
-
-  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
-
-  
-  &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{% notice note %}}
-A notice disclaimer
-{{% /notice %}}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;You could &lt;strong&gt;custom title&lt;/strong&gt; :&lt;/p&gt;
-&lt;div class=&#34;highlight-container&#34;&gt;
-
-  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
-
-  
-  &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{% notice note 笔记 %}}
-A notice disclaimer
-{{% /notice %}}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;tip&#34;&gt;tip&lt;/h2&gt;
-&lt;div class=&#34;highlight-container&#34;&gt;
-
-  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
-
-  
-  &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{% notice tip %}}
-A tip disclaimer
-{{% /tip %}}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;info&#34;&gt;info&lt;/h2&gt;
-&lt;div class=&#34;highlight-container&#34;&gt;
-
-  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
-
-  
-  &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{% notice info %}}
-A info disclaimer
-{{% /notice %}}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;warning&#34;&gt;warning&lt;/h2&gt;
-&lt;div class=&#34;highlight-container&#34;&gt;
-
-  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
-
-  
-  &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{% notice warning %}}
-A warning disclaimer
-{{% /notice %}}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;!-- raw HTML omitted --&gt;
-</description>
       
     </item>
     

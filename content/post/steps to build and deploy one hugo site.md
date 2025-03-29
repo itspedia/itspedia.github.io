@@ -30,5 +30,8 @@ You can use [GitHub Pages](https://docs.github.com/en/pages/quickstart) to [host
 - Have one ECS instance
 - Setup web server, like nginx, on this ECS instance
 - Use [webhook](https://github.com/adnanh/webhook) and git to pull the static file from git repository
-  1. Flag -secure is used to enable https access.
-  2. Flags, -cert and -key, are to be used with the flag -secure
+  Notes to use webhook:
+  1. -secure is used to enable https access.
+  2. -cert and -key, are to be used with the flag -secure
+  3. Hook Definition
+  trigger-rule - specifies the rule that will be evaluated in order to determine should the hook be triggered. Check Hook rules page to see the list of valid rules and their usage
