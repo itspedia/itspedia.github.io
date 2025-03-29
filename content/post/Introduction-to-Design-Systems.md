@@ -1,6 +1,6 @@
 ---
 # Common-Defined
-title: "Introduction to Design Sytems"
+title: "Introduction to Design Systems"
 date: 2025-03-28T21:20:23+08:00
 lastmod: 2025-03-28T21:29:20+00:00
 draft: false
@@ -26,3 +26,6 @@ mathjax: true
 4. Regions: Overarching design paradigms, such as navigation or search.
 5. Content: Information regarding the voice and tone, as well as punctuation guidelines. Content can also include terminology if your product has a specific vocabulary.
 6. Usability: Rules that define accessibility and internationalization.
+
+
+
