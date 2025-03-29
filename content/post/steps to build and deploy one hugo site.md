@@ -30,3 +30,4 @@ You can use [GitHub Pages](https://docs.github.com/en/pages/quickstart) to [host
 - Have one ECS instance
 - Setup web server, like nginx, on this ECS instance
 - Use [webhook](https://github.com/adnanh/webhook) and git to pull the static file from git repository
+  the flag -secure is used to enable https access.
