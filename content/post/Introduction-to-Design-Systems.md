@@ -80,3 +80,10 @@ There are several types of guidelines that should be included within your design
 
 ### Contextual Rules
 Creating contextual rules may be necessary. Contextual rules occur when there is an instance that requires a deviation from the standard guidelines.
+
+## Design Principles
+Every organization has a unique set of needs and goals. The ability to communicate these needs and goals through a set of principles will allow you to shape the way your organization talks about its product.
+
+### Defining Design Principles
+Design principles combine organizational goals with user needs, creating the core values that aid us in making crucial design decisions. Effective design principles will align designers and build cohesiveness within your product and across teams. Additionally, design principles provide an anchor for teams to rally around. 
+
