@@ -70,3 +70,11 @@ Building up and breaking down your interface are two methods of thinking about d
 
 ## Grammar: The Guidelines of Your System
 A grammar is formed when you apply formal rules to govern the behavior of your elements. 
+
+### Different Types of Guidelines
+There are several types of guidelines that should be included within your design system. These include:
+- A formal definition: A brief overview of what you are documenting. What is a button? This may seem straightforward to you, but being explicit strengthens your language and the overall understanding that your team shares.
+-Usage guidelines: Explain the use of each component. Include behavioral rules. When should you use placeholder text within an input? How do alerts differ from toast notifications? These are questions that should be answered when reading your design system.
+- Technical guidelines: Work closely with your engineering team to include any technical guidelines that will aid in the creation and use of a component within your product. This could include class names, as well as other options passed via data attributes or JavaScript.
+- Related components: Link related components to help those navigating your system find what they are looking for more easily.
+

@@ -91,6 +91,14 @@
 &lt;p&gt;Building up and breaking down your interface are two methods of thinking about design systematically. These approaches are not sequential; they can happen at the same time. Think holistically, while also considering the individual pieces that make up the whole. Considering each piece that makes up a design will ensure that you are defining components that can be used globally across your product&lt;/p&gt;
 &lt;h2 id=&#34;grammar-the-guidelines-of-your-system&#34;&gt;Grammar: The Guidelines of Your System&lt;/h2&gt;
 &lt;p&gt;A grammar is formed when you apply formal rules to govern the behavior of your elements.&lt;/p&gt;
+&lt;h3 id=&#34;different-types-of-guidelines&#34;&gt;Different Types of Guidelines&lt;/h3&gt;
+&lt;p&gt;There are several types of guidelines that should be included within your design system. These include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A formal definition: A brief overview of what you are documenting. What is a button? This may seem straightforward to you, but being explicit strengthens your language and the overall understanding that your team shares.
+-Usage guidelines: Explain the use of each component. Include behavioral rules. When should you use placeholder text within an input? How do alerts differ from toast notifications? These are questions that should be answered when reading your design system.&lt;/li&gt;
+&lt;li&gt;Technical guidelines: Work closely with your engineering team to include any technical guidelines that will aid in the creation and use of a component within your product. This could include class names, as well as other options passed via data attributes or JavaScript.&lt;/li&gt;
+&lt;li&gt;Related components: Link related components to help those navigating your system find what they are looking for more easily.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       
     </item>
