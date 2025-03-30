@@ -56,3 +56,10 @@ Language is a system comprised of interconnecting elements that work together to
 Depending on the state of your organization, it can be helpful to approach thinking systematically from two directions:
 1. Building up elements to create larger interfaces.
 2. Breaking down interfaces into their simplest elements.
+
+
+### Building Up Elements
+Start by identifying what elements are commonly used. These include various stylistic elements, such as typography and colors, as well as interactive components, such as inputs, buttons, and so on.
+ 
+###Breaking Down Interfaces
+The most effective way of breaking down an interface is to create an inventory of the elements, components, and component groups you already use within your product.

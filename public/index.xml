@@ -83,6 +83,10 @@
 &lt;li&gt;Building up elements to create larger interfaces.&lt;/li&gt;
 &lt;li&gt;Breaking down interfaces into their simplest elements.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h3 id=&#34;building-up-elements&#34;&gt;Building Up Elements&lt;/h3&gt;
+&lt;p&gt;Start by identifying what elements are commonly used. These include various stylistic elements, such as typography and colors, as well as interactive components, such as inputs, buttons, and so on.&lt;/p&gt;
+&lt;p&gt;###Breaking Down Interfaces
+The most effective way of breaking down an interface is to create an inventory of the elements, components, and component groups you already use within your product.&lt;/p&gt;
 </description>
       
     </item>
