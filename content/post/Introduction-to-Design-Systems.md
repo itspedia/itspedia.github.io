@@ -171,4 +171,4 @@ Further, utilizing a baseline grid will keep your units horizontally aligned to 
 
 The x-height2 of each letter is anchored onto this grid, keeping content legible and reducing the guesswork when building out new user interfaces. With consistent spacing, you can ensure that the hierarchy of your content is well-defined and easy to determine.
 
-In the spacing example shown in ![Figure 5-5](/images/intro-design-system-figure-5-5), a baseline number of four aligns with your mathematical progression while also providing enough flexibility within your designs.
+In the spacing example shown in ![Figure 5-5](/images/intro-design-system-figure-5-5.png), a baseline number of four aligns with your mathematical progression while also providing enough flexibility within your designs.
