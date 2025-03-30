@@ -121,5 +121,7 @@ Over the course of implementation, you will need a team that can:
 - Iterate and refine.
 - Evangelize your efforts across your organization.
 
-
-
+## Assessing Your Product
+Creating systematic design requires a structured approach.
+### Utilize an Interface Inventory
+Inconsistencies within your product can lead to confusing experiences for your users. To help understand the current state of your product or application, create an interface inventory. An inventory will surface inconsistencies and lay the groundwork for correcting them.
