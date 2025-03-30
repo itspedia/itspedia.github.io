@@ -68,3 +68,5 @@ The most effective way of breaking down an interface is to create an inventory o
 
 Building up and breaking down your interface are two methods of thinking about design systematically. These approaches are not sequential; they can happen at the same time. Think holistically, while also considering the individual pieces that make up the whole. Considering each piece that makes up a design will ensure that you are defining components that can be used globally across your product
 
+## Grammar: The Guidelines of Your System
+A grammar is formed when you apply formal rules to govern the behavior of your elements. 
