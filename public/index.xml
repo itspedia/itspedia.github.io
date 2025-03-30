@@ -76,6 +76,13 @@
 &lt;/ul&gt;
 &lt;p&gt;By thinking about design as a language system, we can create a lexicon comprised of elements and document a grammar, or series of guidelines, that govern their use. Each language contains a different set of a lexicon and a grammar, making the language unique.&lt;/p&gt;
 &lt;p&gt;In terms of a design system, guiding principles are used as the method to create a design language that is distinct to your organization. These principles enable you to build a relationship that addresses both user needs and organizational goals.&lt;/p&gt;
+&lt;h2 id=&#34;lexicon-the-elements-of-your-system&#34;&gt;Lexicon: The Elements of Your System&lt;/h2&gt;
+&lt;p&gt;Language is a system comprised of interconnecting elements that work together to aid communication. Thinking about design as a system will allow you to create the lexicon, or building blocks, that can be arranged in multiple ways to make up your product.&lt;/p&gt;
+&lt;p&gt;Depending on the state of your organization, it can be helpful to approach thinking systematically from two directions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Building up elements to create larger interfaces.&lt;/li&gt;
+&lt;li&gt;Breaking down interfaces into their simplest elements.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
       
     </item>
