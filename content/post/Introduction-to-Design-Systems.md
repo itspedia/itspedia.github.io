@@ -148,3 +148,7 @@ As your design system expands, you may not always be sure where specific content
 
 ## Layout
 A foundational aspect included in your system is the layout, which includes guidelines for both your spacing and grid. These provide a solid base from which you can create components and build interfaces.
+
+### Spacing
+A series of spacing increments will create the foundation for the padding and margin used within your product. 
+
