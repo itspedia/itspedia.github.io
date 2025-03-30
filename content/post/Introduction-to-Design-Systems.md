@@ -87,3 +87,23 @@ Every organization has a unique set of needs and goals. The ability to communica
 ### Defining Design Principles
 Design principles combine organizational goals with user needs, creating the core values that aid us in making crucial design decisions. Effective design principles will align designers and build cohesiveness within your product and across teams. Additionally, design principles provide an anchor for teams to rally around. 
 
+### A Practical Guide to Creating Your Own
+
+**A Practical Guide to Creating Your Own**
+
+- Focus on creating three to five solid design principles that reflect the goals of your organization and the needs of your user base. 
+- A value hierarchy allows your team to understand which principles hold more weight. Visualizing the hierarchy by creating an ordered list, or pyramid structure, can be helpful.
+
+
+Defining Your Design Principles
+1. Build a team: Start by inviting your whole team to participate. The more discussion you have as a group, the better the alignment you will achieve within your team. Include engineers and product managers as part of the conversation. Gaining their buy-in and insight from the start is vital to building your shared language.
+2. Set a clear purpose: Ensure the team understands the objective of the meeting. The goal should be to determine which principles best align with your organizational goals and user needs. If these are unknown to you and your team, seek out key stakeholders within your organization. You should be able to produce a list of goals and needs prior to determining your design principles. Also, understand that these goals and needs may change over time.
+3. Prepare: Ask each team member to brainstorm five to ten ideas in advance. This will make the discussion more productive, as each person will bring new ideas to the table at the start of the meeting.
+4. Discuss: Bring physical sticky notes or use an online platform that allows you and your team to move ideas around on a board easily. This provides a way to group similar ideas and visually see which concepts stand out. Allow some time for new ideas to form and address outliers or conflicts as they come up. When in doubt, revisit your organizational goals and user needs to better map your design principles to those values.
+5. Iterate: Goals and needs change over time. Be open to adjusting your design principles as your organization shifts. Recognize when a principle is not benefiting your team and strive to keep your principles at the forefront of your design thinking.
+
+
+### A Shared Language
+Including other teams in the creation process of your system will lead to a better understanding of the overall language you are creating. To be fluent in a language, you must actively use it. The same can be said for your design system. The more team members you have using and contributing to it, the more cohesion your organization will experience.
+
+Keep in mind that a design system, just like a language, can and should evolve over time. Change is a natural part of a language that allows new functions and concepts to form. As you begin to craft your own design language, be rigid with your guidelines but be open to change as your system adapts and grows.
