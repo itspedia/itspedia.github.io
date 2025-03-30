@@ -163,6 +163,7 @@
 &lt;p&gt;Create a spacing system that uses a set series of increments for defining padding and margin. Specify a starting number from which your spacing will derive. A starting number of eight is often used for spacing systems because it is scaled easily to different resolutions, making it ideal for the growing number of devices that are out there today. Also, a base of eight provides a variety of increments when used within a mathematical progression without overwhelming designers with choices.
 This is demonstrated in &lt;img src=&#34;https://itspedia.com/images/intro-design-system-figure-5-4.png&#34; alt=&#34;Figure 5-4&#34;&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;grid&#34;&gt;Grid&lt;/h3&gt;
+&lt;p&gt;There are multiple types of grids, most commonly column and baseline grids. Column grids are regularly used within web development to separate discontinuous content. Equal spacing between columns keeps content divided uniformly, allowing users to digest information quickly. Column grids can also be rearranged to accommodate different screen sizes, making them ideal for implementing a responsive design. While column grids are useful in many layouts, they may not always be appropriate in others. A complex web app may require more flexibility than column grids allow.&lt;/p&gt;
 </description>
       
     </item>
