@@ -122,6 +122,20 @@
 &lt;h3 id=&#34;a-shared-language&#34;&gt;A Shared Language&lt;/h3&gt;
 &lt;p&gt;Including other teams in the creation process of your system will lead to a better understanding of the overall language you are creating. To be fluent in a language, you must actively use it. The same can be said for your design system. The more team members you have using and contributing to it, the more cohesion your organization will experience.&lt;/p&gt;
 &lt;p&gt;Keep in mind that a design system, just like a language, can and should evolve over time. Change is a natural part of a language that allows new functions and concepts to form. As you begin to craft your own design language, be rigid with your guidelines but be open to change as your system adapts and grows.&lt;/p&gt;
+&lt;h1 id=&#34;implementing-your-system&#34;&gt;Implementing Your System&lt;/h1&gt;
+&lt;h2 id=&#34;assessing-your-organization&#34;&gt;Assessing Your Organization&lt;/h2&gt;
+&lt;h2 id=&#34;gathering-a-support-system&#34;&gt;Gathering a Support System&lt;/h2&gt;
+&lt;p&gt;Over the course of implementation, you will need a team that can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Research best practices.&lt;/li&gt;
+&lt;li&gt;Make an interface inventory.&lt;/li&gt;
+&lt;li&gt;Design and define your layout, styles, and components.&lt;/li&gt;
+&lt;li&gt;Document guidelines.&lt;/li&gt;
+&lt;li&gt;Review documentation.&lt;/li&gt;
+&lt;li&gt;Build and implement components.&lt;/li&gt;
+&lt;li&gt;Iterate and refine.&lt;/li&gt;
+&lt;li&gt;Evangelize your efforts across your organization.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       
     </item>

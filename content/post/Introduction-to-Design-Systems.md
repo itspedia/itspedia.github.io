@@ -107,3 +107,19 @@ Defining Your Design Principles
 Including other teams in the creation process of your system will lead to a better understanding of the overall language you are creating. To be fluent in a language, you must actively use it. The same can be said for your design system. The more team members you have using and contributing to it, the more cohesion your organization will experience.
 
 Keep in mind that a design system, just like a language, can and should evolve over time. Change is a natural part of a language that allows new functions and concepts to form. As you begin to craft your own design language, be rigid with your guidelines but be open to change as your system adapts and grows.
+
+# Implementing Your System
+## Assessing Your Organization
+## Gathering a Support System
+Over the course of implementation, you will need a team that can:
+- Research best practices.
+- Make an interface inventory.
+- Design and define your layout, styles, and components.
+- Document guidelines.
+- Review documentation.
+- Build and implement components.
+- Iterate and refine.
+- Evangelize your efforts across your organization.
+
+
+
