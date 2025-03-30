@@ -151,6 +151,6 @@ A foundational aspect included in your system is the layout, which includes guid
 
 ### Spacing
 A series of spacing increments will create the foundation for the padding and margin used within your product. 
+![Figure 5-3](/images/intro-design-system-figure-5-3.png) shows how padding and margin are applied to a series of buttons to make up the spacing.
 
-**It's funny!**
 

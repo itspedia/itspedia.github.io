@@ -158,8 +158,8 @@
 &lt;h2 id=&#34;layout&#34;&gt;Layout&lt;/h2&gt;
 &lt;p&gt;A foundational aspect included in your system is the layout, which includes guidelines for both your spacing and grid. These provide a solid base from which you can create components and build interfaces.&lt;/p&gt;
 &lt;h3 id=&#34;spacing&#34;&gt;Spacing&lt;/h3&gt;
-&lt;p&gt;A series of spacing increments will create the foundation for the padding and margin used within your product.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;It&amp;rsquo;s funny!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A series of spacing increments will create the foundation for the padding and margin used within your product.
+&lt;img src=&#34;https://itspedia.com/images/intro-design-system-figure-5-3.png&#34; alt=&#34;Figure 5-3&#34;&gt; shows how padding and margin are applied to a series of buttons to make up the spacing.&lt;/p&gt;
 </description>
       
     </item>
