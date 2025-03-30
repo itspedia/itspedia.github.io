@@ -44,12 +44,12 @@ mathjax: true
 The basis of language is composed of two attributes,
 - Lexicon: Within a language, a lexicon refers to the total number of fragments (or words) that make up that language. These fragments form the foundation of a language and can be arranged and rearranged in an infinite number of ways. When viewed in their simplest form, these fragments are meaningless. Often, it isn’t until we begin using them as building blocks that we can derive meaning and effectively communicate with one another. 
 - Grammar: Language relies on a system of rules, known as a grammar. Without a shared understanding of the rules that govern a language, we are bound to experience misconceptions and communication breakdown. Once a grammar is established, we can focus on higher-level ideas, rather than form or structure. Within a design system, guidelines are introduced to form the grammar of our system. In other words, usage and technical guidelines help define when and how individual components should be used. 
- 
+
 By thinking about design as a language system, we can create a lexicon comprised of elements and document a grammar, or series of guidelines, that govern their use. Each language contains a different set of a lexicon and a grammar, making the language unique. 
- 
+
 In terms of a design system, guiding principles are used as the method to create a design language that is distinct to your organization. These principles enable you to build a relationship that addresses both user needs and organizational goals.
- 
- 
+
+
 ## Lexicon: The Elements of Your System
 Language is a system comprised of interconnecting elements that work together to aid communication. Thinking about design as a system will allow you to create the lexicon, or building blocks, that can be arranged in multiple ways to make up your product.
 
@@ -60,7 +60,7 @@ Depending on the state of your organization, it can be helpful to approach think
 
 ### Building Up Elements
 Start by identifying what elements are commonly used. These include various stylistic elements, such as typography and colors, as well as interactive components, such as inputs, buttons, and so on.
- 
+
 ### Breaking Down Interfaces
 The most effective way of breaking down an interface is to create an inventory of the elements, components, and component groups you already use within your product.
 
@@ -157,9 +157,18 @@ Create a spacing system that uses a set series of increments for defining paddin
 This is demonstrated in ![Figure 5-4](/images/intro-design-system-figure-5-4.png).
 
 ### Grid
-There are multiple types of grids, most commonly column and baseline grids. Column grids are regularly used within web development to separate discontinuous content. Equal spacing between columns keeps content divided uniformly, allowing users to digest information quickly. Column grids can also be rearranged to accommodate different screen sizes, making them ideal for implementing a responsive design. While column grids are useful in many layouts, they may not always be appropriate in others. A complex web app may require more flexibility than column grids allow.
+There are multiple types of grids, most commonly column and baseline grids. 
+
+#### Column Grids
+
+Column grids are regularly used within web development to separate discontinuous content. Equal spacing between columns keeps content divided uniformly, allowing users to digest information quickly. Column grids can also be rearranged to accommodate different screen sizes, making them ideal for implementing a responsive design. While column grids are useful in many layouts, they may not always be appropriate in others. A complex web app may require more flexibility than column grids allow.
 
 High-density information, for example, would benefit from implementing a strict measurement system that could be used in place of, or in addition to, column grids.
 
+#### Baseline Grids
+
 Further, utilizing a baseline grid will keep your units horizontally aligned to one another. Baseline grids align all of your text to a horizontal grid. 
 
+The x-height2 of each letter is anchored onto this grid, keeping content legible and reducing the guesswork when building out new user interfaces. With consistent spacing, you can ensure that the hierarchy of your content is well-defined and easy to determine.
+
+In the spacing example shown in ![Figure 5-5](/images/intro-design-system-figure-5-5), a baseline number of four aligns with your mathematical progression while also providing enough flexibility within your designs.
