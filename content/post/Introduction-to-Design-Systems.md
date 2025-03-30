@@ -61,5 +61,10 @@ Depending on the state of your organization, it can be helpful to approach think
 ### Building Up Elements
 Start by identifying what elements are commonly used. These include various stylistic elements, such as typography and colors, as well as interactive components, such as inputs, buttons, and so on.
  
-###Breaking Down Interfaces
+### Breaking Down Interfaces
 The most effective way of breaking down an interface is to create an inventory of the elements, components, and component groups you already use within your product.
+
+### How a System Helps You Scale Design
+
+Building up and breaking down your interface are two methods of thinking about design systematically. These approaches are not sequential; they can happen at the same time. Think holistically, while also considering the individual pieces that make up the whole. Considering each piece that makes up a design will ensure that you are defining components that can be used globally across your product
+
