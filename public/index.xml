@@ -141,6 +141,18 @@
 &lt;h3 id=&#34;utilize-an-interface-inventory&#34;&gt;Utilize an Interface Inventory&lt;/h3&gt;
 &lt;p&gt;Inconsistencies within your product can lead to confusing experiences for your users. To help understand the current state of your product or application, create an interface inventory. An inventory will surface inconsistencies and lay the groundwork for correcting them.&lt;/p&gt;
 &lt;p&gt;To begin, capture and record all of the elements and components used within your UI. The easiest way to do this is to screenshot each one. You don’t need to log every instance, simply document each unique design. Include typography, inputs, radios, buttons, etc. Be meticulous. Every individual element and component used throughout your product should be recorded. Navigate page by page until you feel confident that you have grabbed each one.&lt;/p&gt;
+&lt;h2 id=&#34;creating-a-predictable-architecture&#34;&gt;Creating a Predictable Architecture&lt;/h2&gt;
+&lt;p&gt;How you organize your system is crucial to the success of your design system. Breaking your system down into predictable categories will keep your content easily discoverable. Remain open to adjusting the architecture as you build out and expand on your system.&lt;/p&gt;
+&lt;h3 id=&#34;categorizing-to-improve-discoverability&#34;&gt;Categorizing to Improve Discoverability&lt;/h3&gt;
+&lt;p&gt;Design sytems could be broken into the following six interlocking areas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Layout: Defined measures that make up your spacing and grid system.&lt;/li&gt;
+&lt;li&gt;Styles: Core aspects of your visual language. These include colors, iconography, and typography.&lt;/li&gt;
+&lt;li&gt;Components: Core elements of an interface. These include buttons and form fields.&lt;/li&gt;
+&lt;li&gt;Regions: Overarching design paradigms, such as navigation or search.&lt;/li&gt;
+&lt;li&gt;Content: Information regarding the voice and tone, as well as punctuation guidelines. Content can also include terminology if your product has a specific vocabulary.&lt;/li&gt;
+&lt;li&gt;Usability: Rules that define accessibility and internationalization.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       
     </item>
