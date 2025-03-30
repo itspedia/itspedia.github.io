@@ -172,3 +172,11 @@ Further, utilizing a baseline grid will keep your units horizontally aligned to 
 The x-height2 of each letter is anchored onto this grid, keeping content legible and reducing the guesswork when building out new user interfaces. With consistent spacing, you can ensure that the hierarchy of your content is well-defined and easy to determine.
 
 In the spacing example shown in ![Figure 5-5](/images/intro-design-system-figure-5-5.png), a baseline number of four aligns with your mathematical progression while also providing enough flexibility within your designs.
+
+### Styles
+Your styles make up your visual language and include typography, colors, and icons.
+
+As you define these elements, be sure to reference the design principles you created for your organization. This will help to align your overall visual language with the design language you are crafting.
+
+If you are working with one product, you only need to define your styles once. However, if you are building a system for multiple products or clients, you will need to create a theming system that allows you to customize the visual language of each unique product.
+
