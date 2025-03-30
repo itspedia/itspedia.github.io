@@ -78,3 +78,5 @@ There are several types of guidelines that should be included within your design
 - Technical guidelines: Work closely with your engineering team to include any technical guidelines that will aid in the creation and use of a component within your product. This could include class names, as well as other options passed via data attributes or JavaScript.
 - Related components: Link related components to help those navigating your system find what they are looking for more easily.
 
+### Contextual Rules
+Creating contextual rules may be necessary. Contextual rules occur when there is an instance that requires a deviation from the standard guidelines.

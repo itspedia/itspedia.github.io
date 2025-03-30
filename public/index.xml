@@ -99,6 +99,8 @@
 &lt;li&gt;Technical guidelines: Work closely with your engineering team to include any technical guidelines that will aid in the creation and use of a component within your product. This could include class names, as well as other options passed via data attributes or JavaScript.&lt;/li&gt;
 &lt;li&gt;Related components: Link related components to help those navigating your system find what they are looking for more easily.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;contextual-rules&#34;&gt;Contextual Rules&lt;/h3&gt;
+&lt;p&gt;Creating contextual rules may be necessary. Contextual rules occur when there is an instance that requires a deviation from the standard guidelines.&lt;/p&gt;
 </description>
       
     </item>
