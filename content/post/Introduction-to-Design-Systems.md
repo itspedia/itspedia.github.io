@@ -153,4 +153,7 @@ A foundational aspect included in your system is the layout, which includes guid
 A series of spacing increments will create the foundation for the padding and margin used within your product. 
 ![Figure 5-3](/images/intro-design-system-figure-5-3.png) shows how padding and margin are applied to a series of buttons to make up the spacing.
 
+Create a spacing system that uses a set series of increments for defining padding and margin. Specify a starting number from which your spacing will derive. A starting number of eight is often used for spacing systems because it is scaled easily to different resolutions, making it ideal for the growing number of devices that are out there today. Also, a base of eight provides a variety of increments when used within a mathematical progression without overwhelming designers with choices. 
+This is demonstrated in ![Figure 5-4](/images/intro-design-system-figure-5-4.png).
 
+### Grid
