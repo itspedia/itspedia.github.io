@@ -140,3 +140,7 @@ Design sytems could be broken into the following six interlocking areas:
 - Regions: Overarching design paradigms, such as navigation or search.
 - Content: Information regarding the voice and tone, as well as punctuation guidelines. Content can also include terminology if your product has a specific vocabulary.
 - Usability: Rules that define accessibility and internationalization.
+
+
+### Card Sorting
+As your design system expands, you may not always be sure where specific content should live. When this happens, utilize a card-sorting technique to determine what should be grouped together. You may find that you need to add a new category, or change a category name, to fit new content.

@@ -153,6 +153,8 @@
 &lt;li&gt;Content: Information regarding the voice and tone, as well as punctuation guidelines. Content can also include terminology if your product has a specific vocabulary.&lt;/li&gt;
 &lt;li&gt;Usability: Rules that define accessibility and internationalization.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;card-sorting&#34;&gt;Card Sorting&lt;/h3&gt;
+&lt;p&gt;As your design system expands, you may not always be sure where specific content should live. When this happens, utilize a card-sorting technique to determine what should be grouped together. You may find that you need to add a new category, or change a category name, to fit new content.&lt;/p&gt;
 </description>
       
     </item>
