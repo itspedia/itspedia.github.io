@@ -155,6 +155,8 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;card-sorting&#34;&gt;Card Sorting&lt;/h3&gt;
 &lt;p&gt;As your design system expands, you may not always be sure where specific content should live. When this happens, utilize a card-sorting technique to determine what should be grouped together. You may find that you need to add a new category, or change a category name, to fit new content.&lt;/p&gt;
+&lt;h2 id=&#34;layout&#34;&gt;Layout&lt;/h2&gt;
+&lt;p&gt;A foundational aspect included in your system is the layout, which includes guidelines for both your spacing and grid. These provide a solid base from which you can create components and build interfaces.&lt;/p&gt;
 </description>
       
     </item>

@@ -144,3 +144,7 @@ Design sytems could be broken into the following six interlocking areas:
 
 ### Card Sorting
 As your design system expands, you may not always be sure where specific content should live. When this happens, utilize a card-sorting technique to determine what should be grouped together. You may find that you need to add a new category, or change a category name, to fit new content.
+
+
+## Layout
+A foundational aspect included in your system is the layout, which includes guidelines for both your spacing and grid. These provide a solid base from which you can create components and build interfaces.
