@@ -37,3 +37,14 @@ mathjax: true
 - Style guide: Static documentation that defines how the brand is stylistically applied to interface elements. It contains high-level details about color, typography, iconography, and more.
 - Component library: A set of styles and components that can be used and shared among a team. A component library consists of common core elements that are used throughout an application. If supported by a design tool, they can automatically sync across design files when a change is made. Component libraries may or may not include living code.
 - Design system: A series of documented elements, components, and regions that include both design and front-end guidelines. The documentation contains live code examples, allowing cross-functional teams to easily reuse styles and components in several instances across an application. A design system also includes underlying design principles, rules, and guidelines that help a team build one or multiple products.
+
+
+# Design As a Language
+
+ The basis of language is composed of two attributes,
+ - Lexicon: Within a language, a lexicon refers to the total number of fragments (or words) that make up that language. These fragments form the foundation of a language and can be arranged and rearranged in an infinite number of ways. When viewed in their simplest form, these fragments are meaningless. Often, it isn’t until we begin using them as building blocks that we can derive meaning and effectively communicate with one another. 
+ - Grammar: Language relies on a system of rules, known as a grammar. Without a shared understanding of the rules that govern a language, we are bound to experience misconceptions and communication breakdown. Once a grammar is established, we can focus on higher-level ideas, rather than form or structure. Within a design system, guidelines are introduced to form the grammar of our system. In other words, usage and technical guidelines help define when and how individual components should be used. 
+ 
+ By thinking about design as a language system, we can create a lexicon comprised of elements and document a grammar, or series of guidelines, that govern their use. Each language contains a different set of a lexicon and a grammar, making the language unique. 
+ 
+ In terms of a design system, guiding principles are used as the method to create a design language that is distinct to your organization. These principles enable you to build a relationship that addresses both user needs and organizational goals.
