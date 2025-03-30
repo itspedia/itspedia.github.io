@@ -125,3 +125,5 @@ Over the course of implementation, you will need a team that can:
 Creating systematic design requires a structured approach.
 ### Utilize an Interface Inventory
 Inconsistencies within your product can lead to confusing experiences for your users. To help understand the current state of your product or application, create an interface inventory. An inventory will surface inconsistencies and lay the groundwork for correcting them.
+
+To begin, capture and record all of the elements and components used within your UI. The easiest way to do this is to screenshot each one. You don’t need to log every instance, simply document each unique design. Include typography, inputs, radios, buttons, etc. Be meticulous. Every individual element and component used throughout your product should be recorded. Navigate page by page until you feel confident that you have grabbed each one.
