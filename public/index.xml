@@ -164,6 +164,8 @@
 This is demonstrated in &lt;img src=&#34;https://itspedia.com/images/intro-design-system-figure-5-4.png&#34; alt=&#34;Figure 5-4&#34;&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;grid&#34;&gt;Grid&lt;/h3&gt;
 &lt;p&gt;There are multiple types of grids, most commonly column and baseline grids. Column grids are regularly used within web development to separate discontinuous content. Equal spacing between columns keeps content divided uniformly, allowing users to digest information quickly. Column grids can also be rearranged to accommodate different screen sizes, making them ideal for implementing a responsive design. While column grids are useful in many layouts, they may not always be appropriate in others. A complex web app may require more flexibility than column grids allow.&lt;/p&gt;
+&lt;p&gt;High-density information, for example, would benefit from implementing a strict measurement system that could be used in place of, or in addition to, column grids.&lt;/p&gt;
+&lt;p&gt;Further, utilizing a baseline grid will keep your units horizontally aligned to one another. Baseline grids align all of your text to a horizontal grid.&lt;/p&gt;
 </description>
       
     </item>
