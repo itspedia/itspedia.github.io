@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Flutter on It&#39;s pedia - A knowledge base for Everyone</title>
-    <link>http://localhost:1313/tags/flutter/</link>
+    <link>https://itspedia.com/tags/flutter/</link>
     <description>Recent content in Flutter on It&#39;s pedia - A knowledge base for Everyone</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -10,12 +10,12 @@
     <webMaster>itspedia@itspedia.com (itspedia)</webMaster>
     <copyright>itspedia.com &lt;a href=&#39;https://beian.miit.gov.cn&#39; title=&#39;ICP/IP地址/域名信息备案管理系统&#39;&gt;沪ICP备14049619号-3&lt;/a&gt;</copyright>
     <lastBuildDate>Sun, 02 Mar 2025 10:10:23 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itspedia.com/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Release an iOS app with Flutter in 7 steps</title>
-      <link>http://localhost:1313/post/flutter-overview/</link>
+      <link>https://itspedia.com/post/flutter-overview/</link>
       <pubDate>Sun, 02 Mar 2025 10:10:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/post/flutter-overview/</guid>
+      <guid>https://itspedia.com/post/flutter-overview/</guid>
       <description>&lt;h1 id=&#34;release-an-ios-app-with-flutter-in-7-steps&#34;&gt;Release an iOS app with Flutter in 7 steps&lt;/h1&gt;&#xA;&lt;p&gt;Have a Flutter app that you’re ready to release to the iOS App Store?&lt;/p&gt;&#xA;&lt;p&gt;In this video &lt;a href=&#34;https://www.youtube.com/@leighajarett221&#34;&gt;‪@leighajarett221‬&lt;/a&gt; shows you how to navigate Apple and Flutter tooling to deploy your app to users.&lt;/p&gt;&#xA;&lt;p&gt;Chapters:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=iE2bpP56QKc&amp;amp;t=0s&#34;&gt;0:00&lt;/a&gt; - Introduction &lt;a href=&#34;https://www.youtube.com/watch?v=iE2bpP56QKc&amp;amp;t=58s&#34;&gt;0:58&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Step 1: Register your Bundle ID &lt;a href=&#34;https://www.youtube.com/watch?v=iE2bpP56QKc&amp;amp;t=103s&#34;&gt;1:43&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Step 2: Create a record in App Store Connect &lt;a href=&#34;https://www.youtube.com/watch?v=iE2bpP56QKc&amp;amp;t=127s&#34;&gt;2:07&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Step 3: Modify your Xcode settings &lt;a href=&#34;https://www.youtube.com/watch?v=iE2bpP56QKc&amp;amp;t=268s&#34;&gt;4:28&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Step 4: Add your app icon &lt;a href=&#34;https://www.youtube.com/watch?v=iE2bpP56QKc&amp;amp;t=304s&#34;&gt;5:04&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Step 5: Update your build version &lt;a href=&#34;https://www.youtube.com/watch?v=iE2bpP56QKc&amp;amp;t=361s&#34;&gt;6:01&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Step 6: Create a build archive &lt;a href=&#34;https://www.youtube.com/watch?v=iE2bpP56QKc&amp;amp;t=492s&#34;&gt;8:12&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Step 7: Add to App Store Connect&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;resources&#34;&gt;Resources:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Releasing a Flutter iOS app → &lt;a href=&#34;https://www.youtube.com/redirect?event=video_description&amp;amp;redir_token=QUFFLUhqbUxkWnplN3VyZ3l6bnBTMFRSZUhqTUtfQ181QXxBQ3Jtc0tuS19zZThtX2JzeVFDWTZwMU0wd1VpNjF6aXVFQ2p3a3Z3SmI0MG1DcGI4dzlVS2E3MUtraEJ5SERrQUF5blhveTlVQ3JVanNGMjVlclEybnNIMkdPMkRySnJnalc4TFpxNmZDdGtpWGUwX0ctNFE0RQ&amp;amp;q=https%3A%2F%2Fgoo.gle%2F3LjxBCw&amp;amp;v=iE2bpP56QKc&#34;&gt;https://goo.gle/3LjxBCw&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

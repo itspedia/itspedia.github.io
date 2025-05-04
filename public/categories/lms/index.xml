@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LMS on It&#39;s pedia - A knowledge base for Everyone</title>
-    <link>http://localhost:1313/categories/lms/</link>
+    <link>https://itspedia.com/categories/lms/</link>
     <description>Recent content in LMS on It&#39;s pedia - A knowledge base for Everyone</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -10,12 +10,12 @@
     <webMaster>itspedia@itspedia.com (itspedia)</webMaster>
     <copyright>itspedia.com &lt;a href=&#39;https://beian.miit.gov.cn&#39; title=&#39;ICP/IP地址/域名信息备案管理系统&#39;&gt;沪ICP备14049619号-3&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 03 May 2025 21:29:20 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/lms/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itspedia.com/categories/lms/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LMS-Guidebook-Key-Takeaways</title>
-      <link>http://localhost:1313/post/lms-guidebook-key-takeaways/</link>
+      <link>https://itspedia.com/post/lms-guidebook-key-takeaways/</link>
       <pubDate>Sat, 03 May 2025 21:20:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/post/lms-guidebook-key-takeaways/</guid>
+      <guid>https://itspedia.com/post/lms-guidebook-key-takeaways/</guid>
       <description>&lt;h1 id=&#34;key-takeaways&#34;&gt;Key Takeaways&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Three corporate LMS interoperability specifications ensure your e-learning courseware works properly with your LMS:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;AICC&lt;/li&gt;&#xA;&lt;li&gt;SCORM&lt;/li&gt;&#xA;&lt;li&gt;cmi5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;A collection of academic LMS interoperability specifications ensures your online content, teaching tools, and LMS can exchange data:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Learning Tools Interoperability&lt;/li&gt;&#xA;&lt;li&gt;Question &amp;amp; Test Interoperability&lt;/li&gt;&#xA;&lt;li&gt;OneRoster&lt;/li&gt;&#xA;&lt;li&gt;Learning Information Services&lt;/li&gt;&#xA;&lt;li&gt;Common Cartridge&lt;/li&gt;&#xA;&lt;li&gt;Thin Common Cartridge&lt;/li&gt;&#xA;&lt;li&gt;Caliper Analytics&lt;/li&gt;&#xA;&lt;li&gt;Open Badges.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Three standards support data sharing among the various learning technologies, including the LMS, used in business, government, and professional associations&#xA;&lt;ul&gt;&#xA;&lt;li&gt;the &lt;a href=&#34;https://github.com/adlnet/xAPI-Spec&#34;&gt;xAPI specification&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;the Competency and Skills System&lt;/li&gt;&#xA;&lt;li&gt;the vision for a total learning architecture.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Accessibility standards like Web Content Accessibility Guidelines and Section 508 work with assistive devices to make software applications usable to more people with visual, physical, auditory, and cognitive challenges.&lt;/li&gt;&#xA;&lt;li&gt;Security and data privacy are key concerns for any information system, including your LMS.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>

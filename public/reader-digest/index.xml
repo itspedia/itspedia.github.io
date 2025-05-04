@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reader-Digests on It&#39;s pedia - A knowledge base for Everyone</title>
-    <link>http://localhost:1313/reader-digest/</link>
+    <link>https://itspedia.com/reader-digest/</link>
     <description>Recent content in Reader-Digests on It&#39;s pedia - A knowledge base for Everyone</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -10,33 +10,33 @@
     <webMaster>itspedia@itspedia.com (itspedia)</webMaster>
     <copyright>itspedia.com &lt;a href=&#39;https://beian.miit.gov.cn&#39; title=&#39;ICP/IP地址/域名信息备案管理系统&#39;&gt;沪ICP备14049619号-3&lt;/a&gt;</copyright>
     <lastBuildDate>Wed, 05 Mar 2025 16:01:23 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/reader-digest/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itspedia.com/reader-digest/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Radar Trends to Watch: March 2025</title>
-      <link>http://localhost:1313/reader-digest/radar-trends-to-watch-march-2025/</link>
+      <link>https://itspedia.com/reader-digest/radar-trends-to-watch-march-2025/</link>
       <pubDate>Wed, 05 Mar 2025 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/reader-digest/radar-trends-to-watch-march-2025/</guid>
+      <guid>https://itspedia.com/reader-digest/radar-trends-to-watch-march-2025/</guid>
       <description>&lt;p&gt;Anthropic’s announcement of Claude 3.7 Sonnet notwithstanding, the breakneck pace of major AI announcements seemed to slow down through February. That gave us some time to look at some other topics. Two important posts about programming appeared: Salvatore Sanfilippo’s “We Are Destroying Software” and Rob Pike’s slide deck “On Bloat.” They’re unsurprisingly similar. Neither mentions AI; both address the question of why our hardware is getting faster and faster but our applications aren’t. We’ve also noted the return of Pebble, the first smart watch, and an AI-driven table lamp from Apple Research that looks like it came from Pixar’s logo. Fun, perhaps, but don’t look for it in Apple Stores.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Radar Trends to Watch: February 2025</title>
-      <link>http://localhost:1313/reader-digest/radar-trends-to-watch-february-2025/</link>
+      <link>https://itspedia.com/reader-digest/radar-trends-to-watch-february-2025/</link>
       <pubDate>Mon, 03 Feb 2025 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/reader-digest/radar-trends-to-watch-february-2025/</guid>
+      <guid>https://itspedia.com/reader-digest/radar-trends-to-watch-february-2025/</guid>
       <description>&lt;h5 id=&#34;developments-in-web-virtual-reality-robotics-and-more&#34;&gt;Developments in Web, Virtual Reality, Robotics, and More&lt;/h5&gt;&#xA;&lt;p&gt;Last month, DeepSeek released its R1 reasoning model (now apparently named DeepThink), with capabilities similar to OpenAI o1. What’s important about DeepSeek isn’t its benchmark results; there are a number of models on the same level as o1. What’s important is that it appears to have been trained with one-tenth the resources of comparable models. Throwing more hardware at a problem is rarely the best way to get good results.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Radar Trends to Watch: January 2025</title>
-      <link>http://localhost:1313/reader-digest/radar-trends-to-watch-january-2025/</link>
+      <link>https://itspedia.com/reader-digest/radar-trends-to-watch-january-2025/</link>
       <pubDate>Sun, 05 Jan 2025 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/reader-digest/radar-trends-to-watch-january-2025/</guid>
+      <guid>https://itspedia.com/reader-digest/radar-trends-to-watch-january-2025/</guid>
       <description>&lt;p&gt;Despite its 31 days, December is a short month. It’s hard for announcements and happenings other than office parties to get attention. Fighting this trend, OpenAI made a series of announcements: their “12 Days of OpenAI.” Not to be upstaged, Google responded with a flurry of announcements, including their Gemini 2.0 Flash Thinking model. Models appeared that could use streaming audio and video for both input and output. But perhaps the most important announcement was DeepSeek-V3, a very large mixture-of-experts model (671B parameters) that has performance on a par with the other top models—but cost roughly 1/10th as much to train.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Technology Trends for 2025</title>
-      <link>http://localhost:1313/reader-digest/technology-trends-for-2025/</link>
+      <link>https://itspedia.com/reader-digest/technology-trends-for-2025/</link>
       <pubDate>Wed, 01 Jan 2025 16:01:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/reader-digest/technology-trends-for-2025/</guid>
+      <guid>https://itspedia.com/reader-digest/technology-trends-for-2025/</guid>
       <description>&lt;p&gt;Welcome to our annual report on the usage of the &lt;a href=&#34;https://learning.oreilly.com/home/&#34;&gt;O’Reilly learning platform&lt;/a&gt;. It’s been an exciting year, dominated by a constant stream of breakthroughs and announcements in AI, and complicated by industry-wide layoffs. Generative AI gets better and better—but that trend may be &lt;a href=&#34;https://oreil.ly/3nc8v&#34;&gt;at an end&lt;/a&gt;. Now the ball is in the application developers’ court: Where, when, and how will AI be integrated into the applications we build and use every day? And if AI replaces the developers, who will be left to do the integration? Our data shows how our users are reacting to changes in the industry: Which skills do they need to brush up on? Which do they need to add? What do they need to know to do their day-to-day work? In short: Where have we been in the past year, and where are we going?&lt;/p&gt;</description>
     </item>
   </channel>
