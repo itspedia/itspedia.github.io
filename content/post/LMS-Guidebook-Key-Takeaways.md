@@ -34,7 +34,7 @@ mathjax: true
    - Caliper Analytics
    - Open Badges.
 3. Three standards support data sharing among the various learning technologies, including the LMS, used in business, government, and professional associations
-   - the xAPI specification
+   - the [xAPI specification](https://github.com/adlnet/xAPI-Spec)
    - the Competency and Skills System
    - the vision for a total learning architecture.
 4. Accessibility standards like Web Content Accessibility Guidelines and Section 508 work with assistive devices to make software applications usable to more people with visual, physical, auditory, and cognitive challenges.
