@@ -23,7 +23,7 @@ mathjax: true
 1. Three corporate LMS interoperability specifications ensure your e-learning courseware works properly with your LMS: 
    - AICC
    - SCORM
-   - cmi5
+   - [cmi5](https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md)
 2. A collection of academic LMS interoperability specifications ensures your online content, teaching tools, and LMS can exchange data: 
    - Learning Tools Interoperability
    - Question & Test Interoperability
