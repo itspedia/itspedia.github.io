@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Writing on It&#39;s pedia - A knowledge base for Everyone</title>
-    <link>http://localhost:1313/tags/writing/</link>
+    <link>https://itspedia.com/tags/writing/</link>
     <description>Recent content in Writing on It&#39;s pedia - A knowledge base for Everyone</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -10,12 +10,12 @@
     <webMaster>itspedia@itspedia.com (itspedia)</webMaster>
     <copyright>itspedia.com &lt;a href=&#39;https://beian.miit.gov.cn&#39; title=&#39;ICP/IP地址/域名信息备案管理系统&#39;&gt;沪ICP备14049619号-3&lt;/a&gt;</copyright>
     <lastBuildDate>Mon, 03 Mar 2025 21:29:20 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itspedia.com/tags/writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On Writing Well</title>
-      <link>http://localhost:1313/post/on_writing_well/</link>
+      <link>https://itspedia.com/post/on_writing_well/</link>
       <pubDate>Mon, 03 Mar 2025 21:20:23 +0800</pubDate><author>itspedia@itspedia.com (itspedia)</author>
-      <guid>http://localhost:1313/post/on_writing_well/</guid>
+      <guid>https://itspedia.com/post/on_writing_well/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Writing well is part habit, part knowledge of some fundamental rules, and part giving a damn.&#xA;&amp;ndash; Ann Handley, Everybody Writes&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Writing is less about beckoning the muse than hanging in until the typing becomes writing.&#xA;&amp;ndash; David Carr, a great journalist&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h1 id=&#34;high-quality-content-is-packed-with-clear-utility-inspiration-and-empathy-for-the-audience&#34;&gt;High-quality content is packed with clear utility, inspiration, and empathy for the audience&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Utility × Inspiration × Empathy = High-Quality Content&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Utility means you clearly help people do something that matters to them—you help them shoulder their burdens, you ease their pain, you help them make a decision.&lt;/li&gt;&#xA;&lt;li&gt;Inspiration means our work is inspired by data (more on this later) or it&amp;rsquo;s creatively inspired (or both). It&amp;rsquo;s fresh, different, well-written, well-produced, nicely designed—and it feels like it could come only from you.&lt;/li&gt;&#xA;&lt;li&gt;Empathy means you relentlessly focus on your customer. You view the entire world through their eyes—because everything the light touches … !&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

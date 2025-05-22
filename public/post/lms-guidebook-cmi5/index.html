@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage" data-theme="light">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>
@@ -31,7 +31,7 @@
 <meta name="generator" content="Hugo 0.143.1" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/lms-guidebook-cmi5/" />
+<link rel="canonical" href="https://itspedia.com/post/lms-guidebook-cmi5/" />
 
 
 
@@ -53,7 +53,7 @@
 <meta name="keywords" content="LMS, CMI5" />
 
 
-<meta property="og:url" content="http://localhost:1313/post/lms-guidebook-cmi5/">
+<meta property="og:url" content="https://itspedia.com/post/lms-guidebook-cmi5/">
   <meta property="og:site_name" content="It&#39;s pedia - A knowledge base for Everyone">
   <meta property="og:title" content="CMI5 In a Nutshell">
   <meta property="og:description" content="Concept Model Synopsis An LMS imports a course structure which contains at least one AU. Optionally, the course structure can include one or more blocks, which consist of 1 or more AUs or nested blocks. An LMS administrative user assigns a course to a learner. A learner authenticates with an LMS or a related system. A learner launches an AU from the LMS or an associated launching system, using an interface. The LMS writes launch data to the integrated LRS. The AU sends a message to the LMS requesting launch parameters and previous state information. Once the AU is fully initialized for learner viewing, it issues an “initialized” statement. The learner views the AU content and performs the learning. During this time, the AU MAY request data from, and store data to, the LMS. The learner exits the AU. The AU reports the final tracking data to the LMS and issues a “terminated” statement. Administrative users create and view reports of the tracking data recorded by the AUs for individual learners Responsibilities of the Assignable Unit: Parse the parameters from the launching environment to determine where the LMS location is and initiate communication with the LMS. Send an “initialized” statement indicating the AU is ready for learner viewing. Acting as a client, send and receive messages using the defined transport mechanism(s) and associated commands as prescribed in this specification. Format all data according to the defined data types and vocabularies that are defined in this specification. Send a “terminated” statement prior to terminating the AU’s execution. Responsibilities of the LMS: Create and maintain course structures. Acting as a server, receive and reply to messages using the defined transport mechanism(s) and associated commands as prescribed in this specification. Format all data according to the defined data types and vocabularies that are defined in this specification. Launch the specified AU contained in the courses within the defined environment(s). References cmi5 Specification Profile for xAPI cmi5 project Definitions Administrator: The administrative user who manages the LMS and related systems. This user performs tasks such as learner enrollment, course structure definition, and report management. Activity: In this specification it is representative of an AU or the Object of a statement with objectType of “Activity”. Thus the granularity can be anything from a single AU course down to a specific interaction. Assignable Unit (AU): A learning content presentation launched from an LMS. The AU is the unit of tracking and management. The AU collects data on the learner and sends it to the LMS. Block: A grouping of AU’s and other Blocks (nesting). Course: A collection of assignable units, in a logical grouping, of learning content. A course is typically an internal data structure. Courses are often assigned to learners and tracked by the LMS. Course Structure: A list of assignable units and launch parameters, with an implied sequence, representing a course. Experience API (xAPI): A runtime data communication specification for learning content (AU) to send and receive data to a Learning Record Store (LRS). xAPI is used to define the data transport and the data model. Internationalized Resource Identifier (IRI): A unique identifier according to RFC 3987. The IRI might be an IRL. IRLs SHOULD be defined within a domain controlled by the person creating the IRL. Note that IRI’s in this spec MUST be fully qualified and not IRI References. Internationalized Resource Locator (IRL): According to xAPI, an IRL is an IRI that, when translated into a URI (according to the IRI to URI rules), is a URL. Learner: The end user viewing/using the learning content (AUs). Learning Management System (LMS): A computer system that could include the capabilities to register learners, launch learning presentations, analyze and report learner performance, and track learners’ progress. LMS launching, reporting, and tracking roles are the focus of the cmi5 specification. The LMS is integrated with an LRS. In the remainder of this document the term “LMS” refers to an integrated entity of LMS and LRS. Learning Records Store (LRS): As defined in xAPI. Registration: An enrollment instance of a learner in a course. (a registration ID uniquely identifies this). The registration ID persists throughout the course progress to completion and during review of a completed course. A new registration is created for new enrollment instances (such as recurrent courses or re-taking courses). Publisher ID: A unique identifier for each AU and Block, and for the course instance in the Course Structure that is the identifier provided by the publisher to identify the course elements. The purpose of this ID is to identify the course elements not the publisher itself. Session: A period of time marked by the launch of an AU until its termination (or abandonment). Abbreviations and Acronyms ADL: Advanced Distributed Learning AICC: Aviation Industry Computer-Based Training Committee API: Application Programming Interface CMI: Computer Managed Instruction JSON: JavaScript Object Notation IRI: Internationalized Resource Identifier IRL: Internationalized Resource Locator LMS: Learning Management System LRS: Learning Record Store PII: Personally Identifiable Information URI: Uniform Resource Identifier URL: Uniform Resource Locator URN: Uniform Resource Name xAPI: Experience API XML: Extensible Markup Language XSD: XML Schema Definition">
@@ -139,7 +139,7 @@
         
         
         
-        <a class="menu-item-link" href="http://localhost:1313/">It&#39;s Pedia</a>
+        <a class="menu-item-link" href="https://itspedia.com/">It&#39;s Pedia</a>
         
 
         
@@ -150,7 +150,7 @@
         
         
         
-        <a class="menu-item-link" href="http://localhost:1313/post/">Posts</a>
+        <a class="menu-item-link" href="https://itspedia.com/post/">Posts</a>
         
 
         
@@ -161,7 +161,7 @@
         
         
         
-        <a class="menu-item-link" href="http://localhost:1313/tags/">Tags</a>
+        <a class="menu-item-link" href="https://itspedia.com/tags/">Tags</a>
         
 
         
@@ -172,7 +172,7 @@
         
         
         
-        <a class="menu-item-link" href="http://localhost:1313/about/">About</a>
+        <a class="menu-item-link" href="https://itspedia.com/about/">About</a>
         
 
         
@@ -182,7 +182,7 @@
       <li class="menu-item">
         
         
-        <a class="menu-item-link menu-parent" href="http://localhost:1313/">
+        <a class="menu-item-link menu-parent" href="https://itspedia.com/">
           Knowledge
           
 <svg aria-hidden="true" class="lucide lucide-chevron-down hi-svg-inline icon--chevron-down" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"/></svg>
@@ -190,19 +190,19 @@
         <ul class="submenu">
           
           <li class="submenu-item">
-            <a href="http://localhost:1313/reader-digest/radar-trends-to-watch-february-2025/">Radar Trends to Watch: February 2025</a>
+            <a href="https://itspedia.com/reader-digest/radar-trends-to-watch-february-2025/">Radar Trends to Watch: February 2025</a>
           </li>
           
           <li class="submenu-item">
-            <a href="http://localhost:1313/reader-digest/radar-trends-to-watch-january-2025/">Radar Trends to Watch: January 2025</a>
+            <a href="https://itspedia.com/reader-digest/radar-trends-to-watch-january-2025/">Radar Trends to Watch: January 2025</a>
           </li>
           
           <li class="submenu-item">
-            <a href="http://localhost:1313/reader-digest/radar-trends-to-watch-march-2025/">Radar Trends to Watch: March 2025</a>
+            <a href="https://itspedia.com/reader-digest/radar-trends-to-watch-march-2025/">Radar Trends to Watch: March 2025</a>
           </li>
           
           <li class="submenu-item">
-            <a href="http://localhost:1313/reader-digest/technology-trends-for-2025/">Technology Trends for 2025</a>
+            <a href="https://itspedia.com/reader-digest/technology-trends-for-2025/">Technology Trends for 2025</a>
           </li>
           
         </ul>
@@ -214,7 +214,7 @@
       <li class="menu-item">
         
         
-        <a class="menu-item-link menu-parent" href="http://localhost:1313/">
+        <a class="menu-item-link menu-parent" href="https://itspedia.com/">
           Tutorials
           
 <svg aria-hidden="true" class="lucide lucide-chevron-down hi-svg-inline icon--chevron-down" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m6 9 6 6 6-6"/></svg>
@@ -222,31 +222,31 @@
         <ul class="submenu">
           
           <li class="submenu-item">
-            <a href="http://localhost:1313/knowledge/1-image/">tutorials: Image</a>
+            <a href="https://itspedia.com/knowledge/1-image/">tutorials: Image</a>
           </li>
           
           <li class="submenu-item">
-            <a href="http://localhost:1313/knowledge/2-toc/">tutorials: toc</a>
+            <a href="https://itspedia.com/knowledge/2-toc/">tutorials: toc</a>
           </li>
           
           <li class="submenu-item">
-            <a href="http://localhost:1313/knowledge/3-syntax-highlighting/">Tutorials: Syntax Highlighting</a>
+            <a href="https://itspedia.com/knowledge/3-syntax-highlighting/">Tutorials: Syntax Highlighting</a>
           </li>
           
           <li class="submenu-item">
-            <a href="http://localhost:1313/knowledge/4-footnote/">Tutorials: Footnote</a>
+            <a href="https://itspedia.com/knowledge/4-footnote/">Tutorials: Footnote</a>
           </li>
           
           <li class="submenu-item">
-            <a href="http://localhost:1313/knowledge/5-math/">Tutorials: Math</a>
+            <a href="https://itspedia.com/knowledge/5-math/">Tutorials: Math</a>
           </li>
           
           <li class="submenu-item">
-            <a href="http://localhost:1313/knowledge/6-shortcode-notice/">tutorials: Shortcodes Notice</a>
+            <a href="https://itspedia.com/knowledge/6-shortcode-notice/">tutorials: Shortcodes Notice</a>
           </li>
           
           <li class="submenu-item">
-            <a href="http://localhost:1313/knowledge/7-shortcodes-preview/">Tutorials: more Shortcodes</a>
+            <a href="https://itspedia.com/knowledge/7-shortcodes-preview/">Tutorials: more Shortcodes</a>
           </li>
           
         </ul>
@@ -274,7 +274,7 @@
       </li>
 
       <li class="menu-item">
-        <a class="menu-item-link" href="http://localhost:1313/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
+        <a class="menu-item-link" href="https://itspedia.com/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
           title="rss" target="_blank">
           
 <svg aria-hidden="true" class="lucide lucide-rss hi-svg-inline icon--rss" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
@@ -305,28 +305,28 @@
         
         
         
-        <a class="menu-item-link" href="http://localhost:1313/">It&#39;s Pedia</a>
+        <a class="menu-item-link" href="https://itspedia.com/">It&#39;s Pedia</a>
         
         
       </li><li class="mobile-menu-item">
         
         
         
-        <a class="menu-item-link" href="http://localhost:1313/post/">Posts</a>
+        <a class="menu-item-link" href="https://itspedia.com/post/">Posts</a>
         
         
       </li><li class="mobile-menu-item">
         
         
         
-        <a class="menu-item-link" href="http://localhost:1313/tags/">Tags</a>
+        <a class="menu-item-link" href="https://itspedia.com/tags/">Tags</a>
         
         
       </li><li class="mobile-menu-item">
         
         
         
-        <a class="menu-item-link" href="http://localhost:1313/about/">About</a>
+        <a class="menu-item-link" href="https://itspedia.com/about/">About</a>
         
         
       </li><li class="mobile-menu-item">
@@ -334,26 +334,26 @@
         
         <div class="mobile-menu-parent">
           <span class="mobile-submenu-open"></span>
-          <a href="http://localhost:1313/">
+          <a href="https://itspedia.com/">
             Knowledge
           </a>
         </div>
         <ul class="mobile-submenu-list">
           
           <li>
-            <a href="http://localhost:1313/reader-digest/radar-trends-to-watch-february-2025/">Radar Trends to Watch: February 2025</a>
+            <a href="https://itspedia.com/reader-digest/radar-trends-to-watch-february-2025/">Radar Trends to Watch: February 2025</a>
           </li>
           
           <li>
-            <a href="http://localhost:1313/reader-digest/radar-trends-to-watch-january-2025/">Radar Trends to Watch: January 2025</a>
+            <a href="https://itspedia.com/reader-digest/radar-trends-to-watch-january-2025/">Radar Trends to Watch: January 2025</a>
           </li>
           
           <li>
-            <a href="http://localhost:1313/reader-digest/radar-trends-to-watch-march-2025/">Radar Trends to Watch: March 2025</a>
+            <a href="https://itspedia.com/reader-digest/radar-trends-to-watch-march-2025/">Radar Trends to Watch: March 2025</a>
           </li>
           
           <li>
-            <a href="http://localhost:1313/reader-digest/technology-trends-for-2025/">Technology Trends for 2025</a>
+            <a href="https://itspedia.com/reader-digest/technology-trends-for-2025/">Technology Trends for 2025</a>
           </li>
           
         </ul>
@@ -363,38 +363,38 @@
         
         <div class="mobile-menu-parent">
           <span class="mobile-submenu-open"></span>
-          <a href="http://localhost:1313/">
+          <a href="https://itspedia.com/">
             Tutorials
           </a>
         </div>
         <ul class="mobile-submenu-list">
           
           <li>
-            <a href="http://localhost:1313/knowledge/1-image/">tutorials: Image</a>
+            <a href="https://itspedia.com/knowledge/1-image/">tutorials: Image</a>
           </li>
           
           <li>
-            <a href="http://localhost:1313/knowledge/2-toc/">tutorials: toc</a>
+            <a href="https://itspedia.com/knowledge/2-toc/">tutorials: toc</a>
           </li>
           
           <li>
-            <a href="http://localhost:1313/knowledge/3-syntax-highlighting/">Tutorials: Syntax Highlighting</a>
+            <a href="https://itspedia.com/knowledge/3-syntax-highlighting/">Tutorials: Syntax Highlighting</a>
           </li>
           
           <li>
-            <a href="http://localhost:1313/knowledge/4-footnote/">Tutorials: Footnote</a>
+            <a href="https://itspedia.com/knowledge/4-footnote/">Tutorials: Footnote</a>
           </li>
           
           <li>
-            <a href="http://localhost:1313/knowledge/5-math/">Tutorials: Math</a>
+            <a href="https://itspedia.com/knowledge/5-math/">Tutorials: Math</a>
           </li>
           
           <li>
-            <a href="http://localhost:1313/knowledge/6-shortcode-notice/">tutorials: Shortcodes Notice</a>
+            <a href="https://itspedia.com/knowledge/6-shortcode-notice/">tutorials: Shortcodes Notice</a>
           </li>
           
           <li>
-            <a href="http://localhost:1313/knowledge/7-shortcodes-preview/">Tutorials: more Shortcodes</a>
+            <a href="https://itspedia.com/knowledge/7-shortcodes-preview/">Tutorials: more Shortcodes</a>
           </li>
           
         </ul>
@@ -417,7 +417,7 @@
       </li>
 
       <li class="mobile-menu-item">
-        <a class="menu-item-link" href="http://localhost:1313/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
+        <a class="menu-item-link" href="https://itspedia.com/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
           title="rss" target="_blank">
           
 <svg aria-hidden="true" class="lucide lucide-rss hi-svg-inline icon--rss" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
@@ -491,13 +491,13 @@
               
             
           
-        <a href="http://localhost:1313/categories/index/">Custom Category</a>
+        <a href="https://itspedia.com/categories/index/">Custom Category</a>
         
           
-        <a href="http://localhost:1313/categories/lms/">lms</a>
+        <a href="https://itspedia.com/categories/lms/">lms</a>
         
           
-        <a href="http://localhost:1313/categories/cmi5/">cmi5</a>
+        <a href="https://itspedia.com/categories/cmi5/">cmi5</a>
     </div>
 
 
@@ -618,8 +618,8 @@
 
         <footer class="post-footer">
           <div class="post-tags">
-              <a href="http://localhost:1313/tags/lms/">LMS</a>
-                <a href="http://localhost:1313/tags/cmi5/">CMI5</a>
+              <a href="https://itspedia.com/tags/lms/">LMS</a>
+                <a href="https://itspedia.com/tags/cmi5/">CMI5</a>
                 
             </div>
 
@@ -678,7 +678,7 @@
 </a>
 
 
-<a href="http://localhost:1313/index.xml" rel="noopener alternate" type="application/rss&#43;xml" class="social-icon-link" title="rss"
+<a href="https://itspedia.com/index.xml" rel="noopener alternate" type="application/rss&#43;xml" class="social-icon-link" title="rss"
   target="_blank">
   
 <svg aria-hidden="true" class="lucide lucide-rss hi-svg-inline" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
