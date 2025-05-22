@@ -1,603 +1,624 @@
-<?xml-stylesheet type="text/xsl" href="https://itspedia.com/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://itspedia.com/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2017-08-28T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/about.zh-cn/</loc>
+    <loc>http://localhost:1313/about.zh-cn/</loc>
     <lastmod>2017-08-28T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-05-22T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/cmi5/</loc>
+    <lastmod>2025-05-22T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/cmi5/</loc>
+    <lastmod>2025-05-22T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/lms-guidebook-cmi5/</loc>
+    <lastmod>2025-05-22T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-22T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/index/</loc>
+    <lastmod>2025-05-22T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/lms/</loc>
+    <lastmod>2025-05-22T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/lms/</loc>
+    <lastmod>2025-05-22T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-05-22T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-05-22T21:29:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/lms-guidebook-key-takeaways/</loc>
     <lastmod>2025-05-03T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/</loc>
-    <lastmod>2025-05-03T21:29:20+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://itspedia.com/categories/index/</loc>
-    <lastmod>2025-05-03T21:29:20+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://itspedia.com/tags/lms/</loc>
-    <lastmod>2025-05-03T21:29:20+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://itspedia.com/categories/lms/</loc>
-    <lastmod>2025-05-03T21:29:20+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://itspedia.com/post/lms-guidebook-key-takeaways/</loc>
-    <lastmod>2025-05-03T21:29:20+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://itspedia.com/post/</loc>
-    <lastmod>2025-05-03T21:29:20+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://itspedia.com/tags/</loc>
-    <lastmod>2025-05-03T21:29:20+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://itspedia.com/categories/design-system/</loc>
+    <loc>http://localhost:1313/categories/design-system/</loc>
     <lastmod>2025-03-28T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/design-sytem/</loc>
+    <loc>http://localhost:1313/tags/design-sytem/</loc>
     <lastmod>2025-03-28T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/post/introduction-to-design-systems/</loc>
+    <loc>http://localhost:1313/post/introduction-to-design-systems/</loc>
     <lastmod>2025-03-28T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/ui/</loc>
+    <loc>http://localhost:1313/tags/ui/</loc>
     <lastmod>2025-03-28T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/ux/</loc>
+    <loc>http://localhost:1313/tags/ux/</loc>
     <lastmod>2025-03-28T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/git/</loc>
+    <loc>http://localhost:1313/tags/git/</loc>
     <lastmod>2025-03-27T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/hugo/</loc>
+    <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2025-03-27T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/categories/hugo/</loc>
+    <loc>http://localhost:1313/categories/hugo/</loc>
     <lastmod>2025-03-27T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/post/steps-to-build-and-deploy-one-hugo-site/</loc>
+    <loc>http://localhost:1313/post/steps-to-build-and-deploy-one-hugo-site/</loc>
     <lastmod>2025-03-27T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/webhook/</loc>
+    <loc>http://localhost:1313/tags/webhook/</loc>
     <lastmod>2025-03-27T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/post/gsp650-build-a-resilient-asynchronous-system-with-cloud-run-and-pubsub/</loc>
+    <loc>http://localhost:1313/post/gsp650-build-a-resilient-asynchronous-system-with-cloud-run-and-pubsub/</loc>
     <lastmod>2025-03-22T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/cloud-pub/sub/</loc>
+    <loc>http://localhost:1313/tags/cloud-pub/sub/</loc>
     <lastmod>2025-03-22T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/cloud-run/</loc>
+    <loc>http://localhost:1313/tags/cloud-run/</loc>
     <lastmod>2025-03-22T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/gcp/</loc>
+    <loc>http://localhost:1313/tags/gcp/</loc>
     <lastmod>2025-03-22T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/categories/gcp/</loc>
+    <loc>http://localhost:1313/categories/gcp/</loc>
     <lastmod>2025-03-22T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/eln/</loc>
+    <loc>http://localhost:1313/tags/eln/</loc>
     <lastmod>2025-03-13T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/categories/eln/</loc>
+    <loc>http://localhost:1313/categories/eln/</loc>
     <lastmod>2025-03-13T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/post/what-is-an-eln-a-guide-for-biopharmaceutical-developers/</loc>
+    <loc>http://localhost:1313/post/what-is-an-eln-a-guide-for-biopharmaceutical-developers/</loc>
     <lastmod>2025-03-13T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/digest/</loc>
+    <loc>http://localhost:1313/tags/digest/</loc>
     <lastmod>2025-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/categories/digest/</loc>
+    <loc>http://localhost:1313/categories/digest/</loc>
     <lastmod>2025-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/reader-digest/radar-trends-to-watch-march-2025/</loc>
+    <loc>http://localhost:1313/reader-digest/radar-trends-to-watch-march-2025/</loc>
     <lastmod>2025-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/reader-digest/</loc>
+    <loc>http://localhost:1313/reader-digest/</loc>
     <lastmod>2025-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/trends/</loc>
+    <loc>http://localhost:1313/tags/trends/</loc>
     <lastmod>2025-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/post/on_writing_well/</loc>
+    <loc>http://localhost:1313/post/on_writing_well/</loc>
     <lastmod>2025-03-03T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/writing/</loc>
+    <loc>http://localhost:1313/tags/writing/</loc>
     <lastmod>2025-03-03T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/categories/writing/</loc>
+    <loc>http://localhost:1313/categories/writing/</loc>
     <lastmod>2025-03-03T21:29:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/flutter/</loc>
+    <loc>http://localhost:1313/tags/flutter/</loc>
     <lastmod>2025-03-02T10:10:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/categories/flutter/</loc>
+    <loc>http://localhost:1313/categories/flutter/</loc>
     <lastmod>2025-03-02T10:10:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/ios/</loc>
+    <loc>http://localhost:1313/tags/ios/</loc>
     <lastmod>2025-03-02T10:10:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/categories/mobile-development/</loc>
+    <loc>http://localhost:1313/categories/mobile-development/</loc>
     <lastmod>2025-03-02T10:10:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/post/flutter-overview/</loc>
+    <loc>http://localhost:1313/post/flutter-overview/</loc>
     <lastmod>2025-03-02T10:10:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/overview/</loc>
+    <loc>http://localhost:1313/tags/overview/</loc>
     <lastmod>2025-02-23T10:10:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/publisher/</loc>
+    <loc>http://localhost:1313/tags/publisher/</loc>
     <lastmod>2025-02-23T10:10:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/categories/publisher/</loc>
+    <loc>http://localhost:1313/categories/publisher/</loc>
     <lastmod>2025-02-23T10:10:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/post/top-publishers-at-oreilly-online-learning/</loc>
+    <loc>http://localhost:1313/post/top-publishers-at-oreilly-online-learning/</loc>
     <lastmod>2025-02-23T10:10:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/%E6%95%B0%E6%8D%AE/</loc>
+    <loc>http://localhost:1313/tags/%E6%95%B0%E6%8D%AE/</loc>
     <lastmod>2025-02-15T20:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/</loc>
+    <loc>http://localhost:1313/tags/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/</loc>
     <lastmod>2025-02-15T20:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/post/data-warehouse-architecture/</loc>
+    <loc>http://localhost:1313/post/data-warehouse-architecture/</loc>
     <lastmod>2025-02-15T20:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/%E6%9E%B6%E6%9E%84/</loc>
+    <loc>http://localhost:1313/tags/%E6%9E%B6%E6%9E%84/</loc>
     <lastmod>2025-02-15T20:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/post/hugo-getting-started-quick-start/</loc>
+    <loc>http://localhost:1313/post/hugo-getting-started-quick-start/</loc>
     <lastmod>2025-02-15T18:11:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/site/</loc>
+    <loc>http://localhost:1313/tags/site/</loc>
     <lastmod>2025-02-15T18:11:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/%E4%BA%BA%E7%89%A9/</loc>
+    <loc>http://localhost:1313/tags/%E4%BA%BA%E7%89%A9/</loc>
     <lastmod>2025-02-15T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/post/data-warehouse-hall-of-fame/</loc>
+    <loc>http://localhost:1313/post/data-warehouse-hall-of-fame/</loc>
     <lastmod>2025-02-15T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/reader-digest/radar-trends-to-watch-february-2025/</loc>
+    <loc>http://localhost:1313/reader-digest/radar-trends-to-watch-february-2025/</loc>
     <lastmod>2025-02-04T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/reader-digest/radar-trends-to-watch-january-2025/</loc>
+    <loc>http://localhost:1313/reader-digest/radar-trends-to-watch-january-2025/</loc>
     <lastmod>2025-01-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/reader-digest/technology-trends-for-2025/</loc>
+    <loc>http://localhost:1313/reader-digest/technology-trends-for-2025/</loc>
     <lastmod>2025-01-01T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/development/</loc>
+    <loc>http://localhost:1313/tags/development/</loc>
     <lastmod>2022-02-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/categories/development/</loc>
+    <loc>http://localhost:1313/categories/development/</loc>
     <lastmod>2022-02-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/golang/</loc>
+    <loc>http://localhost:1313/tags/golang/</loc>
     <lastmod>2022-02-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/categories/golang/</loc>
+    <loc>http://localhost:1313/categories/golang/</loc>
     <lastmod>2022-02-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/knowledge/</loc>
+    <loc>http://localhost:1313/knowledge/</loc>
     <lastmod>2022-02-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/templates/</loc>
+    <loc>http://localhost:1313/tags/templates/</loc>
     <lastmod>2022-02-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/themes/</loc>
+    <loc>http://localhost:1313/tags/themes/</loc>
     <lastmod>2022-02-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/toc/</loc>
+    <loc>http://localhost:1313/tags/toc/</loc>
     <lastmod>2022-02-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/knowledge/2-toc/</loc>
+    <loc>http://localhost:1313/knowledge/2-toc/</loc>
     <lastmod>2022-02-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/math/</loc>
+    <loc>http://localhost:1313/tags/math/</loc>
     <lastmod>2019-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/categories/math/</loc>
+    <loc>http://localhost:1313/categories/math/</loc>
     <lastmod>2019-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/preview/</loc>
+    <loc>http://localhost:1313/tags/preview/</loc>
     <lastmod>2019-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/tag-6/</loc>
+    <loc>http://localhost:1313/tags/tag-6/</loc>
     <lastmod>2019-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/categories/tutorials/</loc>
+    <loc>http://localhost:1313/categories/tutorials/</loc>
     <lastmod>2019-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/knowledge/5-math/</loc>
+    <loc>http://localhost:1313/knowledge/5-math/</loc>
     <lastmod>2019-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/shortcodes/</loc>
+    <loc>http://localhost:1313/tags/shortcodes/</loc>
     <lastmod>2018-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/categories/shortcodes/</loc>
+    <loc>http://localhost:1313/categories/shortcodes/</loc>
     <lastmod>2018-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/knowledge/7-shortcodes-preview/</loc>
+    <loc>http://localhost:1313/knowledge/7-shortcodes-preview/</loc>
     <lastmod>2018-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/image/</loc>
+    <loc>http://localhost:1313/tags/image/</loc>
     <lastmod>2018-03-04T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/tag-7/</loc>
+    <loc>http://localhost:1313/tags/tag-7/</loc>
     <lastmod>2018-03-04T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/knowledge/1-image/</loc>
+    <loc>http://localhost:1313/knowledge/1-image/</loc>
     <lastmod>2018-03-04T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/knowledge/6-shortcode-notice/</loc>
+    <loc>http://localhost:1313/knowledge/6-shortcode-notice/</loc>
     <lastmod>2018-03-04T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/footnote/</loc>
+    <loc>http://localhost:1313/tags/footnote/</loc>
     <lastmod>2018-03-01T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/markdown/</loc>
+    <loc>http://localhost:1313/tags/markdown/</loc>
     <lastmod>2018-03-01T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/tag-11/</loc>
+    <loc>http://localhost:1313/tags/tag-11/</loc>
     <lastmod>2018-03-01T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/knowledge/4-footnote/</loc>
+    <loc>http://localhost:1313/knowledge/4-footnote/</loc>
     <lastmod>2018-03-01T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/syntax-highlighting/</loc>
+    <loc>http://localhost:1313/tags/syntax-highlighting/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/categories/syntax-highlighting/</loc>
+    <loc>http://localhost:1313/categories/syntax-highlighting/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/tags/tag-5/</loc>
+    <loc>http://localhost:1313/tags/tag-5/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://itspedia.com/knowledge/3-syntax-highlighting/</loc>
+    <loc>http://localhost:1313/knowledge/3-syntax-highlighting/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
